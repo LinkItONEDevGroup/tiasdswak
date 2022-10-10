@@ -1,0 +1,26 @@
+name: tiasdswak
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.9
+  - pandas
+  - psycopg2
+  - requests
+  - pandasql
+  - csvkit
+  - configobj
+  - matplotlib
+  - rasterio
+  - geopandas=0.10.2
+  - fiona
+  - libcurl
+  - jupyter
+  - tabulate
+  - leafmap
+  - ipyleaflet
+  - osmnx
+  - geocoder
+  - typing_extensions
+  - mamba
+prefix: 
