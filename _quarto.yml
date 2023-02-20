@@ -17,7 +17,7 @@ book:
   sharing: [facebook, twitter]
 
   chapters:
-    - index.qmd
+    - index.md
     - part: guides.md
       chapters:
       - tiasds_toolbox.md
