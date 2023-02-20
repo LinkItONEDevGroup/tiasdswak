@@ -5,7 +5,7 @@
 #standard
 
 TITLE='TiasdSWAK'
-VERSION='0.1'
+VERSION='0.2'
 
 AP_MODE_NOTEBOOK = 0
 AP_MODE_NORMAL=1
@@ -22,3 +22,4 @@ DBFILE_APPEND="include/台灣外來入侵種資料集 - 外來入侵種民間資
 DBFILE_EXTEND="include/台灣外來入侵種資料集 - 補充資料.csv"
 DBFILE_MERGE="include/台灣外來入侵種資料集 - 合併補充資料集.csv"
 FILE_GROUP="include/group_def.csv"
+COL_DEF="include/col_def.csv"

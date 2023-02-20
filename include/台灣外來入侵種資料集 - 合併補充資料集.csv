@@ -1,327 +1,452 @@
-name_code,kingdom,kingdom_c,phylum,phylum_c,class,class_c,order,order_c,family,family_c,genus,genus_c,name,species,infraspecies_marker,infraspecies,infraspecies2_marker,infraspecies2,author,author2,common_name_c,is_alien,is_invasive,is_cultivated,is_endemic,cites_code,iucn_code,coa_code,時間戳記,電子郵件地址,life_type,life_type_animal,life_type_plant,habitat_types,棲地類型-中文其他,棲地類型-英文其他,reference,description,suggestion,note,introduction_type,introduction_cause,introduction_vector,introduction_date,introduction_people,found_date,introduction_desc,invasiveness,mechanism,outcome,dispersal_mechanisms,eradication_methods,tbd1,tbd2,description.1,summary,tbd3,tbd4,habitat_description,nutrition,reproduction,life_cycle,species_status
-405377,Viruses,病毒,,,,,+ssRNA,正鏈RNA病毒,Flaviviridae,黃熱病毒科,Flavivirus,,Flavivirus Dengue virus,Dengue virus,Human Virus,,,,,,登革熱病毒,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-405867,Viruses,病毒,,,,,-ssRNA,負鏈RNA病毒,Orthomyxoviridae,正黏液病毒科,Influenzavirus A,,Influenzavirus A Influenza A virus (H5N1 subtype),Influenza A virus (H5N1 subtype),Human Virus,,,,,,H5N1流感,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-405470,Viruses,病毒,,,,,+ssRNA,正鏈RNA病毒,Potyviridae,馬鈴薯Y病毒科,Potyvirus,,Potyvirus Papaya ringspot virus,Papaya ringspot virus,Plant Virus,,,,,,木瓜輪點病毒,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-144232,Fungi,真菌界,Ascomycota,子囊菌門,Sordariomycetes,糞殼菌綱,Hypocreales,肉座菌目,Nectriaceae,叢赤殼科,Fusarium,,Fusarium oxysporum cubense,oxysporum,f.,cubense,,,Schlechtend: Fr. Emend. Snyder &amp; Hansen,(E. F. Sm.) W. C. Snyder &amp; H. N. Hansen,香蕉分化型尖鐮孢菌,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-142114,Fungi,真菌界,Basidiomycota,擔子菌門,Agaricomycetes,傘菌綱,Hymenochaetales,刺革菌目,Hymenochaetaceae,刺革菌科,Phellinus,,Phellinus noxius,noxius,,,,,"(Corner) Cunningham, 1965",,有害木層孔菌;褐根菌,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-316551,Animalia,動物界,Mollusca,軟體動物門,Gastropoda,腹足綱,Stylommatophora,柄眼目,Achatinidae,非洲大蝸牛科,Achatina,,Achatina fulica,fulica,,,,,"Bowdich, 1822",,非洲大蝸牛;褐雲瑪瑙螺;褐雲滑胚瑪瑙螺,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-429322,Animalia,動物界,Mollusca,軟體動物門,Gastropoda,腹足綱,Stylommatophora,柄眼目,Achatinidae,非洲大蝸牛科,Achatina,,Achatina panthera,panthera,,,,,"(Férussac, 1832)",,虎紋非洲大蝸牛,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-419435,Animalia,動物界,Chordata,脊索動物門,Aves,鳥綱,Passeriformes,雀形目,Sturnidae,椋鳥科,Acridotheres,,Acridotheres burmannicus,burmannicus,,,,,"(Jerdon, 1862)",,葡萄胸椋鳥,1,1,0,,,LC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-404536,Animalia,動物界,Chordata,脊索動物門,Aves,鳥綱,Passeriformes,雀形目,Sturnidae,椋鳥科,Acridotheres,,Acridotheres javanicus,javanicus,,,,,"Cabanis, 1851",,白尾八哥;爪哇八哥;林八哥;泰國八哥,1,1,0,,,VU,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-404537,Animalia,動物界,Chordata,脊索動物門,Aves,鳥綱,Passeriformes,雀形目,Sturnidae,椋鳥科,Acridotheres,,Acridotheres tristis tristis,tristis,,tristis,,,"(Linnaeus, 1766)",,家八哥;泰國八哥;眼鏡八哥,1,1,0,,,LC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-316553,Animalia,動物界,Mollusca,軟體動物門,Gastropoda,腹足綱,Stylommatophora,柄眼目,Bradybaenidae,扁蝸牛科,Acusta,,Acusta despecta,despecta,,,,,"(Gray, 1839)",,琉球球蝸牛,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-339633,Animalia,動物界,Arthropoda,節肢動物門,Insecta,昆蟲綱,Hemiptera,半翅目,Aleyrodidae,粉蝨科,Aleurodicus,,Aleurodicus dispersus,dispersus,,,,,"Russell, 1965",,螺旋粉蝨,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-316716,Animalia,動物界,Mollusca,軟體動物門,Gastropoda,腹足綱,Stylommatophora,柄眼目,Subulinidae,錐蝸牛科,Allopeas,,Allopeas gracilis,gracilis,,,,,"(Hutton, 1834)",,大錐蝸牛,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-316717,Animalia,動物界,Mollusca,軟體動物門,Gastropoda,腹足綱,Stylommatophora,柄眼目,Subulinidae,錐蝸牛科,Allopeas,,Allopeas javanicum,javanicum,,,,,"(Reeve, 1849)",,爪哇錐蝸牛,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-438446,Animalia,動物界,Chordata,脊索動物門,Actinopterygii,條鰭魚綱,Perciformes,鱸形目,Cichlidae,麗魚科,Amatitlania,,Amatitlania nigrofasciata,nigrofasciata,,,,,"(Günther, 1867)",,黑帶嬌麗魚,1,1,0,,,DD,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-402244,Animalia,動物界,Arthropoda,節肢動物門,Thecostraca,鞘甲綱,Balanomorpha,藤壺目,Balanidae,藤壺科,Amphibalanus,,Amphibalanus amphitrite,amphitrite,,,,,"(Darwin, 1854)",,紋藤壺,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-438269,Animalia,動物界,Arthropoda,節肢動物門,Thecostraca,鞘甲綱,Balanomorpha,藤壺目,Balanidae,藤壺科,Amphibalanus,,Amphibalanus eburneus,eburneus,,,,,"(Gould, 1841)",,象牙藤壺,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-438270,Animalia,動物界,Arthropoda,節肢動物門,Thecostraca,鞘甲綱,Balanomorpha,藤壺目,Balanidae,藤壺科,Amphibalanus,,Amphibalanus reticulatus,reticulatus,,,,,"(Utinomi, 1967)",,網紋藤壺,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-316981,Animalia,動物界,Arthropoda,節肢動物門,Thecostraca,鞘甲綱,Balanomorpha,藤壺目,Balanidae,藤壺科,Amphibalanus,,Amphibalanus variegatus,variegatus,,,,,"(Darwin, 1854)",,雜色紋藤壺,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-395487,Animalia,動物界,Chordata,脊索動物門,Actinopterygii,條鰭魚綱,Perciformes,鱸形目,Cichlidae,麗魚科,Amphilophus,,Amphilophus citrinellus,citrinellus,,,,,"(Günther, 1864)",,橘色雙冠麗魚;麥達斯冠麗鯛;麥達斯慈鯛,1,1,0,,,LC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-395488,Animalia,動物界,Chordata,脊索動物門,Actinopterygii,條鰭魚綱,Perciformes,鱸形目,Cichlidae,麗魚科,Amphilophus,,Amphilophus labiatus,labiatus,,,,,"(Günther, 1864)",,厚唇雙冠麗魚;紅魔鬼;脣形冠麗鯛,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-419412,Animalia,動物界,Chordata,脊索動物門,Reptilia,爬蟲綱,Squamata,有鱗目,Polychrotidae,變色蜥科,Anolis,,Anolis sagrei,sagrei,,,,,"Duméril &amp; Bibron, 1837",,沙氏變色蜥,1,1,0,,,LC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-400042,Animalia,動物界,Arthropoda,節肢動物門,Insecta,昆蟲綱,Hymenoptera,膜翅目,Formicidae,蟻科,Anoplolepis,,Anoplolepis gracilipes,gracilipes,,,,,"(Smith, 1857)",,長腳捷蟻,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-404545,Animalia,動物界,Chordata,脊索動物門,Aves,鳥綱,Passeriformes,雀形目,Sturnidae,椋鳥科,Aplonis,,Aplonis panayensis,panayensis,,,,,"(Scopoli, 1786)",,亞洲輝椋鳥;輝椋鳥;菲律賓椋鳥,1,1,0,,,LC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-340020,Animalia,動物界,Arthropoda,節肢動物門,Insecta,昆蟲綱,Hemiptera,半翅目,Diaspididae,盾介殼蟲科,Aulacaspis,,Aulacaspis yasumatsui,yasumatsui,,,,,"Takagi, 1977",,蘇鐵白輪盾介殼蟲,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-315536,Animalia,動物界,Mollusca,軟體動物門,Gastropoda,腹足綱,Neogastropoda,新腹足目,Buccinidae,峨螺科,Babylonia,,Babylonia formosae habei,formosae,subsp.,habei,,,"Altena &amp; Gittenber, 1981",,波部鳳螺,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-338487,Animalia,動物界,Arthropoda,節肢動物門,Insecta,昆蟲綱,Diptera,雙翅目,Tephritidae,果實蠅科,Bactrocera,,Bactrocera dorsalis,dorsalis,,,,,"(Hendel, 1912)",,東方果實蠅,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-316971,Animalia,動物界,Arthropoda,節肢動物門,Thecostraca,鞘甲綱,Balanomorpha,藤壺目,Balanidae,藤壺科,Balanus,,Balanus trigonus,trigonus,,,,,"Darwin, 1854",,三角藤壺,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-395479,Animalia,動物界,Chordata,脊索動物門,Actinopterygii,條鰭魚綱,Cypriniformes,鯉形目,Cyprinidae,鯉科,Barbonymus,,Barbonymus gonionotus,gonionotus,,,,,"(Bleeker, 1849)",,銀高體鲃;爪哇鲃;爪哇四鬚鲃,1,1,0,,,LC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-395731,Animalia,動物界,Chordata,脊索動物門,Actinopterygii,條鰭魚綱,Cypriniformes,鯉形目,Cyprinidae,鯉科,Barbonymus,,Barbonymus schwanenfeldii,schwanenfeldii,,,,,"(Bleeker, 1854)",,施氏鲃;施氏鲃,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-339675,Animalia,動物界,Arthropoda,節肢動物門,Insecta,昆蟲綱,Hemiptera,半翅目,Aleyrodidae,粉蝨科,Bemisia,,Bemisia tabaci,tabaci,,,,,"(Gennadius, 1889)",,煙草粉蝨;銀葉粉蝨,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-426960,Animalia,動物界,Chordata,脊索動物門,Reptilia,爬蟲綱,Squamata,有鱗目,Colubridae,黃頷蛇科,Boiga,,Boiga irregularis,irregularis,,,,,"(Merrem, 1802)",,棕樹蛇,1,1,0,,,LC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-340807,Animalia,動物界,Arthropoda,節肢動物門,Insecta,昆蟲綱,Hymenoptera,膜翅目,Braconidae,小繭蜂科,Bracon,,Bracon hebetor,hebetor,,,,,"Say, 1836",,條斑螟小繭蜂,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-316573,Animalia,動物界,Mollusca,軟體動物門,Gastropoda,腹足綱,Stylommatophora,柄眼目,Bradybaenidae,扁蝸牛科,Bradybaena,,Bradybaena similaris,similaris,,,,,"(Férussac, 1821)",,扁蝸牛,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-331973,Animalia,動物界,Arthropoda,節肢動物門,Insecta,昆蟲綱,Coleoptera,鞘翅目,Chrysomelidae,金花蟲科,Brontispa,,Brontispa longissima,longissima,,,,,"(Grestro, 1885)",,紅胸長扁鐵甲蟲,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-426961,Animalia,動物界,Nematoda,圓形動物門,Secernentea,胞管腎綱,Aphelenchida,滑刃目,Parasitaphelenchidae,寄生滑刃科,Bursaphelenchus,,Bursaphelenchus xylophilus,xylophilus,,,,,(Steiner &amp; Buhrer) Nickle,,松材線蟲,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-419414,Animalia,動物界,Chordata,脊索動物門,Aves,鳥綱,Psittaciformes,鸚形目,Cacatuidae,鳳頭鸚鵡科,Cacatua,,Cacatua galerita,galerita,,,,,"(Latham, 1790)",,葵花鳳頭鸚鵡;大葵,1,1,0,,,LC,II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-419415,Animalia,動物界,Chordata,脊索動物門,Aves,鳥綱,Psittaciformes,鸚形目,Cacatuidae,鳳頭鸚鵡科,Cacatua,,Cacatua goffiniana,goffiniana,,,,,"C. S. Roselaar &amp; Michaels, 2004",,戈芬氏鳳頭鸚鵡;小巴,1,1,0,,,NT,I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-419416,Animalia,動物界,Chordata,脊索動物門,Aves,鳥綱,Psittaciformes,鸚形目,Cacatuidae,鳳頭鸚鵡科,Cacatua,,Cacatua moluccensis,moluccensis,,,,,"(Gmelin, 1788)",,鮭色鳳頭鸚鵡,1,1,0,,,VU,I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-403968,Animalia,動物界,Arthropoda,節肢動物門,Insecta,昆蟲綱,Hemiptera,半翅目,Psyllidae,木蝨科,Cacopsylla,,Cacopsylla chinensis,chinensis,,,,,"(Yang &amp; Li, 1981)",,中國梨木蝨,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-434632,Animalia,動物界,Chordata,脊索動物門,Mammalia,哺乳綱,Carnivora,食肉目,Canidae,犬科,Canis,,Canis lupus familiaris,lupus,subsp.,familiaris,,,"Linnaeus, 1758",,犬;狗,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-381002,Animalia,動物界,Chordata,脊索動物門,Actinopterygii,條鰭魚綱,Cypriniformes,鯉形目,Cyprinidae,鯉科,Carassius,,Carassius cuvieri,cuvieri,,,,,"Temminck &amp; Schlegel, 1846",,高身鯽;日本鯽;鯽仔;屈氏鯽,1,1,0,,,EN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-438268,Animalia,動物界,Chordata,脊索動物門,Reptilia,爬蟲綱,Squamata,有鱗目,Chamaeleonidae,變色龍科,Chamaeleo,,Chamaeleo calyptratus,calyptratus,,,,,"Duméril &amp; Duméril, 1851",,高冠變色龍,1,1,0,,,LC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-395665,Animalia,動物界,Chordata,脊索動物門,Actinopterygii,條鰭魚綱,Perciformes,鱸形目,Channidae,鱧科,Channa,,Channa micropeltes,micropeltes,,,,,"(Cuvier, 1831)",,小盾鱧;紅鱧;紅線鱧;紅利魚;紅麗魚;大鉛筆魚;金筆;鉛筆雷龍;魚虎;淡水老虎;多曼魚,1,1,0,,,LC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-395408,Animalia,動物界,Chordata,脊索動物門,Actinopterygii,條鰭魚綱,Perciformes,鱸形目,Channidae,鱧科,Channa,,Channa striata,striata,,,,,"(Bloch, 1793)",,線鱧;紋鱧;泰國鱧;泰國魚虎;泰國鮕鮘;虎斑雷龍;白金海象;白金雷龍;黃金雷龍;金雷龍魚,1,1,0,,,LC,,2022/9/30 下午 7:46:44,wuulong@gmail.com,3-動物,17-魚類,,15-湖,,,"1.陳義雄、黃世彬、劉建秦。2010。臺灣外來入侵淡水魚類。116-117頁。
-2.李冠中、梁世雄、陳益志，2010，南台灣外來種泰國鱧魚Channa striata食性組成與生殖週期之探討
-3.梁世雄、陳俊宏、侯平君、謝寶森、杜銘章。2009。外來入侵動物物種資料收集及管理工具之建立。
-4.http://fl.biology.usgs.gov/Snakehead_circ_1251/html/channa_striata.html (usgs)
-5.http://taibnet.sinica.edu.tw/chi/taibnet_species_detail.php?name_code=395408(TBNET)
-",,"依據泰國鱧魚在不同季節之捕獲成效、生殖特徵及行為特性，建議以下控管策略：
-冬季(11-2月)不易釣獲，捕捉效率差，建議於3-10月捕捉。
-捕捉季節於3-6月之主要繁殖季開始前較佳，為坐等型掠食者，可以垂釣及蜈蚣網具捕捉。
-可考慮以收購方式處理，且應記錄捕捉位置。
-繁殖季開始後(7-10月)，橘色幼體有群聚行為，可以使用網具捕撈幼體與收購成魚兩種方式共同施行，以進行控管。
-若水域面積有限，可以放水清池方式處理。
-移除後，應注意教育民眾，勿再引入[2]。
-
-",,1-有意引進,25-與水族館交易有關,21-人為引進,不詳,不詳,,,1-具入侵性,2-競爭,1-其他,人為不當放流。,7-物理撲滅,,梁世雄,"背鰭43；臀鰭27；胸鰭17-18；側線鱗56。體延長而呈棒狀，尾部側扁。頭大，前部略平扁。口大，下頷略突出，口斜裂；上下頷均有銳利的牙齒。鼻管長。頭部及身體均被有圓鱗；側線完全，在臀鰭基部起點以前向下曲折，之後平直的延伸到尾柄中央。只具有一個背鰭，具腹鰭；尾鰭圓形。體灰黑色，腹部灰色；眼睛呈黃色至橘紅色。幼魚顏色較成魚鮮艷，在稚魚時，通體呈橙黃色，之後隨著成長而消失。成魚體色為黃褐色至灰褐色，體側具有10幾道”<”形狀的橫斑。大型魚，體常最大可至100cm[1]。
-
-",線鱧早期因其體紋色澤特殊的因素，曾有被當成寵物魚飼養的紀錄，目前全省河川以及大排水溝中幾乎都可發現牠的蹤跡，由於牠的體長可長至100cm左右，又有上、下兩排尖銳的利齒為攻擊武器，所以在台灣河川中可說是沒有天敵，幾乎所有水生以及兩棲生物都是牠獵食的對象，再加上線鱧耐污染的特性，所以線鱧早已成為台灣河川中下游地區最強勢的外來物種[2]。,"南亞至東南亞[1]
-South Asia to Southeast Asia
-
-","夏威夷、印尼、中國等11國[3]
-11 countries including Hawaii, Indonesia, China
-
-","喜好棲息於河流、池塘與溝渠等靜水域或緩流處。能在缺氧或淤泥中生活。稚魚常成群在水面或水畔附近活動。成魚常成對棲息於泥質的水濱且植物茂密之處，具有護幼的習性[1]。主要棲息於水生植物雜生、淤泥底質的靜水域或緩流處，環境溫度介於23-27℃，pH值7.8-8.0，dH值20，水深1-10m[3]。
-C striata對溫度和PH值具廣耐受性，在酸化、低溶氧、高濁度的水體亦能存活，也有照顧幼體的特性，會保護仔魚長到一定的程度[2]。
-
-","吃魚、蝦、青蛙、蛇、昆蟲、蚯蚓、蝌蚪與甲殼類動物[3]。
-C. striata之食性組成，目前確定其會以魚類、龜類、蛙類及壁虎等脊椎動物及螃蟹、螺類等無脊椎動物為食，此反應該魚種亦可能對本土種魚類、兩棲類、爬行類、螃蟹、螺類等，以捕食的方式產生威脅[2]。
-
-","本種除了在產卵季節外幾乎獨來獨往。在印度幾乎全年皆可繁殖，可產下數百甚至超過1000顆琥珀色的魚卵。雨季為產卵的高峰期。卵的平均大小約1.25mm，且無附著力，於產卵後1至3天孵化。雌魚約兩歲體長達到約30cm時性成熟。雄魚與雌魚會清除水生植被清出一個淺凹並將卵產於淺凹中。卵在受精後會浮上水面。在菲律賓，浮游的卵由雌雄雙方共同守護。但若在食物缺乏的情況下，父母有可能殘殺自己的後代[4]。
-The species as solitary except during spawning seasons. In India, pairs breed during most months of the year, laying a few hundred to more than 1,000 ambercolored eggs. Peak spawning coincides with peak rainfall. The eggs average about 1.25 mm and are nonadhesive, hatching in 1 to 3 days. Females mature about 30 cm in length at about 2 years of age. Parents clear a shallow depression by biting off aquatic vegetation. Nevertheless, Channa striata will spawn in the absence of vegetation. Eggs float to the surface after fertilization. The pelagic eggs are guarded by both parents in the Philippines  and possibly throughout the native range of the species. Nevertheless, one or the other parent guards the nest at all times, and that if food becomes scarce, parents become cannibalistic on the young[4].
-","C. striata一年可以成長到30-36cm，同時個體達到30cm即可性成熟。本研究捕獲之個體其標準體長多在30-40cm，表示台灣南部的C. striata至少可存活1年以上，且雌性個體成熟的最小標準體長為23.5cm(最小體長約27.5cm)，與原生地相比有早熟的趨勢，顯示C.striata已能適應台灣的溪流環境。
-在水位增加時，C. striata即可受刺激而產卵。而依據每月雌性個體之GSI值與高雄地區各月份(2008-2010)雨量倍率圖對照，生殖高峰大致與雨季相符。故判定C. striata之主要繁殖季節應在夏季之五到九月份，但是如有水位提升之狀況時，即可有產卵之可能，故在台灣應屬全年均可產卵之魚種。
-成魚400-2000g。產卵後約28小時孵化，58小時至4天為仔魚期，至第5天進入後仔魚期，35天可長成魚苗。文獻指出，高水位可促進其繁殖，水位由15cm增高到45cm時，卵孵化率由64.4%升高到97.9%[2]。
-
-魚苗為深橘色。這個型態持續到幼魚體長至15mm時，只留下橘色的側帶。當體長達到40mm時所有的橘色皆消失，但”偽眼點”出現在背鰭的後葉上，直到成魚才消失[4]。
-The fry developing a deep orange color. This pattern persists until the young reach a length of 15 mm when only an orange lateral stripe remains. At 40 mm in length, all orange color is lost but a “pseudo-ocellus” appears on the posterior lobe of the dorsal fin, a characteristic lost in adulthood[4].
-
-","廣泛分布於北部及西部各縣市與花蓮河川中下游、水庫、埤塘、溝渠及大圳等水域[1]，台灣溪流(基隆河、淡水河、新店溪、大漢溪、宜蘭河、蘭陽溪和高屏溪，從河口至海拔80m)、水庫(曾文、烏山頭、日月潭)、池塘、溝渠[2]。對各種平原區棲地水域的適應力佳。在野外自然繁殖狀況佳，數量極為普遍。因具強烈的掠食性，因此對台灣低海拔水域的原生小型魚種具有頗大的威脅，同時也可能會對同為鱧科的原生魚種七星鱧及斑鱧有生存競爭上的威脅[1]。
-
-"
-417686,Animalia,動物界,Arthropoda,節肢動物門,Malacostraca,軟甲綱,Decapoda,十足目,Parastacidae,擬螯蝦科,Cherax,,Cherax quadricarinatus,quadricarinatus,,,,,"(Von Martens, 1868)",,四脊滑螯蝦;澳洲淡水龍蝦;紅螯螯蝦;小青龍;藍龍,1,1,0,,,LC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-419410,Animalia,動物界,Chordata,脊索動物門,Actinopterygii,條鰭魚綱,Osteoglossiformes,骨舌魚目,Notopteridae,弓背魚科,Chitala,,Chitala ornata,ornata,,,,,"(Gray, 1831)",,飾妝鎧弓魚,1,1,0,,,LC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-395352,Animalia,動物界,Chordata,脊索動物門,Actinopterygii,條鰭魚綱,Perciformes,鱸形目,Cichlidae,麗魚科,Cichla,,Cichla ocellaris,ocellaris,,,,,"Bloch &amp; Schneider, 1801",,眼點麗魚;皇冠三間,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-381003,Animalia,動物界,Chordata,脊索動物門,Actinopterygii,條鰭魚綱,Cypriniformes,鯉形目,Cyprinidae,鯉科,Cirrhinus,,Cirrhinus molitorella,molitorella,,,,,"(Valenciennes, 1844)",,鯁;鯪;青鱗魚;土鯪;鯪公;鯪魚;鯪仔魚;花鯪仔,1,1,0,,,NT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-395224,Animalia,動物界,Chordata,脊索動物門,Actinopterygii,條鰭魚綱,Siluriformes,鯰形目,Clariidae,鬍鯰科,Clarias,,Clarias batrachus,batrachus,,,,,"(Linnaeus, 1758)",,蟾鬍鯰;土殺;泰國土虱;塘虱魚;泰國鯰;念仔魚;鰱仔;本土鯰;泰國塘虱;南洋土虱;秤仔花;小丑武士;花土虱;奶牛鯰,1,1,0,,,LC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-447754,Animalia,動物界,Chordata,脊索動物門,Actinopterygii,條鰭魚綱,Siluriformes,鯰形目,Clariidae,鬍鯰科,Clarias,,Clarias gariepinus,gariepinus,,,,,"(Burchell, 1822)",,尖齒鬍鯰;北非鬍子鯰;北非塘虱魚;非洲塘虱魚,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-404566,Animalia,動物界,Chordata,脊索動物門,Aves,鳥綱,Columbiformes,鴿形目,Columbidae,鳩鴿科,Columba,,Columba livia,livia,,,,,"Gmelin, 1789",,岩鴿;野鴿,1,1,0,,,LC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-419423,Animalia,動物界,Chordata,脊索動物門,Aves,鳥綱,Passeriformes,雀形目,Muscicapidae,鶲科,Copsychus,,Copsychus malabaricus,malabaricus,,,,,"(Scopoli, 1786)",,白腰鵲鴝;長尾四喜,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Fis-440,Animalia,動物界,Chordata,脊索動物門,Actinopterygii,條鰭魚綱,Perciformes,鱸形目,Cichlidae,麗魚科,Coptodon,,Coptodon zillii,zillii,,,,,"(Gervais, 1848)",,吉利慈鯛;齊氏分齒麗魚;齊氏非鯽;吉利非鯽;吉利外鯽;齊氏羅非魚;吉利吳郭魚;吉利福壽魚;吉利羅非魚;紅腹吳郭魚;紅腹羅非魚,1,1,0,,,LC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-340851,Animalia,動物界,Arthropoda,節肢動物門,Insecta,昆蟲綱,Hymenoptera,膜翅目,Braconidae,小繭蜂科,Cotesia,,Cotesia erionotae,erionotae,,,,,"(Wilkinson, 1938)",,香蕉挵蝶絨繭蜂,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-332671,Animalia,動物界,Arthropoda,節肢動物門,Insecta,昆蟲綱,Coleoptera,鞘翅目,Coccinellidae,瓢蟲科,Cryptolaemus,,Cryptolaemus montrouzieri,montrouzieri,,,,,"Mulsant, 1853",,孟氏隱唇瓢蟲,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-381004,Animalia,動物界,Chordata,脊索動物門,Actinopterygii,條鰭魚綱,Cypriniformes,鯉形目,Cyprinidae,鯉科,Ctenopharyngodon,,Ctenopharyngodon idella,idella,,,,,"(Valenciennes, 1844)",,草魚;鯇;鯤;池魚;草根魚,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-418258,Animalia,動物界,Arthropoda,節肢動物門,Insecta,昆蟲綱,Coleoptera,鞘翅目,Coccinellidae,瓢蟲科,Curinus,,Curinus coeruleus,coeruleus,,,,,"(Mulsant, 1850)",,瓢蟲,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-417618,Animalia,動物界,Arthropoda,節肢動物門,Insecta,昆蟲綱,Hymenoptera,膜翅目,Braconidae,小繭蜂科,Dacnusa,,Dacnusa sibirica,sibirica,,,,,"Telenga, 1935",,反顎繭蜂,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-438447,Animalia,動物界,Chordata,脊索動物門,Actinopterygii,條鰭魚綱,Beloniformes,鶴鱵目,Hemiramphidae,鱵科,Dermogenys,,Dermogenys siamensis,siamensis,,,,,"Fowler, 1934",,暹羅皮頦鱵,1,1,0,,,LC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-405139,Animalia,動物界,Mollusca,軟體動物門,Gastropoda,腹足綱,Stylommatophora,柄眼目,Agriolimacidae,野蛞蝓科,Deroceras,,Deroceras laeve,laeve,,,,,"(Müller, 1774)",,光滑野蛞蝓,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-405132,Animalia,動物界,Mollusca,軟體動物門,Gastropoda,腹足綱,Stylommatophora,柄眼目,Agriolimacidae,野蛞蝓科,Deroceras,,Deroceras reticulatum,reticulatum,,,,,"(Müller, 1774)",,網紋野蛞蝓,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-342196,Animalia,動物界,Arthropoda,節肢動物門,Insecta,昆蟲綱,Hymenoptera,膜翅目,Ichneumonidae,姬蜂科,Diadegma,,Diadegma semiclausum,semiclausum,,,,,"(Hellen, 1949)",,半閉彎尾姬蜂,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-403972,Animalia,動物界,Arthropoda,節肢動物門,Insecta,昆蟲綱,Hemiptera,半翅目,Liviidae,扁木蝨科,Diaphorina,,Diaphorina citri,citri,,,,,"Kuwayama, 1908",,,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-348874,Animalia,動物界,Arthropoda,節肢動物門,Insecta,昆蟲綱,Thysanoptera,纓翅目,Thripidae,薊馬科,Dichromothrips,,Dichromothrips corbetti,corbetti,,,,,"(Priesner, 1936)",,蘭花薊馬,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-340399,Animalia,動物界,Arthropoda,節肢動物門,Insecta,昆蟲綱,Hemiptera,半翅目,Pseudococcidae,粉介殼蟲科,Dysmicoccus,,Dysmicoccus brevipes,brevipes,,,,,"(Cockerell, 1893)",,鳳梨嫡粉介殼蟲;菠蘿灰粉蚧,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-440718,Animalia,動物界,Chordata,脊索動物門,Amphibia,兩生綱,Anura,無尾目,Eleutherodactylidae,溫室蟾科,Eleutherodactylus,,Eleutherodactylus planirostris,planirostris,,,,,"(Cope, 1862)",,溫室蟾;溫室卵齒蟾;平吻卵齒蟾;古巴平吻蟾,1,1,0,,,LC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-418180,Animalia,動物界,Arthropoda,節肢動物門,Insecta,昆蟲綱,Hymenoptera,膜翅目,Aphelinidae,蚜小蜂科,Encarsia,,Encarsia guadeloupae,guadeloupae,,,,,"Viggiani, 1987",,歌德恩蚜小蜂;哥德恩蚜小蜂,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-419432,Animalia,動物界,Chordata,脊索動物門,Aves,鳥綱,Psittaciformes,鸚形目,Psittacidae,鸚鵡科,Eos,,Eos bornea,bornea,,,,,"(Linnaeus, 1758)",,紅色吸蜜鸚鵡;紅伶,1,1,0,,,LC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-401546,Animalia,動物界,Arthropoda,節肢動物門,Arachnida,蛛形綱,Trombidiformes,絨蟎目,Tetranychidae,葉蟎科,Eotetranychus,,Eotetranychus lewisi,lewisi,,,,,"(McGregor, 1943)",,路易氏始葉蟎,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-433046,Animalia,動物界,Arthropoda,節肢動物門,Malacostraca,軟甲綱,Decapoda,十足目,Varunidae,弓蟹科,Eriocheir,,Eriocheir sinensis,sinensis,,,,,"H. Milne Edwards, 1853",,中華絨螯蟹,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-345470,Animalia,動物界,Arthropoda,節肢動物門,Insecta,昆蟲綱,Lepidoptera,鱗翅目,Hesperiidae,弄蝶科,Erionota,,Erionota torus,torus,,,,,"Evans, 1941",,蕉弄蝶;巨弄蝶;黃斑蕉弄蝶;香蕉弄蝶;蕉挵蝶,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-419420,Animalia,動物界,Chordata,脊索動物門,Aves,鳥綱,Passeriformes,雀形目,Estrildidae,梅花雀科,Estrilda,,Estrilda astrild,astrild,,,,,"(Linnaeus, 1758)",,橫斑梅花雀,1,1,0,,,LC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-404584,Animalia,動物界,Chordata,脊索動物門,Aves,鳥綱,Passeriformes,雀形目,Estrildidae,梅花雀科,Estrilda,,Estrilda melpoda melpoda,melpoda,,melpoda,,,"(Vieillot, 1817)",,橙頰梅花雀,1,1,0,,,LC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-419848,Animalia,動物界,Chordata,脊索動物門,Aves,鳥綱,Passeriformes,雀形目,Estrildidae,梅花雀科,Euodice,,Euodice malabarica,malabarica,,,,,"(Linnaeus, 1758)",,白喉文鳥;印度銀嘴文鳥,1,1,0,,,LC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-422619,Animalia,動物界,Chordata,脊索動物門,Reptilia,爬蟲綱,Squamata,有鱗目,Scincidae,石龍子科,Eutropis,,Eutropis multifasciata,multifasciata,,,,,"(Kunl, 1820)",,多線真稜蜥;多線南蜥;多紋南蜥,1,1,0,,,LC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-416423,Animalia,動物界,Chordata,脊索動物門,Amphibia,兩生綱,Anura,無尾目,Dicroglossidae,叉舌蛙科,Fejervarya,,Fejervarya cancrivora,cancrivora,,,,,"(Gravenhorst, 1829)",,海蛙;海陸蛙;食蟹蛙;紅樹林蛙,1,1,0,,,LC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-434633,Animalia,動物界,Chordata,脊索動物門,Mammalia,哺乳綱,Carnivora,食肉目,Felidae,貓科,Felis,,Felis catus,catus,,,,,"Linnaeus, 1758",,貓,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-381033,Animalia,動物界,Chordata,脊索動物門,Actinopterygii,條鰭魚綱,Cyprinodontiformes,鱂形目,Poeciliidae,花鱂科,Gambusia,,Gambusia affinis,affinis,,,,,"(Baird &amp; Girard, 1853)",,食蚊魚;大肚仔;胎鱂;大肚魚,1,1,0,,,LC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-443093,Animalia,動物界,Chordata,脊索動物門,Reptilia,爬蟲綱,Squamata,有鱗目,Gekkonidae,壁虎科,Gekko,,Gekko gecko,gecko,,,,,"Linnaeus, 1758",,大守宮;大壁虎,1,1,0,,,LC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Rep-Syn-6954,Animalia,動物界,Chordata,脊索動物門,Reptilia,爬蟲綱,Squamata,有鱗目,Gekkonidae,壁虎科,Gekko,,Gekko monarchus,monarchus,,,,,"(Schlegel, 1836)",,脊斑壁虎,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-419417,Animalia,動物界,Chordata,脊索動物門,Aves,鳥綱,Columbiformes,鴿形目,Columbidae,鳩鴿科,Geopelia,,Geopelia striata,striata,,,,,"(Linnaeus, 1766)",,斑馬鳩,1,1,0,,,LC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-395351,Animalia,動物界,Chordata,脊索動物門,Actinopterygii,條鰭魚綱,Perciformes,鱸形目,Cichlidae,麗魚科,Geophagus,,Geophagus brasiliensis,brasiliensis,,,,,"(Quoy &amp; Gaimard, 1824)",,巴西珠母麗魚,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-316731,Animalia,動物界,Mollusca,軟體動物門,Gastropoda,腹足綱,Stylommatophora,柄眼目,Zonitidae,琥珀蝸牛科,Hawaiia,,Hawaiia minuscula,minuscula,,,,,"(Binney, 1840)",,小琥珀蝸牛,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-395635,Animalia,動物界,Chordata,脊索動物門,Actinopterygii,條鰭魚綱,Perciformes,鱸形目,Cichlidae,麗魚科,Hemichromis,,Hemichromis bimaculatus,bimaculatus,,,,,"Gill, 1862",,雙斑伴麗魚,1,1,0,,,LC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-381013,Animalia,動物界,Chordata,脊索動物門,Actinopterygii,條鰭魚綱,Cypriniformes,鯉形目,Cyprinidae,鯉科,Hypophthalmichthys,,Hypophthalmichthys molitrix,molitrix,,,,,"(Valenciennes, 1844)",,鰱;竹葉鰱;白鰱;白葉仔;鰱仔,1,1,0,,,NT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-380999,Animalia,動物界,Chordata,脊索動物門,Actinopterygii,條鰭魚綱,Cypriniformes,鯉形目,Cyprinidae,鯉科,Hypophthalmichthys,,Hypophthalmichthys nobilis,nobilis,,,,,"(Richardson, 1845)",,鱅;黑鰱;大頭鰱;花鰱;胖頭鰱,1,1,0,,,DD,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-381014,Animalia,動物界,Chordata,脊索動物門,Actinopterygii,條鰭魚綱,Cypriniformes,鯉形目,Cyprinidae,鯉科,Hypsibarbus,,Hypsibarbus pierrei,pierrei,,,,,"(Sauvage, 1880)",,高體高鬚魚;高體四鬚鲃;粗鱗武昌魚;黃鰭武昌魚,1,1,0,,,VU,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-432370,Animalia,動物界,Chordata,脊索動物門,Aves,鳥綱,Passeriformes,雀形目,Leiothrichidae,噪眉科,Ianthocincla,,Ianthocincla sannio,sannio,,,,,"Swinhoe, 1867",,白頰噪眉,1,1,0,,,LC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-340374,Animalia,動物界,Arthropoda,節肢動物門,Insecta,昆蟲綱,Hemiptera,半翅目,Margarodidae,碩介殼蟲科,Icerya,,Icerya purchasi purchasi,purchasi,subsp.,purchasi,,,"Maskell, 1878",,吹綿介殼蟲,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-434972,Animalia,動物界,Chordata,脊索動物門,Reptilia,爬蟲綱,Squamata,有鱗目,Iguanidae,鬣蜥科,Iguana,,Iguana iguana,iguana,,,,,"(Linnaeus, 1758)",,綠鬣蜥;美洲綠鬣蜥,1,1,0,,,LC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-401957,Animalia,動物界,Mollusca,軟體動物門,Gastropoda,腹足綱,Stylommatophora,柄眼目,Streptaxidae,扭蝸牛科,Indoennea,,Indoennea bicolor,bicolor,,,,,"(Hutton, 1834)",,雙色草包蝸牛,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-444091,Animalia,動物界,Mollusca,軟體動物門,Gastropoda,腹足綱,Gastropoda ordo incertae sedis,地位未定,Bulinidae,,Indoplanorbis,,Indoplanorbis exustus,exustus,,,,,"(Deshayes, 1833)",,印度扁蜷,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-437242,Animalia,動物界,Chordata,脊索動物門,Amphibia,兩生綱,Anura,無尾目,Microhylidae,狹口蛙科,Kaloula,,Kaloula pulchra,pulchra,,,,,"Gray, 1831",,亞洲錦蛙;花狹口蛙,1,1,0,,,LC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-340343,Animalia,動物界,Arthropoda,節肢動物門,Insecta,昆蟲綱,Hemiptera,半翅目,Kerriidae,膠介殼蟲科,Kerria,,Kerria lacca lacca,lacca,subsp.,lacca,,,"(Kerr, 1782)",,紫膠介殼蟲,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-429190,Animalia,動物界,Mollusca,軟體動物門,Gastropoda,腹足綱,Scholifera,皺足目,Veronicelloidae,皺足蛞蝓科,Laevicaulis,,Laevicaulis alte,alte,,,,,"(Férussac, 1821)",,皺足蛞蝓;褐皺足蛞蝓;高突滑尾蛞蝓;高突覆套蛞蝓;高突足襞蛞蝓;覆套足襞蛞蝓;寬足蛞蝓,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-313411,Animalia,動物界,Mollusca,軟體動物門,Bivalvia,雙殼綱,Mytiloida,貽貝目,Mytilidae,殼菜蛤科,Limnoperna,,Limnoperna fortunei,fortunei,,,,,"(Dunker, 1857)",,河殼菜蛤,1,1,0,,,LC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-336092,Animalia,動物界,Arthropoda,節肢動物門,Insecta,昆蟲綱,Diptera,雙翅目,Agromyzidae,潛蠅科,Liriomyza,,Liriomyza huidobrensis,huidobrensis,,,,,"(Blanchard, 1926)",,南美班潛蠅,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-336096,Animalia,動物界,Arthropoda,節肢動物門,Insecta,昆蟲綱,Diptera,雙翅目,Agromyzidae,潛蠅科,Liriomyza,,Liriomyza sativae,sativae,,,,,"Blanchard, 1938",,蔬菜斑潛蠅,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-336098,Animalia,動物界,Arthropoda,節肢動物門,Insecta,昆蟲綱,Diptera,雙翅目,Agromyzidae,潛蠅科,Liriomyza,,Liriomyza trifolii,trifolii,,,,,"(Burgess, 1880)",,非洲菊斑潛蠅;三葉草斑潛蠅,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-349359,Animalia,動物界,Arthropoda,節肢動物門,Insecta,昆蟲綱,Coleoptera,鞘翅目,Curculionidae,象鼻蟲科,Lissorhoptrus,,Lissorhoptrus oryzophilus,oryzophilus,,,,,"Kuschel, 1952",,水稻水象鼻蟲,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-434978,Animalia,動物界,Arthropoda,節肢動物門,Insecta,昆蟲綱,Diptera,雙翅目,Cecidomyiidae,癭蚋科,Litchiomyia,,Litchiomyia chinensis,chinensis,,,,,"Yang &amp; Luo, 1999",,荔枝癭蚋,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-417669,Animalia,動物界,Chordata,脊索動物門,Amphibia,兩生綱,Anura,無尾目,Ranidae,赤蛙科,Lithobates,,Lithobates catesbeianus,catesbeianus,,,,,"(Shaw, 1802)",,美洲牛蛙;美國牛蛙;牛蛙,1,1,0,,,LC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-432303,Animalia,動物界,Chordata,脊索動物門,Aves,鳥綱,Passeriformes,雀形目,Estrildidae,梅花雀科,Lonchura,,Lonchura atricapilla deignani,atricapilla,,deignani,,,"Parkes, 1958",,黑頭文鳥(中南亞種);黑頭文鳥;栗腹文鳥,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-432302,Animalia,動物界,Chordata,脊索動物門,Aves,鳥綱,Passeriformes,雀形目,Estrildidae,梅花雀科,Lonchura,,Lonchura atricapilla jagori,atricapilla,,jagori,,,"(von Martens, CE, 1866)",,黑頭文鳥(菲律賓亞種);黑頭文鳥;栗腹文鳥,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-425209,Animalia,動物界,Chordata,脊索動物門,Aves,鳥綱,Passeriformes,雀形目,Estrildidae,梅花雀科,Lonchura,,Lonchura atricapilla sinensis,atricapilla,,sinensis,,,"(Blyth, 1852)",,栗腹文鳥(馬來亞種);黑頭文鳥(馬來亞種),1,1,0,,,,III,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-419422,Animalia,動物界,Chordata,脊索動物門,Aves,鳥綱,Passeriformes,雀形目,Estrildidae,梅花雀科,Lonchura,,Lonchura maja,maja,,,,,"(Linnaeus, 1766)",,白頭文鳥,1,1,0,,,LC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-431228,Animalia,動物界,Chordata,脊索動物門,Aves,鳥綱,Passeriformes,雀形目,Estrildidae,梅花雀科,Lonchura,,Lonchura oryzivora,oryzivora,,,,,"(Linnaeus, 1758)",,爪哇雀,1,1,0,,,EN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-419452,Animalia,動物界,Arthropoda,節肢動物門,Malacostraca,軟甲綱,Decapoda,十足目,Palaemonidae,長臂蝦科,Macrobrachium,,Macrobrachium dacqueti,dacqueti,,,,,"(Sunier, 1925)",,泰國蝦;大魁氏沼蝦,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-311396,Animalia,動物界,Arthropoda,節肢動物門,Malacostraca,軟甲綱,Decapoda,十足目,Palaemonidae,長臂蝦科,Macrobrachium,,Macrobrachium rosenbergii,rosenbergii,,,,,"(De Man, 1879)",,羅氏沼蝦;泰國長臂大蝦;泰國蝦,1,1,0,,,LC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-404832,Animalia,動物界,Mollusca,軟體動物門,Gastropoda,腹足綱,Stylommatophora,柄眼目,Ariophantidae,絲鼈甲蝸牛科,Macrochlamys,,Macrochlamys hippocastaneum,hippocastaneum,,,,,"Godwin-Austen, 1918",,高音符絲鼈甲蝸牛;高音符絲鱉甲蝸牛,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-438271,Animalia,動物界,Arthropoda,節肢動物門,Thecostraca,鞘甲綱,Balanomorpha,藤壺目,Balanidae,藤壺科,Megabalanus,,Megabalanus cocopoma,cocopoma,,,,,"(Darwin, 1854)",,泰坦巨藤壺,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-381015,Animalia,動物界,Chordata,脊索動物門,Actinopterygii,條鰭魚綱,Cypriniformes,鯉形目,Cyprinidae,鯉科,Megalobrama,,Megalobrama amblycephala,amblycephala,,,,,"Yih, 1955",,團頭魴;武昌魚,1,1,0,,,LC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-316703,Animalia,動物界,Mollusca,軟體動物門,Gastropoda,腹足綱,Stylommatophora,柄眼目,Philomycidae,黏液蛞蝓科,Meghimatium,,Meghimatium bilineatum,bilineatum,,,,,"(Benson, 1842)",,雙線蛞蝓;雙線嗜黏液蛞蝓,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-316705,Animalia,動物界,Mollusca,軟體動物門,Gastropoda,腹足綱,Stylommatophora,柄眼目,Philomycidae,黏液蛞蝓科,Meghimatium,,Meghimatium fruhstorferi,fruhstorferi,,,,,"Collinge, 1901",,山蛞蝓,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-405031,Animalia,動物界,Mollusca,軟體動物門,Gastropoda,腹足綱,Stylommatophora,柄眼目,Philomycidae,黏液蛞蝓科,Meghimatium,,Meghimatium pictum,pictum,,,,,"(Stoliczka, 1873)",,綉花蛞蝓,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-405030,Animalia,動物界,Mollusca,軟體動物門,Gastropoda,腹足綱,Stylommatophora,柄眼目,Philomycidae,黏液蛞蝓科,Meghimatium,,Meghimatium rugosum,rugosum,,,,,"(Chen &amp; Gao, 1982)",,皺紋蛞蝓,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-313904,Animalia,動物界,Mollusca,軟體動物門,Bivalvia,雙殼綱,Venerida,簾蛤目,Veneridae,簾蛤科,Meretrix,,Meretrix lusoria,lusoria,,,,,"(Roeding, 1798)",,文蛤,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-395340,Animalia,動物界,Chordata,脊索動物門,Actinopterygii,條鰭魚綱,Perciformes,鱸形目,Centrarchidae,棘臀魚科,Micropterus,,Micropterus salmoides,salmoides,,,,,"(Lacepède, 1802)",,大口黑鱸,1,1,0,,,LC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-381018,Animalia,動物界,Chordata,脊索動物門,Actinopterygii,條鰭魚綱,Cypriniformes,鯉形目,Cyprinidae,鯉科,Mylopharyngodon,,Mylopharyngodon piceus,piceus,,,,,"(Richardson, 1846)",,青魚;黑鰱;黑鰡;烏鰡;黑鯪,1,1,0,,,DD,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-313656,Animalia,動物界,Mollusca,軟體動物門,Bivalvia,雙殼綱,Venerida,簾蛤目,Dreissenidae,殼菜蛤科,Mytilopsis,,Mytilopsis sallei,sallei,,,,,"(Recluz, 1849)",,似殼菜蛤,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-313435,Animalia,動物界,Mollusca,軟體動物門,Bivalvia,雙殼綱,Mytiloida,貽貝目,Mytilidae,殼菜蛤科,Mytilus,,Mytilus edulis,edulis,,,,,"Linnaeus, 1758",,紫殼菜蛤;食用殼菜蛤,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-427873,Animalia,動物界,Arthropoda,節肢動物門,Arachnida,蛛形綱,Mesostigmata,中氣門蟎目,Phytoseiidae,捕植蟎科,Neoseiulus,,Neoseiulus californicus,californicus,,,,,"(McGregor, 1954)",,加州小新綏蟎,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-415704,Animalia,動物界,Arthropoda,節肢動物門,Insecta,昆蟲綱,Coleoptera,鞘翅目,Chrysomelidae,金花蟲科,Ophraella,,Ophraella communa,communa,,,,,"LeSage, 1986",,豬草條紋螢金花蟲,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-381623,Animalia,動物界,Chordata,脊索動物門,Actinopterygii,條鰭魚綱,Perciformes,鱸形目,Cichlidae,麗魚科,Oreochromis,,Oreochromis mossambicus,mossambicus,,,,,"(Peters, 1852)",,莫三比克口孵非鯽;非洲仔;南洋鯽仔;在來吳郭魚;帝士魚;帝水魚;吳郭魚;土種吳郭魚,1,1,0,,,VU,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-381624,Animalia,動物界,Chordata,脊索動物門,Actinopterygii,條鰭魚綱,Perciformes,鱸形目,Cichlidae,麗魚科,Oreochromis,,Oreochromis niloticus,niloticus,,,,,"(Linnaeus, 1758)",,尼羅口孵非鯽;尼羅非鯽;南洋鯽仔;尼羅吳郭魚;尼羅魚;尼羅口孵魚;吉富羅非魚;新吉富羅非魚;聖鯛,1,1,0,,,LC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-381663,Animalia,動物界,Chordata,脊索動物門,Actinopterygii,條鰭魚綱,Perciformes,鱸形目,Eleotridae,塘鱧科,Oxyeleotris,,Oxyeleotris marmorata,marmorata,,,,,"(Bleeker, 1852)",,斑駁尖塘鱧;雲斑尖塘鱧,1,1,0,,,LC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-427907,Animalia,動物界,Arthropoda,節肢動物門,Arachnida,蛛形綱,Trombidiformes,絨蟎目,Tetranychidae,葉蟎科,Panonychus,,Panonychus ulmi,ulmi,,,,,"(Koch, 1836)",,歐洲葉蟎,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-395570,Animalia,動物界,Chordata,脊索動物門,Actinopterygii,條鰭魚綱,Perciformes,鱸形目,Cichlidae,麗魚科,Parachromis,,Parachromis managuensis,managuensis,,,,,"(Günther, 1867)",,花身副麗魚;珍珠石斑;淡水石斑;馬拉麗體魚,1,1,0,,,LC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-428957,Animalia,動物界,Arthropoda,節肢動物門,Insecta,昆蟲綱,Hemiptera,半翅目,Pseudococcidae,粉介殼蟲科,Paracoccus,,Paracoccus marginatus,marginatus,,,,,"Williams &amp; Granara de Willink, 1992",,木瓜秀粉介殼蟲,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-339707,Animalia,動物界,Arthropoda,節肢動物門,Insecta,昆蟲綱,Hemiptera,半翅目,Aleyrodidae,粉蝨科,Paraleyrodes,,Paraleyrodes bondari,bondari,,,,,"Peracchi, 1971",,龐達粉蝨,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-395529,Animalia,動物界,Chordata,脊索動物門,Actinopterygii,條鰭魚綱,Perciformes,鱸形目,Ambassidae,雙邊魚科,Parambassis,,Parambassis ranga,ranga,,,,,"(Hamilton, 1822)",,蛙副雙邊魚;大面側仔;玻璃魚;蘭副雙邊魚,1,1,0,,,LC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-316690,Animalia,動物界,Mollusca,軟體動物門,Gastropoda,腹足綱,Stylommatophora,柄眼目,Ariophantidae,絲鼈甲蝸牛科,Parmarion,,Parmarion martensi,martensi,,,,,"Simroth, 1893",,馬丁氏鼈甲蛞蝓,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-419425,Animalia,動物界,Chordata,脊索動物門,Aves,鳥綱,Galliformes,雞形目,Phasianidae,雉科,Pavo,,Pavo cristatus,cristatus,,,,,"Linnaeus, 1758",,藍孔雀;印度藍孔雀,1,1,0,,,LC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-313436,Animalia,動物界,Mollusca,軟體動物門,Bivalvia,雙殼綱,Mytiloida,貽貝目,Mytilidae,殼菜蛤科,Perna,,Perna viridis,viridis,,,,,"(Linnaeus, 1758)",,綠殼菜蛤,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-419430,Animalia,動物界,Chordata,脊索動物門,Aves,鳥綱,Galliformes,雞形目,Phasianidae,雉科,Phasianus,,Phasianus colchicus karpowi,colchicus,,karpowi,,,"(Buturlin, 1904)",,環頸雉(外來引進亞種);高麗雉,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-341880,Animalia,動物界,Arthropoda,節肢動物門,Insecta,昆蟲綱,Hymenoptera,膜翅目,Formicidae,蟻科,Pheidole,,Pheidole megacephala,megacephala,,,,,"Fabricius, 1793",,熱帶大頭家蟻,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-314548,Animalia,動物界,Mollusca,軟體動物門,Gastropoda,腹足綱,Basommatophora,基眼目,Physidae,囊螺科,Physa,,Physa acuta,acuta,,,,,"Draparnaud, 1805",,囊螺,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-434971,Animalia,動物界,Chordata,脊索動物門,Reptilia,爬蟲綱,Squamata,有鱗目,Agamidae,飛蜥科,Physignathus,,Physignathus cocincinus,cocincinus,,,,,"Cuvier, 1829",,綠水龍;亞洲水龍;長鬣蜥;綠長鬣蜥,1,1,0,,,VU,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-444940,Animalia,動物界,Arthropoda,節肢動物門,Insecta,昆蟲綱,Lepidoptera,鱗翅目,Pieridae,粉蝶科,Pieris,,Pieris brassicae,brassicae,subsp.,,,,"(Linnaeus, 1758)",,大白粉蝶,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-347350,Animalia,動物界,Arthropoda,節肢動物門,Insecta,昆蟲綱,Lepidoptera,鱗翅目,Pieridae,粉蝶科,Pieris,,Pieris rapae crucivora,rapae,subsp.,crucivora,,,"Boisduval, 1836",,白粉蝶;紋白蝶;菜粉蝶;日本紋白蝶;菜白蝶,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-419431,Animalia,動物界,Chordata,脊索動物門,Aves,鳥綱,Passeriformes,雀形目,Ploceidae,織布文鳥科,Ploceus,,Ploceus cucullatus,cucullatus,,,,,"(Müller, 1776)",,黑頭織雀;黑頭棲群織布鳥,1,1,0,,,LC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-432301,Animalia,動物界,Chordata,脊索動物門,Aves,鳥綱,Passeriformes,雀形目,Ploceidae,織布文鳥科,Ploceus,,Ploceus subaureus,subaureus,,,,,"Smith, A, 1839",,非洲金織雀;非洲織雀,1,1,0,,,LC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-381035,Animalia,動物界,Chordata,脊索動物門,Actinopterygii,條鰭魚綱,Cyprinodontiformes,鱂形目,Poeciliidae,花鱂科,Poecilia,,Poecilia reticulata,reticulata,,,,,"Peters, 1859",,孔雀花鱂;虹鱂;孔雀魚;胎鱂,1,1,0,,,LC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-381036,Animalia,動物界,Chordata,脊索動物門,Actinopterygii,條鰭魚綱,Cyprinodontiformes,鱂形目,Poeciliidae,花鱂科,Poecilia,,Poecilia velifera,velifera,,,,,"(Regan, 1914)",,帆鰭花鱂;摩利魚;摩麗;立帆摩麗;花鱂;胎鱂,1,1,0,,,VU,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-380047,Animalia,動物界,Chordata,脊索動物門,Amphibia,兩生綱,Anura,無尾目,Rhacophoridae,樹蛙科,Polypedates,,Polypedates megacephalus,megacephalus,,,,,"Hallowell, 1861",,斑腿樹蛙,1,1,0,,,LC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-315085,Animalia,動物界,Mollusca,軟體動物門,Gastropoda,腹足綱,Mesogastropoda,中腹足目,Ampullariidae,蘋果螺科,Pomacea,,Pomacea canaliculata,canaliculata,,,,,"(Lamarck, 1819)",,福壽螺,1,1,0,,,LC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-419450,Animalia,動物界,Mollusca,軟體動物門,Gastropoda,腹足綱,Mesogastropoda,中腹足目,Ampullariidae,蘋果螺科,Pomacea,,Pomacea insularum,insularum,,,,,"(Orbigny, 1835)",,島嶼福壽螺,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-315086,Animalia,動物界,Mollusca,軟體動物門,Gastropoda,腹足綱,Mesogastropoda,中腹足目,Ampullariidae,蘋果螺科,Pomacea,,Pomacea scalaris,scalaris,,,,,"Orbigny, 1835",,梯狀福壽螺,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-402662,Animalia,動物界,Annelida,環節動物門,Clitellata,環帶綱,Crassiclitellata,厚環帶目,Rhinodrilidae,吻蚓科,Pontoscolex,,Pontoscolex corethrurus,corethrurus,,,,,"(Müller, 1856)",,黃頸蜷蚓;黃頸透鈣蚓,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-310872,Animalia,動物界,Arthropoda,節肢動物門,Malacostraca,軟甲綱,Decapoda,十足目,Cambaridae,蝲蛄科,Procambarus,,Procambarus clarkii,clarkii,,,,,"(Girad, 1852)",,克氏原蝲蛄;美國螯蝦;美洲螯蝦;克氏螯蝦;小龍蝦;克氏原螯蝦;麻辣小龍蝦,1,1,0,,,LC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-444094,Animalia,動物界,Arthropoda,節肢動物門,Malacostraca,軟甲綱,Decapoda,十足目,Cambaridae,蝲蛄科,Procambarus,,Procambarus virginalis,virginalis,,,,,"Lyko, 2017",,大理石螯蝦,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-432265,Animalia,動物界,Chordata,脊索動物門,Aves,鳥綱,Psittaciformes,鸚形目,Psittacidae,鸚鵡科,Psittacula,,Psittacula krameri,krameri,,,,,"(Scopoli, 1769)",,紅領綠鸚鵡;玫瑰環鸚鵡;環頸鸚鵡;月輪,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-444672,Animalia,動物界,Chordata,脊索動物門,Aves,鳥綱,Passeriformes,雀形目,Leiothrichidae,噪眉科,Pterorhinus,,Pterorhinus chinensis,chinensis,,,,,"(Scopoli, 1786)",,黑喉噪眉;黑喉噪鶥,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-444673,Animalia,動物界,Chordata,脊索動物門,Aves,鳥綱,Passeriformes,雀形目,Leiothrichidae,噪眉科,Pterorhinus,,Pterorhinus perspicillatus,perspicillatus,,,,,"(Gmelin, 1789)",,黑臉噪眉;黑臉噪鶥,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-395255,Animalia,動物界,Chordata,脊索動物門,Actinopterygii,條鰭魚綱,Siluriformes,鯰形目,Loricariidae,甲鯰科,Pterygoplichthys,,Pterygoplichthys disjunctivus,disjunctivus,,,,,"(Weber, 1991)",,野翼甲鯰;琵琶鼠;清道夫;垃圾魚;普通清道夫;野脂身鲶,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-395254,Animalia,動物界,Chordata,脊索動物門,Actinopterygii,條鰭魚綱,Siluriformes,鯰形目,Loricariidae,甲鯰科,Pterygoplichthys,,Pterygoplichthys pardalis,pardalis,,,,,"(Castelnau, 1855)",,豹紋翼甲鯰;琵琶鼠;清道夫;垃圾魚;國王琵琶,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-419434,Animalia,動物界,Chordata,脊索動物門,Aves,鳥綱,Passeriformes,雀形目,Pycnonotidae,鵯科,Pycnonotus,,Pycnonotus jocosus,jocosus,,,,,"(Linnaeus, 1758)",,紅耳鵯,1,1,0,,,LC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-417733,Animalia,動物界,Arthropoda,節肢動物門,Insecta,昆蟲綱,Hymenoptera,膜翅目,Eulophidae,釉小蜂科,Quadrastichus,,Quadrastichus erythrinae,erythrinae,,,,,"Kim, 2004",,刺桐釉小蜂,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-416300,Animalia,動物界,Chordata,脊索動物門,Mammalia,哺乳綱,Rodentia,嚙齒目,Muridae,鼠科,Rattus,,Rattus exulans,exulans,,,,,"(Peale, 1848)",,緬甸小鼠;波里尼西亞鼠,1,1,0,,,LC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-434982,Animalia,動物界,Arthropoda,節肢動物門,Insecta,昆蟲綱,Coleoptera,鞘翅目,Dryophthoridae,椰象鼻蟲科,Rhabdoscelus,,Rhabdoscelus lineaticollis,lineaticollis,,,,,(Heller),,亞洲棕櫚象鼻蟲,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-348921,Animalia,動物界,Arthropoda,節肢動物門,Insecta,昆蟲綱,Thysanoptera,纓翅目,Thripidae,薊馬科,Rhipiphorothrips,,Rhipiphorothrips cruentatus,cruentatus,,,,,"Hood, 1919",,腹鉤薊馬,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-401817,Animalia,動物界,Arthropoda,節肢動物門,Insecta,昆蟲綱,Coleoptera,鞘翅目,Coccinellidae,瓢蟲科,Rodolia,,Rodolia cardinalis,cardinalis,,,,,"(Mulsant, 1850)",,澳洲瓢蟲,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-395347,Animalia,動物界,Chordata,脊索動物門,Actinopterygii,條鰭魚綱,Perciformes,鱸形目,Sciaenidae,石首魚科,Sciaenops,,Sciaenops ocellatus,ocellatus,,,,,"(Linnaeus, 1766)",,眼斑擬石首魚;紅鼓魚,1,1,0,,,LC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-418131,Animalia,動物界,Chordata,脊索動物門,Aves,鳥綱,Passeriformes,雀形目,Fringillidae,雀科,Serinus,,Serinus mozambicus,mozambicus,,,,,"(S. Muller, 1776)",,黃額絲雀;石燕,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-341929,Animalia,動物界,Arthropoda,節肢動物門,Insecta,昆蟲綱,Hymenoptera,膜翅目,Formicidae,蟻科,Solenopsis,,Solenopsis geminata,geminata,,,,,"Fabricius, 1840",,熱帶火家蟻;熱帶火蟻,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-401070,Animalia,動物界,Arthropoda,節肢動物門,Insecta,昆蟲綱,Hymenoptera,膜翅目,Formicidae,蟻科,Solenopsis,,Solenopsis invicta,invicta,,,,,"Buren, 1972",,紅入侵火家蟻;入侵紅火蟻,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-444629,Animalia,動物界,Arthropoda,節肢動物門,Insecta,昆蟲綱,Lepidoptera,鱗翅目,Noctuidae,夜蛾科,Spodoptera,,Spodoptera frugiperda,frugiperda,,,,,"Smith &amp; Abbot, 1797",,草地貪夜蛾;秋行軍蟲;草地夜蛾,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-425238,Animalia,動物界,Chordata,脊索動物門,Aves,鳥綱,Passeriformes,雀形目,Sturnidae,椋鳥科,Sturnia,,Sturnia malabarica nemoricola,malabarica,,nemoricola,,,"(Jerdon, 1862)",,栗尾椋鳥;灰頭椋鳥,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-316720,Animalia,動物界,Mollusca,軟體動物門,Gastropoda,腹足綱,Stylommatophora,柄眼目,Subulinidae,錐蝸牛科,Subulina,,Subulina octona,octona,,,,,"(Bruguière, 1792)",,圓錐蝸牛,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-395244,Animalia,動物界,Chordata,脊索動物門,Actinopterygii,條鰭魚綱,Cypriniformes,鯉形目,Cyprinidae,鯉科,Systomus,,Systomus rubripinnis,rubripinnis,,,,,"(Valenciennes, 1842)",,橘尾窄口鲃;類小鲃;紅胸鰂;馬來鰂,1,1,0,,,DD,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-341946,Animalia,動物界,Arthropoda,節肢動物門,Insecta,昆蟲綱,Hymenoptera,膜翅目,Formicidae,蟻科,Tapinoma,,Tapinoma melanocephalum,melanocephalum,,,,,"(Fabricius, 1793)",,黑頭慌琉璃蟻;黑頭荒蟻,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-339530,Animalia,動物界,Arthropoda,節肢動物門,Insecta,昆蟲綱,Hemiptera,半翅目,Tessaratomidae,荔蝽科,Tessaratoma,,Tessaratoma papillosa,papillosa,,,,,"(Drury, 1770)",,荔枝椿象;荔蝽;荔枝蝽;奶雞蝽;奶雞椿象;荔枝蝽象,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-401547,Animalia,動物界,Arthropoda,節肢動物門,Arachnida,蛛形綱,Trombidiformes,絨蟎目,Tetranychidae,葉蟎科,Tetranychus,,Tetranychus evansi,evansi,,,,,"Baker&amp; Pritchard, 1960",,伊凡氏葉蟎,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-400535,Animalia,動物界,Arthropoda,節肢動物門,Arachnida,蛛形綱,Trombidiformes,絨蟎目,Tetranychidae,葉蟎科,Tetranychus,,Tetranychus urticae,urticae,,,,,"Koch, 1836",,二點葉蟎,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-349648,Animalia,動物界,Arthropoda,節肢動物門,Insecta,昆蟲綱,Coleoptera,鞘翅目,Scarabaeidae,金龜子科,Thaumastopeus,,Thaumastopeus shangaicus,shangaicus,,,,,"(Poll, 1886)",,藍艷騷金龜;暗藍扁騷金龜,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-419665,Animalia,動物界,Chordata,脊索動物門,Aves,鳥綱,Pelecaniformes,鵜形目,Threskiornithidae,䴉科,Threskiornis,,Threskiornis aethiopicus aethiopicus,aethiopicus,,aethiopicus,,,"(Latham, 1790)",,埃及聖䴉,1,1,0,,,LC,,2022/9/30 下午 7:18:29,wuulong@gmail.com,3-動物,20-鳥類,,19-濕地,,,"1.袁孝維，2010年林務局入侵種動物族群控制與監測研討會
-2.[中華鳥會](http://www.bird.org.tw/index.php?block=contents/4-2-4-22.php).
-3.方偉、林育秀、林貞妤、范孟雯。2011。小心逸翼－潛在威脅台灣的外來鳥類圖鑑。
-4.袁孝維，國立臺灣大學，hwyuan@ntu.edu.tw，02-3366-4634
-5.Yésou, P. C. a. P. 2006. Threskiornis aethiopicus: [DAISIE](http://www.europe-aliens.org/pdf/Threskiornis_aethiopicus.pdf)
-6.[ADW](http://animaldiversity.ummz.umich.edu/site/accounts/information/Threskiornis_aethiopicus.html)
-7.袁孝維。2009。外來種埃及聖鹮對於臺灣地區鳥類生態影響之研究。行政院農業委員會林務局補助計畫97-林發-03.1-保-31號。
-8.Cramp, S., K. Simmons. 1977. Handbook of the Birds of Europe, the Middle East, and North Africa: Vol. 1. Oxford: Oxford University Press.
-9.Yesou, P., P. Clergeau. 2005. Sacred Ibis: a New Invasive Species in Europe. Birding World, 18/12: 517-526. 
-10.Kopij, G. 1999. Breeding ecology of the Sacred Ibis Threskiornis aethiopicus in the Free State, South Africa. African Journal of Wildlife Research, 29(2): 25.
-11.袁孝維。2011。入侵種埃及聖鹮族群模式與移除方法之研究。100林發-7.1-保-26。
-",,,"2010、及2011年繁殖期，針對野外埃及聖鹮的鳥卵進行噴油處理，結果發現經噴油處理的巢，孵化率從五成降至兩成，而且繁殖成功率僅剩下十分之一左右。由此可知噴油處理可以有效降低蛋的孵化率，並可使繁殖成功率明顯下降。巢中的蛋經過噴油處理後，親鳥棄巢的時間為平均為15天，顯示噴油處理可耗費親鳥再築巢及產卵的時間。
-在防治成本的估算上需先考慮噴油處理的施行次數與預期效果，在下蛋後五天及孵出前五天(後五前五)為有效之噴油期間的施行標準，而平均孵蛋期為19.3天的條件下，可噴油之時間為孵蛋期中的9.3天，所以需以10天的間隔在孵蛋期(3-8月)中進行噴油處理，共需進行17次，噴油後蛋的總孵化率為0.11；而在後六前六的施行標準下，可噴油之時間為孵蛋期中的7.3天，所以需以8天的間隔在孵蛋期中進行噴油處理，共需進行21次，噴油後蛋的總孵化率為0.04。以上述之孵化率計算以不同噴油處理標準的防治成本，以後五前五的標準可使繁殖成功率降至6.5%，減少每隻幼鳥孵化所需之成本為963元；以後六前六的標準可使繁殖成功率降至2.2%，減少每隻幼鳥孵化所需之成本為1,123元[11]。
-
-",1-有意引進,14-供動物園使用,21-人為引進,台灣地區第一筆聖朱鷺(Threskiornis aethiopicus)的紀錄，是發生在1984年，於台北關渡被記錄到，據說是自龍潭的六福村野生動物園逃逸[2],相傳為六福村野生動物園[2],,,1-有意引進,2-競爭,1-其他,"自然擴散。遊牧的種族可以改變繁殖地點來適應環境條件。在被引進地會固定進行棲地間移動，遊牧的個體移動數百公里至另一個棲地[5]。
-Nomadic species able to change its breeding sites to suit environmental conditions. In the introduced range, there is regular exchange between colonies, with nomadic individuals moving up to several hundred kilometres from colonies[5].
-
-",1-其他,,袁孝維,"埃及聖鹮全長為65-89cm，體重約為1500g，展翅長可逹112-124cm。全身羽色為白色，頭至頸部則是裸露黑色皮膚，嘴喙黑色，長且下彎，腰部及翅膀邊上的飾羽為黑色。初級與次級飛羽尖端為黑色，停棲時翅膀收縮，在尾部形成黑色[7]。(出自英文書籍，無法取得原文del Hoyo, J., Elliott, A.& Sargatal, J. eds. 1992. Handbook of the Bird of the World. Vol. 1. Lynx Edicions.)
- 
-埃及聖鹮全長為65-89cm，體重約為1500g，展翅長可逹112-124cm。純白或灰白的羽毛幾乎覆蓋全身。初級、次級飛羽尖端為黑色。長頸，頭禿暗灰黑色。眼睛為棕色，眼窩暗紅色。喙長且向下彎曲，有狹縫狀的鼻孔。胸部側邊與翼下有暗紅色皮膚。腳黑色帶紅色。沒有季節性差異或性徵外，雄鳥體型略大於雌鳥。幼鳥有長滿黑白交錯羽毛的頭與脖子，肩羽為綠棕色，初級覆羽較黑。翅膀下的覆羽有深色條紋，尾部為白色，尖端棕色[6,8]。
-Range length 65 to 75 cm, average mass 1.5 kg, range wingspan 112 to 124 cm. Pure to dirty white feathers cover most of the body. Blue-black scapular plumes form a tuft that falls over the short, square-shaped tail and closed wings. The flight feathers are white with dark blue-green tips. Sacred ibises have long necks and bald, dull grey-black heads. The eyes are brown with a dark red orbital ring and the bill is long, downwardly curving, and with slit-like nostrils. Red bare skin is visible on the side of the breast and on the underwings. The legs are black with a red tinge. There is no seasonal variation or sexual dimorphism other than that males are slightly larger than females. Juveniles have feathered heads and necks that are mottled white with black streaks. Their scapular feathers are greenish-brown and there is more black on their outer primaries and primary coverts. The underwing coverts have dark streaks. The tail is white with brown corners[6,8].
-
-","大型鷺科，古埃及人視為聖物，原產於非洲，經常由動物貿易輸往世界各地，歐洲大西洋沿岸地區已有逃逸及繁殖紀錄，數量正在逐年增加。在台灣為鳥園逃逸而再野外有繁殖紀錄，對原生鳥種造成競爭[1]。
-
-","非洲的撒哈拉沙漠南部、伊拉克南部、馬達加斯加與阿爾達布拉島[5]。
-Africa south of Sahara, also populations in Southern Iraq, Madagascar and Aldabra Island[5].
-
-","歐洲西部跟南部、阿拉伯半島、台灣、佛羅里達。在義大利與荷蘭只有幾對，加那利群島約30對[5]。
-Several spots around the world, in West and South Europe, Arabian Peninsula, Taiwan, Florida. In Italy and Netherlands only some pairs and in Canary Islands about 30 pairs[5].
-
-","適應力強，能使用的棲地非常多樣化，如河口溼地、沿海淡水湖、農家庭院、養殖漁塭等[1]。濕地邊緣、草生地、農地、海岸、潟湖、潮間帶、近海島嶼[3]。
-
-埃及聖鹮棲地非常廣泛，雖然牠們一般都棲息在靠近河流、小溪與海岸邊。原生在亞熱帶到熱帶地區，但是牠們被引進很多不同溫度的地區。經常在水域中的岩石上築巢，且適應生活在村莊與城鎮[8,9,10]。
-Sacred ibises inhabit a wide range of habitats, althouth generally they are found in close proximity to rivers, streams, and coastlines. Their native range is sub-tropical to tropical, but they are found in more temperature areas where introduced. They often nest on rocky marines islands and have adapted to living in towns and villages[8,9,10].
-
-","食性以昆蟲為主，亦補食甲殼動物、蠕蟲、軟體動物、魚、青蛙、蜥蜴及小型哺乳類[3]，甚至是其他鳥類的蛋[1]。
-
-埃及聖鹮主要於日間成群的在淺水濕地覓食。有時牠們亦會在靠近水邊的陸地上覓食。為了覓食牠們可以飛行超過10km。主要以昆蟲、蜘蛛、環節動物、甲殼類與軟體動物為食。也被觀察到捕食蛙類、爬蟲類、魚類、幼鳥與蛋及腐肉。在耕地裡會在人類的垃圾中覓食[8,9]。
-Sacred ibises feed during the day primarily in flocks by wading in shallow wetlands. Occasionally they will feed on dry land close to water. They may fly a distance of 10 km to foraging grounds. They feed primarily on insects, arachnids, annelids, crustaceans, and mollusks. They have been observed eating frogs, reptiles, fish, young birds, eggs, and carrion as well. In more cultivated areas, they have been known to eat human refuse[8,9].
-
-","在非洲埃及聖鹮是在雨季過後開始進行繁殖週期，但在常有洪水危害的地區則是在乾季進行。生殖的方式是採以集體繁殖(colonial breeding)的方式，形成約略有50-2000對的生殖群，而其中混有其他的鸛形目鳥類共同進行繁殖[7]。(出自英文書籍，無法取得原文del Hoyo, J., Elliott, A.& Sargatal, J. eds. 1992. Handbook of the Bird of the World. Vol. 1. Lynx Edicions.)
-在法國的族群超過1000隻個體，有時會和其他鸛形目鳥類與蒼鷺成群繁殖。通常築巢在靠近喬木、灌木與靠近水的陸地上。2-4顆蛋，孵出1-2隻雛鳥。在法國的繁殖成功率比非洲還高[5]。
-Colonies up to several thousand pairs (one colony of over 1,000 in France), sometimes with other ciconiiformes and herons. Nests often closely aggregated in trees, bushes and on the ground near water. 2-4 eggs give 1-2 chicks. Breeding success in France appears to be higher than in Africa[5].
-
-","蛋在21-29天，平均28天孵化，育雛期約為35-40天，44-48天可獨立生活，壽命可達20年[6]。
-Range time to hatching 21 to 29 days. Average time to hatching 28 days. Range fledging age 35 to 40 days. Range time to independence 44 to 48 days. Sacred ibises may live up to 20 years[6].
-
-","在台灣族群分布地區以中北部為主，特別是在生殖季時，南部則較不穩定，僅在非生殖季出現。在台北關渡、新竹南寮確認其繁殖巢區，分別位於紅樹林及沙洲上之雜木林中[1]。臺灣地區自1984年即在台北關渡有首筆埃及聖鹮野外紀錄。目前分佈擴散至西部各縣市沿海濕地，數量持續增加，和本土鷺科鳥種混群覓食、營巢，目前雖危害現況未明，但需留意其對台灣生態的影響[3]。
-
-"
-348953,Animalia,動物界,Arthropoda,節肢動物門,Insecta,昆蟲綱,Thysanoptera,纓翅目,Thripidae,薊馬科,Thrips,,Thrips palmi,palmi,,,,,"Karny, 1925",,南黃薊馬,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-348954,Animalia,動物界,Arthropoda,節肢動物門,Insecta,昆蟲綱,Thysanoptera,纓翅目,Thripidae,薊馬科,Thrips,,Thrips simplex,simplex,,,,,"(Morison, 1930)",,唐菖蒲薊馬,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-417861,Animalia,動物界,Chordata,脊索動物門,Reptilia,爬蟲綱,Testudines,龜鱉目,Emydidae,澤龜科,Trachemys,,Trachemys scripta elegans,scripta,subsp.,elegans,,,"(Wied, 1838)",,紅耳龜;紅耳泥龜;巴西龜;巴西彩龜;翠龜;麻將龜;秀麗錦龜;七彩龜;彩龜,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-339751,Animalia,動物界,Arthropoda,節肢動物門,Insecta,昆蟲綱,Hemiptera,半翅目,Aleyrodidae,粉蝨科,Trialeurodes,,Trialeurodes vaporariorum,vaporariorum,,,,,"(Westwood, 1856)",,溫室粉蝨,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-434976,Animalia,動物界,Chordata,脊索動物門,Actinopterygii,條鰭魚綱,Perciformes,鱸形目,Osphronemidae,絲足鱸科,Trichogaster,,Trichogaster lalius,lalius,,,,,"(Hamilton, 1822)",,侏儒絲足鱸;拉利毛足鱸,1,1,0,,,LC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-343575,Animalia,動物界,Arthropoda,節肢動物門,Insecta,昆蟲綱,Hymenoptera,膜翅目,Trichogrammatidae,赤眼蜂科,Trichogramma,,Trichogramma chilonis,chilonis,,,,,"Ishii, 1941",,螟黃赤眼蜂,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-382223,Animalia,動物界,Chordata,脊索動物門,Actinopterygii,條鰭魚綱,Perciformes,鱸形目,Osphronemidae,絲足鱸科,Trichopodus,,Trichopodus trichopterus,trichopterus,,,,,"(Pallas, 1770)",,絲鰭毛足鬥魚;三星毛足鱸;絲鰭毛足鱸;三星仔;曼龍;三星攀鱸;三星鬥魚,1,1,0,,,LC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-419419,Animalia,動物界,Chordata,脊索動物門,Aves,鳥綱,Passeriformes,雀形目,Corvidae,鴉科,Urocissa,,Urocissa erythrorhyncha,erythrorhyncha,,,,,"(Boddaert, 1783)",,紅嘴藍鵲;中國藍鵲,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-419449,Animalia,動物界,Chordata,脊索動物門,Aves,鳥綱,Passeriformes,雀形目,Viduidae,維達鳥科,Vidua,,Vidua macroura,macroura,,,,,"(Pallas, 1764)",,針尾維達鳥;天仁雀,1,1,0,,,LC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-444093,Animalia,動物界,Chordata,脊索動物門,Actinopterygii,條鰭魚綱,Perciformes,鱸形目,Cichlidae,麗魚科,Vieja,,Vieja melanura,melanura,,,,,"(Günther, 1862)",,黑尾副尼麗魚,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-444555,Animalia,動物界,Arthropoda,節肢動物門,Insecta,昆蟲綱,Hymenoptera,膜翅目,Formicidae,蟻科,Wasmannia,,Wasmannia auropunctata,auropunctata,,,,,"(Roger, 1863)",,光點小火蟻;金刻沃氏蟻;小火蟻,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-433636,Animalia,動物界,Mollusca,軟體動物門,Bivalvia,雙殼綱,Mytiloida,貽貝目,Mytilidae,殼菜蛤科,Xenostrobus,,Xenostrobus securis,securis,,,,,"(Lamarck, 1819)",,斧形殼菜蛤,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-395313,Animalia,動物界,Chordata,脊索動物門,Actinopterygii,條鰭魚綱,Cyprinodontiformes,鱂形目,Poeciliidae,花鱂科,Xiphophorus,,Xiphophorus hellerii,hellerii,,,,,"Heckel, 1848",,劍尾魚;茉莉,1,1,0,,,LC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-395498,Animalia,動物界,Chordata,脊索動物門,Actinopterygii,條鰭魚綱,Cyprinodontiformes,鱂形目,Poeciliidae,花鱂科,Xiphophorus,,Xiphophorus maculatus,maculatus,,,,,"(Günther, 1866)",,花斑劍尾魚;紅劍;紅太陽,1,1,0,,,DD,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-381032,Animalia,動物界,Chordata,脊索動物門,Actinopterygii,條鰭魚綱,Cypriniformes,鯉形目,Cyprinidae,鯉科,Zacco,,Zacco platypus,platypus,,,,,"(Temminck &amp; Schlegel, 1846)",,平頜鱲;溪哥仔(幼魚及雌魚);青貓(雄);寬鰭鱲;日本溪哥;溪哥仔,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-202357,Plantae,植物界,Tracheophyta,維管束植物門,Magnoliopsida,木蘭綱,Asterales,菊目,Asteraceae,菊科,Ageratum,,Ageratum houstonianum,houstonianum,,,,,Mill.,,紫花藿香薊;熊耳草;墨西哥藍薊;勝紅薊;紫花毛麝香;臭草仔;斷血草,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-202362,Plantae,植物界,Tracheophyta,維管束植物門,Magnoliopsida,木蘭綱,Asterales,菊目,Asteraceae,菊科,Ambrosia,,Ambrosia artemisiifolia,artemisiifolia,,,,,L.,,豬草;瘤果菊,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-400927,Plantae,植物界,Tracheophyta,維管束植物門,Magnoliopsida,木蘭綱,Asterales,菊目,Asteraceae,菊科,Ambrosia,,Ambrosia psilostachya,psilostachya,,,,,DC.,,裸穗豬草,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-202686,Plantae,植物界,Tracheophyta,維管束植物門,Magnoliopsida,木蘭綱,Caryophyllales,石竹目,Basellaceae,落葵科,Basella,,Basella alba,alba,,,,,L.,,落葵,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-202404,Plantae,植物界,Tracheophyta,維管束植物門,Magnoliopsida,木蘭綱,Asterales,菊目,Asteraceae,菊科,Bidens,,Bidens pilosa radiata,pilosa,var.,radiata,,,L.,"Sch. Bip., 1842-1850",大花咸豐草;大花鬼針草;大花婆婆針;大白花鬼針;同治草;黏人草,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-201434,Plantae,植物界,Tracheophyta,維管束植物門,Magnoliopsida,木蘭綱,Poales,禾本目,Poaceae,禾本科,Brachiaria,,Brachiaria mutica,mutica,,,,,(Forssk.) Stapf,,巴拉草,1,1,0,,,LC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-201441,Plantae,植物界,Tracheophyta,維管束植物門,Magnoliopsida,木蘭綱,Poales,禾本目,Poaceae,禾本科,Bromus,,Bromus catharticus,catharticus,,,,,Vahl,,大扁雀麥;扁穗雀麥,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-204111,Plantae,植物界,Tracheophyta,維管束植物門,Magnoliopsida,木蘭綱,Saxifragales,虎耳草目,Crassulaceae,景天科,Bryophyllum,,Bryophyllum pinnatum,pinnatum,,,,,(Lam.) Oken,,落地生根,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-418244,Plantae,植物界,Tracheophyta,維管束植物門,Magnoliopsida,木蘭綱,Commelinales,鴨跖草目,Commelinaceae,鴨跖草科,Callisia,,Callisia repens,repens,,,,,(Jacq.) L.,,舖地錦竹草;翠玲瓏,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-204480,Plantae,植物界,Tracheophyta,維管束植物門,Magnoliopsida,木蘭綱,Sapindales,無患子目,Sapindaceae,無患子科,Cardiospermum,,Cardiospermum halicacabum,halicacabum,,,,,L.,,倒地鈴,1,1,0,,,LC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-438544,Plantae,植物界,Tracheophyta,維管束植物門,Magnoliopsida,木蘭綱,Poales,禾本目,Poaceae,禾本科,Cenchrus,,Cenchrus purpureus,purpureus,,,,,(Schumach.) Morrone,,象草,1,1,0,,,LC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-201453,Plantae,植物界,Tracheophyta,維管束植物門,Magnoliopsida,木蘭綱,Poales,禾本目,Poaceae,禾本科,Chloris,,Chloris barbata,barbata,,,,,Sw.,,孟仁草,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-202426,Plantae,植物界,Tracheophyta,維管束植物門,Magnoliopsida,木蘭綱,Asterales,菊目,Asteraceae,菊科,Chromolaena,,Chromolaena odorata,odorata,,,,,(L.) R.M. King &amp; H. Rob.,,香澤蘭;飛機草,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-202624,Plantae,植物界,Tracheophyta,維管束植物門,Magnoliopsida,木蘭綱,Brassicales,十字花目,Cleomaceae,白花菜科,Cleome,,Cleome rutidosperma,rutidosperma,,,,,DC.,,平伏莖白花菜;成功白花菜,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-202439,Plantae,植物界,Tracheophyta,維管束植物門,Magnoliopsida,木蘭綱,Asterales,菊目,Asteraceae,菊科,Conyza,,Conyza bonariensis,bonariensis,,,,,(L.) Cronquist,,美洲假蓬;野桐蒿,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-417676,Plantae,植物界,Tracheophyta,維管束植物門,Magnoliopsida,木蘭綱,Asterales,菊目,Asteraceae,菊科,Conyza,,Conyza canadensis,canadensis,,,,,(L.) Cronq,,加拿大蓬;小蓬草;小白酒草;小飛蓬;姬昔蓬;小燕草;鐵道車蓬;蛇舌草;竹葉艾;魚膽草;苦蒿;祁州一隻蒿;破布艾;小山艾;臭艾;野茼蒿,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-202443,Plantae,植物界,Tracheophyta,維管束植物門,Magnoliopsida,木蘭綱,Asterales,菊目,Asteraceae,菊科,Conyza,,Conyza sumatrensis,sumatrensis,,,,,(Retz.) E. Walker,,野茼蒿,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-202447,Plantae,植物界,Tracheophyta,維管束植物門,Magnoliopsida,木蘭綱,Asterales,菊目,Asteraceae,菊科,Crassocephalum,,Crassocephalum crepidioides,crepidioides,,,,,(Benth.) S. Moore,,昭和草,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-203088,Plantae,植物界,Tracheophyta,維管束植物門,Magnoliopsida,木蘭綱,Fabales,豆目,Fabaceae,豆科,Crotalaria,,Crotalaria pallida,pallida,,,,,"Ait., 1789",,黃野百合;豬屎豆,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ILD-3720,Plantae,植物界,Tracheophyta,維管束植物門,Magnoliopsida,木蘭綱,Fabales,豆目,Fabaceae,豆科,Crotalaria,,Crotalaria trichotoma,trichotoma,,,,,Bojer,,南美豬屎豆;光萼野百合;大野百合,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-417834,Plantae,植物界,Tracheophyta,維管束植物門,Magnoliopsida,木蘭綱,Poales,禾本目,Poaceae,禾本科,Cynodon,,Cynodon plectostachyus,plectostachyus,,,,,(K. Schum.) Pilg.,,星草,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-435189,Plantae,植物界,Tracheophyta,維管束植物門,Magnoliopsida,木蘭綱,Caryophyllales,石竹目,Amaranthaceae,莧科,Dysphania,,Dysphania ambrosioides,ambrosioides,,,,,(L.) Mosyakin &amp; Clemants,,臭杏;土荊芥,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-202481,Plantae,植物界,Tracheophyta,維管束植物門,Magnoliopsida,木蘭綱,Asterales,菊目,Asteraceae,菊科,Gaillardia,,Gaillardia pulchella,pulchella,,,,,Foug.,,天人菊,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-202483,Plantae,植物界,Tracheophyta,維管束植物門,Magnoliopsida,木蘭綱,Asterales,菊目,Asteraceae,菊科,Galinsoga,,Galinsoga quadriradiata,quadriradiata,,,,,Ruiz &amp; Pav.,,粗毛小米菊,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-416297,Plantae,植物界,Tracheophyta,維管束植物門,Magnoliopsida,木蘭綱,Asterales,菊目,Asteraceae,菊科,Helianthus,,Helianthus debilis cucumerifolius,debilis,subsp.,cucumerifolius,,,(Torr. &amp; A. Gray) Heiser,,瓜葉向日葵,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-417927,Plantae,植物界,Tracheophyta,維管束植物門,Magnoliopsida,木蘭綱,Apiales,繖形目,Araliaceae,五加科,Hydrocotyle,,Hydrocotyle leucocephala,leucocephala,,,,,Cham. &amp; Schltdl.,,香菇草;白花天胡荽,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-417814,Plantae,植物界,Tracheophyta,維管束植物門,Magnoliopsida,木蘭綱,Ericales,杜鵑花目,Balsaminaceae,鳳仙花科,Impatiens,,Impatiens walleriana,walleriana,,,,,Hook. f.,,非洲鳳仙花;玻璃翠;矮鳳仙;指甲花;勿碰我;急性子,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-204672,Plantae,植物界,Tracheophyta,維管束植物門,Magnoliopsida,木蘭綱,Solanales,茄目,Convolvulaceae,旋花科,Ipomoea,,Ipomoea aquatica,aquatica,,,,,Forssk.,,甕菜;空心菜;蕹菜,1,1,0,,,LC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-203567,Plantae,植物界,Tracheophyta,維管束植物門,Magnoliopsida,木蘭綱,Lamiales,唇形目,Verbenaceae,馬鞭草科,Lantana,,Lantana camara,camara,,,,,L.,,馬櫻丹;馬纓丹;五色梅,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-202647,Plantae,植物界,Tracheophyta,維管束植物門,Magnoliopsida,木蘭綱,Brassicales,十字花目,Brassicaceae,十字花科,Lepidium,,Lepidium virginicum,virginicum,,,,,L.,,獨行菜;北美獨行菜,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-203176,Plantae,植物界,Tracheophyta,維管束植物門,Magnoliopsida,木蘭綱,Fabales,豆目,Fabaceae,豆科,Leucaena,,Leucaena leucocephala,leucocephala,,,,,(Lam.) de Wit,,銀合歡;灰金合歡;白合歡,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ITS-565301,Plantae,植物界,Tracheophyta,維管束植物門,Magnoliopsida,木蘭綱,Poales,禾本目,Poaceae,禾本科,Melinis,,Melinis repens,repens,,,,,"(Willd.) Zizka, 1988",,紅毛草,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-417599,Plantae,植物界,Tracheophyta,維管束植物門,Magnoliopsida,木蘭綱,Asterales,菊目,Asteraceae,菊科,Mikania,,Mikania micrantha,micrantha,,,,,Kunth,,小花蔓澤蘭,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-418164,Plantae,植物界,Tracheophyta,維管束植物門,Magnoliopsida,木蘭綱,Commelinales,鴨跖草目,Commelinaceae,鴨跖草科,Murdannia,,Murdannia bracteata,bracteata,,,,,(C.B. Clarke) Kuntze ex J.K. Morton,,大苞水竹葉;痰火草,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-203794,Plantae,植物界,Tracheophyta,維管束植物門,Magnoliopsida,木蘭綱,Myrtales,桃金孃目,Onagraceae,柳葉菜科,Oenothera,,Oenothera glazioviana,glazioviana,,,,,Micheli,,黃花月見草,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-203795,Plantae,植物界,Tracheophyta,維管束植物門,Magnoliopsida,木蘭綱,Myrtales,桃金孃目,Onagraceae,柳葉菜科,Oenothera,,Oenothera laciniata,laciniata,,,,,Hill,,裂葉月見草,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-432465,Plantae,植物界,Tracheophyta,維管束植物門,Magnoliopsida,木蘭綱,Caryophyllales,石竹目,Cactaceae,仙人掌科,Opuntia,,Opuntia monacantha,monacantha,,,,,(Willd.) Haw.,,單刺仙人掌;仙人掌;綠仙人掌,1,1,0,,,LC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-201608,Plantae,植物界,Tracheophyta,維管束植物門,Magnoliopsida,木蘭綱,Poales,禾本目,Poaceae,禾本科,Panicum,,Panicum maximum,maximum,,,,,Jacq.,,大黍,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-417631,Plantae,植物界,Tracheophyta,維管束植物門,Magnoliopsida,木蘭綱,Poales,禾本目,Poaceae,禾本科,Paspalum,,Paspalum notatum,notatum,,,,,Flüggé,,巴西亞雀稗;百喜草,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-440859,Plantae,植物界,Tracheophyta,維管束植物門,Magnoliopsida,木蘭綱,Malpighiales,黃褥花目,Passifloraceae,西番蓮科,Passiflora,,Passiflora vesicaria,vesicaria,,,,,L.,,毛西番蓮,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Kew-259467,Plantae,植物界,Tracheophyta,維管束植物門,Magnoliopsida,木蘭綱,Commelinales,鴨跖草目,Pontederiaceae,雨久花科,Pontederia,,Pontederia crassipes,crassipes,,,,,Mart.,,布袋蓮;浮水蓮花;鳳眼蓮,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-418154,Plantae,植物界,Tracheophyta,維管束植物門,Magnoliopsida,木蘭綱,Lamiales,唇形目,Acanthaceae,爵床科,Ruellia,,Ruellia tuberosa,tuberosa,,,,,L.,,塊根蘆莉草;塊莖蘆莉草,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-418044,Plantae,植物界,Tracheophyta,維管束植物門,Magnoliopsida,木蘭綱,Solanales,茄目,Solanaceae,茄科,Solanum,,Solanum mauritianum,mauritianum,,,,,Scop.,,野煙樹,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-418388,Plantae,植物界,Tracheophyta,維管束植物門,Magnoliopsida,木蘭綱,Alismatales,澤瀉目,Araceae,天南星科,Syngonium,,Syngonium podophyllum,podophyllum,,,,,Schott,,合果芋,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-202577,Plantae,植物界,Tracheophyta,維管束植物門,Magnoliopsida,木蘭綱,Asterales,菊目,Asteraceae,菊科,Tithonia,,Tithonia diversifolia,diversifolia,,,,,(Hemsl.) A. Gray,,王爺葵,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-417630,Plantae,植物界,Tracheophyta,維管束植物門,Magnoliopsida,木蘭綱,Commelinales,鴨跖草目,Commelinaceae,鴨跖草科,Tradescantia,,Tradescantia fluminensis,fluminensis,,,,,Vell.,,紫葉水竹草;巴西水竹草;巴西水竹葉,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-202578,Plantae,植物界,Tracheophyta,維管束植物門,Magnoliopsida,木蘭綱,Asterales,菊目,Asteraceae,菊科,Tridax,,Tridax procumbens,procumbens,,,,,L.,,長柄菊,1,1,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+name_code,kingdom,kingdom_c,phylum,phylum_c,class,class_c,order,order_c,family,family_c,genus,genus_c,nameL,species,infraspecies_marker,infraspecies,infraspecies2_marker,infraspecies2,author,author2,common_name_cL,is_alien,is_invasive,is_cultivated,is_endemic,cites_code,iucn_code,coa_code,時間戳記,電子郵件地址,nameR,common_name_cR,life_type,life_type_animal,life_type_plant,microorganism,habitat_types,introduction_type,introduction_cause,introduction_vector,introduction_date,introduction_people,found_date,introduction_desc,invasiveness,mechanism,outcome,description_of_outcomes,dispersal_mechanisms,eradication_methods,control_methods,data_provider,description,summary,native_range,introduced_range,habitat_description,nutrition,reproduction,life_cycle,species_status,images,suggestion,note,reference,record_status
+405377,Viruses,病毒,,,,,+ssRNA,正鏈RNA病毒,Flaviviridae,黃熱病毒科,Flavivirus,,Flavivirus Dengue virus,Dengue virus,Human Virus,,,,,,登革熱病毒,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+405867,Viruses,病毒,,,,,-ssRNA,負鏈RNA病毒,Orthomyxoviridae,正黏液病毒科,Influenzavirus A,,Influenzavirus A Influenza A virus (H5N1 subtype),Influenza A virus (H5N1 subtype),Human Virus,,,,,,H5N1流感,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+405470,Viruses,病毒,,,,,+ssRNA,正鏈RNA病毒,Potyviridae,馬鈴薯Y病毒科,Potyvirus,,Potyvirus Papaya ringspot virus,Papaya ringspot virus,Plant Virus,,,,,,木瓜輪點病毒,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+142114,Fungi,真菌界,Basidiomycota,擔子菌門,Agaricomycetes,傘菌綱,Hymenochaetales,刺革菌目,Hymenochaetaceae,刺革菌科,Phellinus,,Phellinus noxius,noxius,,,,,"(Corner) Cunningham, 1965",,有害木層孔菌;褐根菌,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+316551,Animalia,動物界,Mollusca,軟體動物門,Gastropoda,腹足綱,Stylommatophora,柄眼目,Achatinidae,非洲大蝸牛科,Achatina,,Achatina fulica,fulica,,,,,"Bowdich, 1822",,非洲大蝸牛;褐雲瑪瑙螺;褐雲滑胚瑪瑙螺,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+429322,Animalia,動物界,Mollusca,軟體動物門,Gastropoda,腹足綱,Stylommatophora,柄眼目,Achatinidae,非洲大蝸牛科,Achatina,,Achatina panthera,panthera,,,,,"(Férussac, 1832)",,虎紋非洲大蝸牛,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+419435,Animalia,動物界,Chordata,脊索動物門,Aves,鳥綱,Passeriformes,雀形目,Sturnidae,椋鳥科,Acridotheres,,Acridotheres burmannicus,burmannicus,,,,,"(Jerdon, 1862)",,葡萄胸椋鳥,1.0,1.0,0.0,,,LC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+404536,Animalia,動物界,Chordata,脊索動物門,Aves,鳥綱,Passeriformes,雀形目,Sturnidae,椋鳥科,Acridotheres,,Acridotheres javanicus,javanicus,,,,,"Cabanis, 1851",,白尾八哥;爪哇八哥;林八哥;泰國八哥,1.0,1.0,0.0,,,VU,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+404537,Animalia,動物界,Chordata,脊索動物門,Aves,鳥綱,Passeriformes,雀形目,Sturnidae,椋鳥科,Acridotheres,,Acridotheres tristis tristis,tristis,,tristis,,,"(Linnaeus, 1766)",,家八哥;泰國八哥;眼鏡八哥,1.0,1.0,0.0,,,LC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+316553,Animalia,動物界,Mollusca,軟體動物門,Gastropoda,腹足綱,Stylommatophora,柄眼目,Bradybaenidae,扁蝸牛科,Acusta,,Acusta despecta,despecta,,,,,"(Gray, 1839)",,琉球球蝸牛,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+339633,Animalia,動物界,Arthropoda,節肢動物門,Insecta,昆蟲綱,Hemiptera,半翅目,Aleyrodidae,粉蝨科,Aleurodicus,,Aleurodicus dispersus,dispersus,,,,,"Russell, 1965",,螺旋粉蝨,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+316716,Animalia,動物界,Mollusca,軟體動物門,Gastropoda,腹足綱,Stylommatophora,柄眼目,Subulinidae,錐蝸牛科,Allopeas,,Allopeas gracilis,gracilis,,,,,"(Hutton, 1834)",,大錐蝸牛,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+316717,Animalia,動物界,Mollusca,軟體動物門,Gastropoda,腹足綱,Stylommatophora,柄眼目,Subulinidae,錐蝸牛科,Allopeas,,Allopeas javanicum,javanicum,,,,,"(Reeve, 1849)",,爪哇錐蝸牛,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+438446,Animalia,動物界,Chordata,脊索動物門,Actinopterygii,條鰭魚綱,Perciformes,鱸形目,Cichlidae,麗魚科,Amatitlania,,Amatitlania nigrofasciata,nigrofasciata,,,,,"(Günther, 1867)",,黑帶嬌麗魚,1.0,1.0,0.0,,,DD,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+402244,Animalia,動物界,Arthropoda,節肢動物門,Thecostraca,鞘甲綱,Balanomorpha,藤壺目,Balanidae,藤壺科,Amphibalanus,,Amphibalanus amphitrite,amphitrite,,,,,"(Darwin, 1854)",,紋藤壺,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+438269,Animalia,動物界,Arthropoda,節肢動物門,Thecostraca,鞘甲綱,Balanomorpha,藤壺目,Balanidae,藤壺科,Amphibalanus,,Amphibalanus eburneus,eburneus,,,,,"(Gould, 1841)",,象牙藤壺,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+438270,Animalia,動物界,Arthropoda,節肢動物門,Thecostraca,鞘甲綱,Balanomorpha,藤壺目,Balanidae,藤壺科,Amphibalanus,,Amphibalanus reticulatus,reticulatus,,,,,"(Utinomi, 1967)",,網紋藤壺,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+316981,Animalia,動物界,Arthropoda,節肢動物門,Thecostraca,鞘甲綱,Balanomorpha,藤壺目,Balanidae,藤壺科,Amphibalanus,,Amphibalanus variegatus,variegatus,,,,,"(Darwin, 1854)",,雜色紋藤壺,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+395487,Animalia,動物界,Chordata,脊索動物門,Actinopterygii,條鰭魚綱,Perciformes,鱸形目,Cichlidae,麗魚科,Amphilophus,,Amphilophus citrinellus,citrinellus,,,,,"(Günther, 1864)",,橘色雙冠麗魚;麥達斯冠麗鯛;麥達斯慈鯛,1.0,1.0,0.0,,,LC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+395488,Animalia,動物界,Chordata,脊索動物門,Actinopterygii,條鰭魚綱,Perciformes,鱸形目,Cichlidae,麗魚科,Amphilophus,,Amphilophus labiatus,labiatus,,,,,"(Günther, 1864)",,厚唇雙冠麗魚;紅魔鬼;脣形冠麗鯛,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+419412,Animalia,動物界,Chordata,脊索動物門,Reptilia,爬蟲綱,Squamata,有鱗目,Polychrotidae,變色蜥科,Anolis,,Anolis sagrei,sagrei,,,,,"Duméril &amp; Bibron, 1837",,沙氏變色蜥,1.0,1.0,0.0,,,LC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+400042,Animalia,動物界,Arthropoda,節肢動物門,Insecta,昆蟲綱,Hymenoptera,膜翅目,Formicidae,蟻科,Anoplolepis,,Anoplolepis gracilipes,gracilipes,,,,,"(Smith, 1857)",,長腳捷蟻,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+404545,Animalia,動物界,Chordata,脊索動物門,Aves,鳥綱,Passeriformes,雀形目,Sturnidae,椋鳥科,Aplonis,,Aplonis panayensis,panayensis,,,,,"(Scopoli, 1786)",,亞洲輝椋鳥;輝椋鳥;菲律賓椋鳥,1.0,1.0,0.0,,,LC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+340020,Animalia,動物界,Arthropoda,節肢動物門,Insecta,昆蟲綱,Hemiptera,半翅目,Diaspididae,盾介殼蟲科,Aulacaspis,,Aulacaspis yasumatsui,yasumatsui,,,,,"Takagi, 1977",,蘇鐵白輪盾介殼蟲,1.0,1.0,0.0,,,,,2022/11/28 下午 1:18:08,penlock@gmail.com,,蘇鐵白輪盾蚧,1-動物,7-昆蟲,,,5-原始林,3-無心的引進,"5-獲取農業利益, 8-獲取園藝利益, 24-供景觀之用","3-寄主植物, 7-風",不詳，約2000年,不詳,不詳,不詳,1-具入侵性,3-寄生,3-環境,蘇鐵白輪盾蚧危害植株嚴重時，其可見白色介殼佈滿植株，嚴重情況時可能造成植株枯死，目前在台灣已入侵擴散至全台各地，多寄生於蘇鐵科與蕨蘇鐵科的多種植物，其中以蘇鐵屬受害最為嚴重。台東蘇鐵為台灣特有種，一旦遭受危害將導致珍稀台東蘇鐵滅絕的可能，因此處理蘇鐵白輪盾蚧入侵之為害為不容克緩之課題。,"在自然因素上可能是藉由風及氣流被動式進行短距離或鄰近植株間的擴散；在人為的因素上則可能是藉由人為攜帶或苗木販售搬運等方式進行傳播。
+蘇鐵白輪盾介殼蟲在台灣短短不到三年的時間，已快速的蔓延危害超過三百公里以上的距離，從台北拓展到高雄、屏東、花蓮、台東，如此快速遷移擴散的主要原因，除了人為的攜帶，苗木販售搬運的長距離移動之外，在短距離的遷移和鄰近植株間的傳播，則主要依靠具有移動能力主動分散的初齡若蟲。此外，移動的初齡若蟲和卵也可藉由風及氣流進行被動的分散。
+","1-毒殺, 4-生物防治","1.	修除受害部位的枝條，為避免害蟲擴散，一定要將其枝葉完全燒毀。
+2.	利用強力水柱去除植株頂端內各個新芽及鱗莖的介殼蟲，再使用44%大滅松乳劑稀釋1000倍加上稀釋100倍的95%夏油噴灑於整棵植株上，每隔兩星期施作一次，共4次。平常若有發現介殼蟲的蹤跡，可再補行防治措施一次。
+3.	在發生該害蟲後的三年內，建議進行冬季植株管理工作，包括修剪老舊枝葉，噴灑化學防治藥劑及施用有機肥等，以減少來年蟲害的發生，並增加植株本身的抵抗力。
+",,"1.	雌成蟲形態
+雌成蟲介殼呈白色，外形多變，呈梨形或邊緣不規則形。蟲體為橘色隱於介殼之下，軀體粗短，大多為膜質，頭胸部區及臀板有骨化現象。前體圓弧狀，與本屬其他種類相比，此區之膨脹程度較不明顯。中胸寬於後胸，腹部逐漸向後窄縮，整體而言是前體寬於後體。腹部背面亞體緣部具背腺管列。亞中區背小管位於後胸和腹部第1、2節，亦常延及中胸。第1腹節側葉每側各具1-2根腺刺。第4腹節每側各具2根緣腺刺，第5-8腹節每側則各具1根。第3-5腹節背方體中區至亞緣區具背腺管列。氣孔盤狀腺孔在前胸具10-24個，後胸6-15個。臀板寬廣，邊緣呈圓弧狀，中臀葉大於側臀葉，第2與3臀葉亦發達。中臀葉末端內陷，且內陷區後緣呈微鋸齒狀，頂部圓滑。第2臀葉內瓣圓弧狀，較外瓣大，二者相似。第3臀葉內瓣發達，外瓣小，呈鋸齒狀。圍陰腺孔中群12-17個，前側群14-26個，後側群14-21個。
+2.	雄成蟲形態
+雄成蟲體為橙黃色，無腺管發育。頭三角形，具4眼，背腹各2，口器退化。觸角絲狀，每節上有很多細長的剛毛，前胸和頭癒合，膜質，前胸背板完全發育。中胸發達，骨化程度高，前胸與中胸背板表面皆具皺摺，中胸背側板有翅一對，約和蟲體等長，翅基部窄端部寬，膜質，表面具大量絨毛，翅脈有共同軸再分成R和M脈2條。後翅退化成棍狀，端部有1長剛毛。足發達，細長，有許多長剛毛，單爪。腹部末端具長形交尾器，其基部有一對長剛毛，內具鞘[1]。
+3.	初齡若蟲形態
+初孵化時體膜質，橙色，呈卵圓形。體表具大量皺摺，體緣著生有長形剛毛。觸角5節，基節最膨大，上有2根長剛毛，第三節中央內陷，看似2節，第五節最細長，上有環紋，具長形端剛毛數根。眼點位於頭部前方體側，明顯突起。中胸及後胸腹方各有一對氣孔，周圍具三格盤狀孔。足部發育完全，附節末端具細長單爪。腹部腹面體節相接處有大量微刺，呈鋸齒狀排列。臀板第一葉突起不明顯，第二葉完全發育，分為2片，每片4齒，第三葉未發育。腹部末端具1對長尾毛，長度可達身體的一半。
+",蘇鐵白輪盾蚧危害植株嚴重時，其可見白色介殼佈滿植株，嚴重情況時可能造成植株枯死，目前在台灣已入侵擴散至全台各地，多寄生於蘇鐵科與蕨蘇鐵科的多種植物，其中以蘇鐵屬受害最為嚴重。台東蘇鐵為台灣特有種，一但遭受危害將導致珍稀台東蘇鐵滅絕的可能，因此處理蘇鐵白輪盾蚧入侵之為害為不容克緩之課題。,"原產地在東南亞，Takagi (1977)在泰國曼谷的蘇鐵上採集到標本。
+The origin of the Cycad Aulacaspis scale (CAS) is from Southeast Asia where it was described in Thailand by Takagi (1977) from specimens collected in Bangkok on Cycas sp.
+","台灣、香港和新加坡、美國的佛羅里達州和夏威夷群島，以及中美洲加勒比海區域的開曼群島、美屬維京群島和波多黎各等地區。
+Taiwan, Hong Kong and Singapore, Florida in the United States and the Hawaiian Islands, and Central America Caribbean region, the Cayman Islands, the U.S. Virgin Islands and Puerto Rico
+","主要寄生在蘇鐵科(Cycadaceae)、美洲鳳尾蕉科(Zamiaceae)和蕨狀蘇鐵科(Stangeriaceae)的植物。
+Parasites in Cycadaceae, Zamiaceae and Stangeriaceae plants.
+","植食性。食蘇鐵科 (Cycadaceae)與蕨蘇鐵科 (Stangeriaceae)的多種植物，其中以蘇鐵屬受害最為嚴重。
+Phytophagous. The Cycad Aulacaspis scale feeds on many plant species of families Cycadaceae and Stangeriaceae, especially genus Cycas that was damaged seriously by Cycad Aulacaspis scale. 
+",雌成蟲於第36天開始達性成熟可開始產卵。雌成蟲可終生產卵，並在繁殖季節，產卵期約4-6週，而在冬季世代的雌成蟲，產卵期可達13週。卵產出後，圍陰腺孔群會分泌蠟絲，覆於卵殼上加以保護。一般雌成蟲產卵量達100顆以上。,蘇鐵白輪盾介殼蟲從卵到成蟲大約30-40天。卵長徑約0.23 mm，橫徑約0.11mm。在定溫25℃，相對溼度60%的條件下，約8-19天可孵化成一齡若蟲。孵化的時間會受雌成蟲日齡的影響，即愈早產出的卵，其孵化時間較長。6-9月所進行的孵化試驗，其孵化率約在90%左右，但10月的試驗則僅有61%左右，推測10月以後所產下的卵可能具有滯育越冬的現象。一齡若蟲可依其不同行為分成四個時期，首先是剛孵化後的靜止期，一齡若蟲孵化後會在母體的介殼下靜止不動，持續數分鐘到數小時，直到受碰觸刺激後才進入第二期。第二期是移動擴散期，這是蘇鐵白輪盾介殼蟲一生中唯一活潑移動的時期，移動距離可達數十公尺以上，因其迂迴的移動且通常於母體不遠處固著，故稱為遊走若蟲。雌、雄蟲的移動能力不同，一般雌蟲移動能力較雄蟲強，且雄蟲喜歡在母體附近聚集。當遊走若蟲將口針刺入蘇鐵植株後，便進入第三期取食生長期，此時足收縮於身體下方，將身體撐平後，用口針固著於蘇鐵植株上取食，並開始分泌蠟絲，當身體長到一定大小時，便進入第四期，形態變化期，此時取食停止且觸角開始退化，在足完全退化及新皮腺形成後，便脫皮進入第二齡期。二齡若蟲從介殼外形即可明顯區分雌雄，後者之介殼具有三條長形縱脊的柔軟介殼，此分泌的介殼會持續到雄蟲羽化。二齡雌蟲的足及觸角均已退化，並利用脫皮後新生的口器再插入蘇鐵植株固著取食，此時期已具有完整的臀板，但生殖器尚未發育成熟，取食成長到一定大小時，便再度脫皮進入第三齡，即為成蟲。成蟲與二齡雌若蟲外形相似，差亦僅在雌成蟲具有圍陰腺孔群，且能生殖產卵。剛脫皮後的雌成蟲體軀仍可繼續成長，特稱為幼體成蟲。處女成蟲會將臀板伸出介殼外，並釋放費洛蒙吸引雄蟲交尾。田間初步調查結果顯示，雌成蟲以孤雌生殖為主，且分別有產雄與產雌的不同雌成蟲個體，值得再進一步研究。生活史的試驗中，收集試驗區的蟲卵，孵化後即轉移至蘇鐵植株，第14、15天即脫皮進入第二齡雌若蟲，約至第22天在脫皮進入雌成蟲期，雌成蟲於第36天開始達性成熟可開始產卵。雌成蟲可終生產卵，並在繁殖季節，產卵期約4-6週，而在冬季世代的雌成蟲，產卵期可達13週。卵產出後，圍陰腺孔群會分泌蠟絲，覆於卵殼上加以保護。一般雌成蟲產卵量達100顆以上。三齡雄若蟲不具有口器，不食不動，也不再分泌蠟絲，因此一般稱三齡雄若蟲為前蛹期，四齡雄若蟲為蛹期。三齡前蛹期的口器和消化器官退化，且具有部分成蟲器官的芽體，如觸角、複眼、翅、足和交尾器，但從外型上仍無法完全看出。四齡蛹期的觸角和足分節明顯，胸版結構較前蛹複雜，交尾器明顯外露，類似完全變態類之裸蛹，型態完全不同於前三齡若蟲，但蛹期具有外露的翅芽，與真正完全變態類昆蟲不同。雄成蟲複眼及觸角發達，但口器退化，羽化後壽命僅1-2天，具有翅一對，不擅飛行，會被雌成蟲的性費洛蒙吸引前往交尾。,,,"台灣全島皆有分佈。
+Distributed in all of Taiwan",此種介殼蟲為直接變態，若蟲及成蟲均以刺吸式口器吸食植物的枝條及葉片。若蟲於母蟲的介殼下孵化，離開母體後移動擴散，到適當的棲所便固定下來進行取食，並開始分泌白色的蠟絲。一般而言，雌成蟲以孤雌生殖為主，但也行有性繁殖，雄成蟲具有翅一對，但不擅飛行。危害時從葉下表面開始，先集中於葉片基部，逐漸擴散整個葉軸及羽狀小葉的下表面，當蟲口密度十分擁擠時，便會往葉片的上表面為害。嚴重危害時，數量眾多的白色蟲體會完全的覆蓋於蘇鐵的葉部及頂梢處，造成葉片黃化，枯萎，甚至於導致植株的死亡。每年的4、5月開始族群增加，6月達到最高點，7月底到8月初及9月中，會有另外兩次的大發生，10月後族群量就漸漸的減少，進入越冬期，有時可以在受害的蘇鐵地下60cm主根處發現蘇鐵白輪盾介殼蟲的存在，增加防治上的困難[3]。,"1.  邱一中、吳文哲、賴博永、石正人。2004。蘇鐵白輪盾介殼蟲之發生生態及防治。台灣作物病蟲害綜合管理研討會專刊: 169-191. 農業試驗所特刊第106號。
+2.  許迪川。2008。蘇鐵的主要蟲害及其防治方法。行政院農業委員會臺東區農業改良場。
+3.  傅春旭。2007。常見樹木病蟲害介紹與防治。行政院農委會林業試驗所。
+4.  黃紹毅。2008。蘇鐵白輪盾介殼蟲捕食性天敵雙色出尾蟲大量繁殖及防治監測。行政院農業委員會林務局委託計畫系列97-07-1-1號。台中, 國立中興大學昆蟲學系。
+5.  Germain, JF, and Hodges GS. 2007. First report of Aulacaspis yasumatsui (Hemiptera: Diaspididae) in Africa (Ivory coast), and update on distribution. Fla Entomol 90(4): 755-756.
+6.  GISD. 2013. Aulacaspis yasumatsui. (http://www.issg.org/database/species/ecology.asp?si=814&fr=1&sts=)
+7.  Howard FW, Hamon A, McLaughlin M, Weissling T, and Yang SL. 1999. Aulacaspis yasumatsui (Hemiptera: Sternorrhyncha: Diaspididae), a scale insect pest of cycads recently introduced into Florida. Fla Entomol 82 (1): 14-27.
+8.  TaiBNET. 2013. Aulacaspis yasumatsui.
+(http://taibnet.sinica.edu.tw/chi/taibnet_species_detail.php?name_code=340020&PHPSESSID=2gt7tt98rv1hk0luk3k68oci42)
+",1-草稿
+315536,Animalia,動物界,Mollusca,軟體動物門,Gastropoda,腹足綱,Neogastropoda,新腹足目,Buccinidae,峨螺科,Babylonia,,Babylonia formosae habei,formosae,subsp.,habei,,,"Altena &amp; Gittenber, 1981",,波部鳳螺,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+338487,Animalia,動物界,Arthropoda,節肢動物門,Insecta,昆蟲綱,Diptera,雙翅目,Tephritidae,果實蠅科,Bactrocera,,Bactrocera dorsalis,dorsalis,,,,,"(Hendel, 1912)",,東方果實蠅,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+316971,Animalia,動物界,Arthropoda,節肢動物門,Thecostraca,鞘甲綱,Balanomorpha,藤壺目,Balanidae,藤壺科,Balanus,,Balanus trigonus,trigonus,,,,,"Darwin, 1854",,三角藤壺,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+395479,Animalia,動物界,Chordata,脊索動物門,Actinopterygii,條鰭魚綱,Cypriniformes,鯉形目,Cyprinidae,鯉科,Barbonymus,,Barbonymus gonionotus,gonionotus,,,,,"(Bleeker, 1849)",,銀高體鲃;爪哇鲃;爪哇四鬚鲃,1.0,1.0,0.0,,,LC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+395731,Animalia,動物界,Chordata,脊索動物門,Actinopterygii,條鰭魚綱,Cypriniformes,鯉形目,Cyprinidae,鯉科,Barbonymus,,Barbonymus schwanenfeldii,schwanenfeldii,,,,,"(Bleeker, 1854)",,施氏鲃;施氏鲃,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+339675,Animalia,動物界,Arthropoda,節肢動物門,Insecta,昆蟲綱,Hemiptera,半翅目,Aleyrodidae,粉蝨科,Bemisia,,Bemisia tabaci,tabaci,,,,,"(Gennadius, 1889)",,煙草粉蝨;銀葉粉蝨,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+426960,Animalia,動物界,Chordata,脊索動物門,Reptilia,爬蟲綱,Squamata,有鱗目,Colubridae,黃頷蛇科,Boiga,,Boiga irregularis,irregularis,,,,,"(Merrem, 1802)",,棕樹蛇,1.0,1.0,0.0,,,LC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+340807,Animalia,動物界,Arthropoda,節肢動物門,Insecta,昆蟲綱,Hymenoptera,膜翅目,Braconidae,小繭蜂科,Bracon,,Bracon hebetor,hebetor,,,,,"Say, 1836",,條斑螟小繭蜂,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+316573,Animalia,動物界,Mollusca,軟體動物門,Gastropoda,腹足綱,Stylommatophora,柄眼目,Bradybaenidae,扁蝸牛科,Bradybaena,,Bradybaena similaris,similaris,,,,,"(Férussac, 1821)",,扁蝸牛,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+331973,Animalia,動物界,Arthropoda,節肢動物門,Insecta,昆蟲綱,Coleoptera,鞘翅目,Chrysomelidae,金花蟲科,Brontispa,,Brontispa longissima,longissima,,,,,"(Grestro, 1885)",,紅胸長扁鐵甲蟲,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+426961,Animalia,動物界,Nematoda,圓形動物門,Secernentea,胞管腎綱,Aphelenchida,滑刃目,Parasitaphelenchidae,寄生滑刃科,Bursaphelenchus,,Bursaphelenchus xylophilus,xylophilus,,,,,(Steiner &amp; Buhrer) Nickle,,松材線蟲,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+419414,Animalia,動物界,Chordata,脊索動物門,Aves,鳥綱,Psittaciformes,鸚形目,Cacatuidae,鳳頭鸚鵡科,Cacatua,,Cacatua galerita,galerita,,,,,"(Latham, 1790)",,葵花鳳頭鸚鵡;大葵,1.0,1.0,0.0,,,LC,II,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+419415,Animalia,動物界,Chordata,脊索動物門,Aves,鳥綱,Psittaciformes,鸚形目,Cacatuidae,鳳頭鸚鵡科,Cacatua,,Cacatua goffiniana,goffiniana,,,,,"C. S. Roselaar &amp; Michaels, 2004",,戈芬氏鳳頭鸚鵡;小巴,1.0,1.0,0.0,,,NT,I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+419416,Animalia,動物界,Chordata,脊索動物門,Aves,鳥綱,Psittaciformes,鸚形目,Cacatuidae,鳳頭鸚鵡科,Cacatua,,Cacatua moluccensis,moluccensis,,,,,"(Gmelin, 1788)",,鮭色鳳頭鸚鵡,1.0,1.0,0.0,,,VU,I,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+403968,Animalia,動物界,Arthropoda,節肢動物門,Insecta,昆蟲綱,Hemiptera,半翅目,Psyllidae,木蝨科,Cacopsylla,,Cacopsylla chinensis,chinensis,,,,,"(Yang &amp; Li, 1981)",,中國梨木蝨,1.0,1.0,0.0,,,,,2022/10/21 下午 3:18:43,sumao2238@gmail.com,,中國梨木蝨,1-動物,7-昆蟲,,,2-農業區,3-無心的引進,"99-其他, 4-走私",1-寄主植物,,不詳,2002年8-9月,可能是自大陸走私梨穗時入侵台灣,1-具入侵性,8-疾病傳染,"2-農業, 3-經濟",,藉感染接穗於嫁接時帶入農園及果園,99-其他,化學藥劑,,"	
+木蝨是一種小型的昆蟲，體型通常約2 至5 mm，成蟲外觀猶似迷你蟬，但觸角頗長，共有十節，停歇時左右翅放置體後呈屋脊狀。頭部複眼發達，有三個單眼，側單眼在頭頂兩側近複眼處，中單眼則位於極度退化的前額，頰部依不同類群發達程度不一，較發達者向下突出，形成頰椎。中國梨木蝨為夾錐三角形，頭頂呈一和緩之半圓形凹陷。成蟲分夏型及冬型2種，夏型體長2.5~2.7㎜ 左右，體呈淡黃綠色、黃色、綠色或黃綠相間，翅上無斑紋。冬型體長3㎜左右，體呈深褐色，有黑色斑紋，前翅後緣有明顯褐斑。若蟲體扁圓形，初孵化的若蟲體型小，性活潑。第一代初孵化的若蟲乳白色，之後漸轉為黃色至綠色，有些末齡若蟲體表呈褐色。若蟲經4次脫皮後羽化為成蟲。卵長橢圓形，一端尖細，一端鈍圓，固著植物表面。初產下的卵為乳白色，而成熟接近孵化的卵則為淡黃色，若蟲會分泌白色蠟及蜜露，若蟲體緣為簡單型剛毛。",中國梨木蝨在台灣全年可見發生，春季梨樹發芽時，深色型越冬成蟲開始產卵，隨即發育為體色米色、綠色的淺色型若蟲、成蟲。秋季開始出現深色型越冬成蟲，體型較大。若蟲分泌很多蜜露，會藏於蜜露、煤病痂皮下，藥劑不易直接接觸蟲體，成蟲善飛躍。,中國,台灣,成蟲與若蟲均刺吸梨樹的芽、葉及嫩稍。除直接消耗營養外，受害葉出現褐色枯斑，甚至全葉變黑，嚴重的梨園葉片被害高達90％以上，造成早期落葉不能按時 開花，新稍受害後，有萎縮發育不良，此外，梨木蝨經常排出大量蜜露，招致黑霉繁殖、污染果實，影響光合作用，使樹勢衰弱，降低產量與品質。,"植食性昆蟲，刺吸式口器取食，以梨樹為主。
+Phytophagous insect. Both nymphs and adults have piercing-sucking mouthparts. They feed by removing plant fluids from tender foliage, especially on pears.","卵生
+Oviparous.","一年發生多代且世代重疊，以成蟲在樹枝的裂縫、切口、雜草、落葉或土隙中越冬。越冬成蟲在2月間開始出現活動，2月下旬至4月為產卵高峰，卵由孵化發育至成蟲約需30天，成蟲壽命約11.7天，每雌蟲約可產卵300粒，主要產卵在新梢、葉柄、葉緣缺刻、葉脈兩側及花苞等處。若蟲在春季集中在新梢、未展開的葉內、葉柄、枝條或套袋內的幼果危害，在夏、秋季則多在葉背刺吸汁液，造成葉片褐枯而提早落葉。[2, 4]",在台灣全年可見。危害分佈中部和平、東勢、和平、新社、卓蘭及仁愛等地區的梨園。具有五大特性:不同時期產卵部位不同、隱蔽危害習性、耐寒性、群居性、產生分泌物的習性。因此若蟲及成蟲刺吸梨樹嫩梢、葉、及幼果的汁液，影響生育並造成受害葉片褐化、枯死、落葉等現象。若蟲分泌之蜜露被霉菌附生，在霉菌及其霉素的共同作用下，破壞表皮、葉肉細胞組織，使組織罹病，進而擴大至葉面、果實、枝條上形成斑病，引起煤病，影響光合作用，尤其果面若受煤煙污染，更直接影響果品價值。,,,"目前因應策略仍以藥劑防治為主。即以9.6%亦達胺溶液3000倍或20%亞滅培可溶性粉劑4000倍防治，每隔7天再防治1次。[1]
+ ","1. 王文哲。2005。中國梨木蝨之生態與防治。梨栽培管理技術研討會專輯 P355-366。 2. 張淑貞、王清玲。2006。中國梨木蝨之入侵及防治。農業試驗所技術服務 66:12-15。 3. 黃智弘、楊曼妙。2003。梨木蝨知多少。豐年第53( 17) :41-43。 4. 楊曼妙、黃智弘。2004。臺灣地區梨木蝨之簡介。農業世界雜誌 247:14。 5. 楊曼妙、黃智弘、樓梅芳。2003。梨木蝨—臺灣中部梨園之新興害蟲。興大農業 47期 6. Yang MM, Huang JH, and Li FS。2004。A new record of Cacopsylla species (Hemiptera: Psyllidae) from pear orchards in Taiwan。Formosan Entomol 24(3):213-220。",1-草稿
+434632,Animalia,動物界,Chordata,脊索動物門,Mammalia,哺乳綱,Carnivora,食肉目,Canidae,犬科,Canis,,Canis lupus familiaris,lupus,subsp.,familiaris,,,"Linnaeus, 1758",,犬;狗,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+381002,Animalia,動物界,Chordata,脊索動物門,Actinopterygii,條鰭魚綱,Cypriniformes,鯉形目,Cyprinidae,鯉科,Carassius,,Carassius cuvieri,cuvieri,,,,,"Temminck &amp; Schlegel, 1846",,高身鯽;日本鯽;鯽仔;屈氏鯽,1.0,1.0,0.0,,,EN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+438268,Animalia,動物界,Chordata,脊索動物門,Reptilia,爬蟲綱,Squamata,有鱗目,Chamaeleonidae,變色龍科,Chamaeleo,,Chamaeleo calyptratus,calyptratus,,,,,"Duméril &amp; Duméril, 1851",,高冠變色龍,1.0,1.0,0.0,,,LC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+395665,Animalia,動物界,Chordata,脊索動物門,Actinopterygii,條鰭魚綱,Perciformes,鱸形目,Channidae,鱧科,Channa,,Channa micropeltes,micropeltes,,,,,"(Cuvier, 1831)",,小盾鱧;紅鱧;紅線鱧;紅利魚;紅麗魚;大鉛筆魚;金筆;鉛筆雷龍;魚虎;淡水老虎;多曼魚,1.0,1.0,0.0,,,LC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+395408,Animalia,動物界,Chordata,脊索動物門,Actinopterygii,條鰭魚綱,Perciformes,鱸形目,Channidae,鱧科,Channa,,Channa striata,striata,,,,,"(Bloch, 1793)",,線鱧;紋鱧;泰國鱧;泰國魚虎;泰國鮕鮘;虎斑雷龍;白金海象;白金雷龍;黃金雷龍;金雷龍魚,1.0,1.0,0.0,,,LC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+417686,Animalia,動物界,Arthropoda,節肢動物門,Malacostraca,軟甲綱,Decapoda,十足目,Parastacidae,擬螯蝦科,Cherax,,Cherax quadricarinatus,quadricarinatus,,,,,"(Von Martens, 1868)",,四脊滑螯蝦;澳洲淡水龍蝦;紅螯螯蝦;小青龍;藍龍,1.0,1.0,0.0,,,LC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+419410,Animalia,動物界,Chordata,脊索動物門,Actinopterygii,條鰭魚綱,Osteoglossiformes,骨舌魚目,Notopteridae,弓背魚科,Chitala,,Chitala ornata,ornata,,,,,"(Gray, 1831)",,飾妝鎧弓魚,1.0,1.0,0.0,,,LC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+395352,Animalia,動物界,Chordata,脊索動物門,Actinopterygii,條鰭魚綱,Perciformes,鱸形目,Cichlidae,麗魚科,Cichla,,Cichla ocellaris,ocellaris,,,,,"Bloch &amp; Schneider, 1801",,眼點麗魚;皇冠三間,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+381003,Animalia,動物界,Chordata,脊索動物門,Actinopterygii,條鰭魚綱,Cypriniformes,鯉形目,Cyprinidae,鯉科,Cirrhinus,,Cirrhinus molitorella,molitorella,,,,,"(Valenciennes, 1844)",,鯁;鯪;青鱗魚;土鯪;鯪公;鯪魚;鯪仔魚;花鯪仔,1.0,1.0,0.0,,,NT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+395224,Animalia,動物界,Chordata,脊索動物門,Actinopterygii,條鰭魚綱,Siluriformes,鯰形目,Clariidae,鬍鯰科,Clarias,,Clarias batrachus,batrachus,,,,,"(Linnaeus, 1758)",,蟾鬍鯰;土殺;泰國土虱;塘虱魚;泰國鯰;念仔魚;鰱仔;本土鯰;泰國塘虱;南洋土虱;秤仔花;小丑武士;花土虱;奶牛鯰,1.0,1.0,0.0,,,LC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+447754,Animalia,動物界,Chordata,脊索動物門,Actinopterygii,條鰭魚綱,Siluriformes,鯰形目,Clariidae,鬍鯰科,Clarias,,Clarias gariepinus,gariepinus,,,,,"(Burchell, 1822)",,尖齒鬍鯰;北非鬍子鯰;北非塘虱魚;非洲塘虱魚,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+404566,Animalia,動物界,Chordata,脊索動物門,Aves,鳥綱,Columbiformes,鴿形目,Columbidae,鳩鴿科,Columba,,Columba livia,livia,,,,,"Gmelin, 1789",,岩鴿;野鴿,1.0,1.0,0.0,,,LC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+419423,Animalia,動物界,Chordata,脊索動物門,Aves,鳥綱,Passeriformes,雀形目,Muscicapidae,鶲科,Copsychus,,Copsychus malabaricus,malabaricus,,,,,"(Scopoli, 1786)",,白腰鵲鴝;長尾四喜,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Fis-440,Animalia,動物界,Chordata,脊索動物門,Actinopterygii,條鰭魚綱,Perciformes,鱸形目,Cichlidae,麗魚科,Coptodon,,Coptodon zillii,zillii,,,,,"(Gervais, 1848)",,吉利慈鯛;齊氏分齒麗魚;齊氏非鯽;吉利非鯽;吉利外鯽;齊氏羅非魚;吉利吳郭魚;吉利福壽魚;吉利羅非魚;紅腹吳郭魚;紅腹羅非魚,1.0,1.0,0.0,,,LC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+340851,Animalia,動物界,Arthropoda,節肢動物門,Insecta,昆蟲綱,Hymenoptera,膜翅目,Braconidae,小繭蜂科,Cotesia,,Cotesia erionotae,erionotae,,,,,"(Wilkinson, 1938)",,香蕉挵蝶絨繭蜂,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+332671,Animalia,動物界,Arthropoda,節肢動物門,Insecta,昆蟲綱,Coleoptera,鞘翅目,Coccinellidae,瓢蟲科,Cryptolaemus,,Cryptolaemus montrouzieri,montrouzieri,,,,,"Mulsant, 1853",,孟氏隱唇瓢蟲,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+381004,Animalia,動物界,Chordata,脊索動物門,Actinopterygii,條鰭魚綱,Cypriniformes,鯉形目,Cyprinidae,鯉科,Ctenopharyngodon,,Ctenopharyngodon idella,idella,,,,,"(Valenciennes, 1844)",,草魚;鯇;鯤;池魚;草根魚,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+418258,Animalia,動物界,Arthropoda,節肢動物門,Insecta,昆蟲綱,Coleoptera,鞘翅目,Coccinellidae,瓢蟲科,Curinus,,Curinus coeruleus,coeruleus,,,,,"(Mulsant, 1850)",,瓢蟲,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+417618,Animalia,動物界,Arthropoda,節肢動物門,Insecta,昆蟲綱,Hymenoptera,膜翅目,Braconidae,小繭蜂科,Dacnusa,,Dacnusa sibirica,sibirica,,,,,"Telenga, 1935",,反顎繭蜂,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+438447,Animalia,動物界,Chordata,脊索動物門,Actinopterygii,條鰭魚綱,Beloniformes,鶴鱵目,Hemiramphidae,鱵科,Dermogenys,,Dermogenys siamensis,siamensis,,,,,"Fowler, 1934",,暹羅皮頦鱵,1.0,1.0,0.0,,,LC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+405139,Animalia,動物界,Mollusca,軟體動物門,Gastropoda,腹足綱,Stylommatophora,柄眼目,Agriolimacidae,野蛞蝓科,Deroceras,,Deroceras laeve,laeve,,,,,"(Müller, 1774)",,光滑野蛞蝓,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+405132,Animalia,動物界,Mollusca,軟體動物門,Gastropoda,腹足綱,Stylommatophora,柄眼目,Agriolimacidae,野蛞蝓科,Deroceras,,Deroceras reticulatum,reticulatum,,,,,"(Müller, 1774)",,網紋野蛞蝓,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+342196,Animalia,動物界,Arthropoda,節肢動物門,Insecta,昆蟲綱,Hymenoptera,膜翅目,Ichneumonidae,姬蜂科,Diadegma,,Diadegma semiclausum,semiclausum,,,,,"(Hellen, 1949)",,半閉彎尾姬蜂,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+403972,Animalia,動物界,Arthropoda,節肢動物門,Insecta,昆蟲綱,Hemiptera,半翅目,Liviidae,扁木蝨科,Diaphorina,,Diaphorina citri,citri,,,,,"Kuwayama, 1908",,,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+348874,Animalia,動物界,Arthropoda,節肢動物門,Insecta,昆蟲綱,Thysanoptera,纓翅目,Thripidae,薊馬科,Dichromothrips,,Dichromothrips corbetti,corbetti,,,,,"(Priesner, 1936)",,蘭花薊馬,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+340399,Animalia,動物界,Arthropoda,節肢動物門,Insecta,昆蟲綱,Hemiptera,半翅目,Pseudococcidae,粉介殼蟲科,Dysmicoccus,,Dysmicoccus brevipes,brevipes,,,,,"(Cockerell, 1893)",,鳳梨嫡粉介殼蟲;菠蘿灰粉蚧,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+440718,Animalia,動物界,Chordata,脊索動物門,Amphibia,兩生綱,Anura,無尾目,Eleutherodactylidae,溫室蟾科,Eleutherodactylus,,Eleutherodactylus planirostris,planirostris,,,,,"(Cope, 1862)",,溫室蟾;溫室卵齒蟾;平吻卵齒蟾;古巴平吻蟾,1.0,1.0,0.0,,,LC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+418180,Animalia,動物界,Arthropoda,節肢動物門,Insecta,昆蟲綱,Hymenoptera,膜翅目,Aphelinidae,蚜小蜂科,Encarsia,,Encarsia guadeloupae,guadeloupae,,,,,"Viggiani, 1987",,歌德恩蚜小蜂;哥德恩蚜小蜂,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+419432,Animalia,動物界,Chordata,脊索動物門,Aves,鳥綱,Psittaciformes,鸚形目,Psittacidae,鸚鵡科,Eos,,Eos bornea,bornea,,,,,"(Linnaeus, 1758)",,紅色吸蜜鸚鵡;紅伶,1.0,1.0,0.0,,,LC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+401546,Animalia,動物界,Arthropoda,節肢動物門,Arachnida,蛛形綱,Trombidiformes,絨蟎目,Tetranychidae,葉蟎科,Eotetranychus,,Eotetranychus lewisi,lewisi,,,,,"(McGregor, 1943)",,路易氏始葉蟎,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+433046,Animalia,動物界,Arthropoda,節肢動物門,Malacostraca,軟甲綱,Decapoda,十足目,Varunidae,弓蟹科,Eriocheir,,Eriocheir sinensis,sinensis,,,,,"H. Milne Edwards, 1853",,中華絨螯蟹,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+345470,Animalia,動物界,Arthropoda,節肢動物門,Insecta,昆蟲綱,Lepidoptera,鱗翅目,Hesperiidae,弄蝶科,Erionota,,Erionota torus,torus,,,,,"Evans, 1941",,蕉弄蝶;巨弄蝶;黃斑蕉弄蝶;香蕉弄蝶;蕉挵蝶,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+419420,Animalia,動物界,Chordata,脊索動物門,Aves,鳥綱,Passeriformes,雀形目,Estrildidae,梅花雀科,Estrilda,,Estrilda astrild,astrild,,,,,"(Linnaeus, 1758)",,橫斑梅花雀,1.0,1.0,0.0,,,LC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+404584,Animalia,動物界,Chordata,脊索動物門,Aves,鳥綱,Passeriformes,雀形目,Estrildidae,梅花雀科,Estrilda,,Estrilda melpoda melpoda,melpoda,,melpoda,,,"(Vieillot, 1817)",,橙頰梅花雀,1.0,1.0,0.0,,,LC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+419848,Animalia,動物界,Chordata,脊索動物門,Aves,鳥綱,Passeriformes,雀形目,Estrildidae,梅花雀科,Euodice,,Euodice malabarica,malabarica,,,,,"(Linnaeus, 1758)",,白喉文鳥;印度銀嘴文鳥,1.0,1.0,0.0,,,LC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+422619,Animalia,動物界,Chordata,脊索動物門,Reptilia,爬蟲綱,Squamata,有鱗目,Scincidae,石龍子科,Eutropis,,Eutropis multifasciata,multifasciata,,,,,"(Kunl, 1820)",,多線真稜蜥;多線南蜥;多紋南蜥,1.0,1.0,0.0,,,LC,,2022/11/6 下午 10:09:42,jt00chao@gmail.com,,多線南蜥,1-動物,19-爬蟲類,,,"1-都市區, 2-農業區, 3-擾動區, 6-密灌叢/疏灌叢, 7-牧地/草地",3-無心的引進,"99-其他, 2-檢疫執法不力, 3-檢疫不夠仔細, 6-獲取林業利益, 28-運輸棲地材料 ","11-旅客行李, 12-運輸",不詳,不詳,1992年首次於高雄的澄清湖及美濃的中正湖發現,,1-具入侵性,"1-競爭, 2-捕食, 5-和其它入侵種之間的互動","3-環境, 5-不詳",生態衝擊: 捕食原生蜥蜴,自然擴散、公路車輛運輸、旅客行李、洪水 (因為喜歡居住在河床，善游泳及潛水)[3],"2-陷阱, 3-射殺, 6-物理撲滅",在森林區塊的周圍設置導引式陷阱捕捉多線南蜥，9個月的捕捉結果顯示這種周圍陷阱法(perimeter trapping) 適用於多線南蜥的移除[4]。,林德恩,最大體長 (吻肛長) 約12cm，最大全長可達25cm，其體型粗壯四肢短胖，頸部不明顯，外耳孔外露，尾巴細長呈圓柱形，容易自割與再生。身體背部鱗片粗糙，每一片鱗片具有3條明顯的棱脊為主要辨認特徵。體色非常多樣化，雌、雄蜥在體色和斑紋上無明顯的二型性，但多數雄蜥身體背部為黃褐色，頸側和體側有黃色、橘色或磚紅色的寬斑紋，少數個體為均一的土黃色，背部及體側無任何斑點或斑紋；多數雌蜥背部會有多條斷續的黑色縱紋，體側和雄蜥一樣常有黃色、橘色或磚紅色寬斑紋，但不若雄蜥明顯，且常夾雜有黑白相間的斑點。幼蜥體背面為褐色，體側面顏色較深且散生黑、白兩色斑點，腹部為白色。[3],環境適應能力極強，即使污染和過渡開發的環境也可見到，擅長游泳和潛水。多線南蜥體型大的優勢，使得台灣分布於低海拔原生種的蜥蜴都可能成為其捕食對象。胃內含物或野外觀察到捕食麗紋石龍子、中國石龍子、斯文豪氏攀蜥、蓬萊草蜥、疣尾蝎虎及盲蛇等原生爬行類[2]。,為廣泛分布物種。印度，中國雲南、海南島，泰國，緬甸，竂國，柬埔寨，越南，馬來半島，新加坡，印尼，新幾內亞及非律賓。[5],台灣 (1992) 及美國佛羅里達州 (1990)。[5],常出現在台灣南部的檳榔園、椰子園、香蕉園、果園、廢耕地、公園、灌溉溝渠旁、道路旁草叢、河床、河堤旁、校園、魚塭旁、住家附近、海岸防風林、畜牧區、高速公路兩旁植生地等人為干擾較大的地方。性喜陽光強又可躲藏的棲地。[5],雜食性，以昆蟲為主要食物來源，特別是鞘翅目、直翅目及雙翅目，此外亦捕食蛛型綱的蜘蛛、唇足綱的蜈蚣、軟體動物的蛞蝓和蝸牛、環節動物的蚯蚓。在臺灣的觀察記錄中，曾有捕食多種本土蜥蜴的現象。[2],胎生。[2] 每胎平均可產下6隻仔蜥(4-12隻)。[1] 在中國海南島，繁殖中的雌蜥的最小吻肛長為90mm，雄蜥最大吻肛長為117mm，雌蜥為116mm。五月初開始分娩，雌蜥在一個繁殖季裡可生產2次。[6],壽命約3-5年，沒有冬眠或休眠現象，全年活動，一年可生殖2次，每年5月及11月為生殖高峰期，幼蜥生長快速，6個月就可達到性成熟。[1],廣泛分布於台灣西南部，從雲林濁水溪以南至恆春龍鑾潭以北，海拔500m以下的區域幾乎都可見其蹤跡，目前最高分布點為曾文水庫旁的情人公園。離島地區的小琉球及綠島也已被入侵。[5],,,,"1.	朱賢斌。2000。入侵南台灣的異族-多線南蜥。自然保育季刊 29: 50-53。
+2.	林德恩。2008。外來入侵種多線南蜥簡介及其防治建議。自然保育季刊 61: 30-36。
+3.	林德恩。特生中心。049-2761331#136。nlin@tesri.gov.tw。
+4.	林德恩、杜銘章、趙仁方。2010。綠島地區多線真稜蜥移除現況。2010 外來入侵種監控與管理國際研討會。
+5.	曾惠芸、林德恩。2008。外來入侵種多線南蜥分布北界的調查紀錄。自然保育季刊 61: 37-42。
+6.	Ji X, Qiu QB, and Diong CH. 2002. Sexual Dimorphism and Female Reproductive Characteristics in the Oriental Garden Lizard, Calotes versicolor, from Hainan, Southern China. J Herpetol 36(1): 1-8.
+7.	TaiBNET. 2012. Calotes versicolor. http://taibnet.sinica.edu.tw/chi/taibnet_species_detail.php?name_code=422619 ()
+",1-草稿
+416423,Animalia,動物界,Chordata,脊索動物門,Amphibia,兩生綱,Anura,無尾目,Dicroglossidae,叉舌蛙科,Fejervarya,,Fejervarya cancrivora,cancrivora,,,,,"(Gravenhorst, 1829)",,海蛙;海陸蛙;食蟹蛙;紅樹林蛙,1.0,1.0,0.0,,,LC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+434633,Animalia,動物界,Chordata,脊索動物門,Mammalia,哺乳綱,Carnivora,食肉目,Felidae,貓科,Felis,,Felis catus,catus,,,,,"Linnaeus, 1758",,貓,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+381033,Animalia,動物界,Chordata,脊索動物門,Actinopterygii,條鰭魚綱,Cyprinodontiformes,鱂形目,Poeciliidae,花鱂科,Gambusia,,Gambusia affinis,affinis,,,,,"(Baird &amp; Girard, 1853)",,食蚊魚;大肚仔;胎鱂;大肚魚,1.0,1.0,0.0,,,LC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+443093,Animalia,動物界,Chordata,脊索動物門,Reptilia,爬蟲綱,Squamata,有鱗目,Gekkonidae,壁虎科,Gekko,,Gekko gecko,gecko,,,,,"Linnaeus, 1758",,大守宮;大壁虎,1.0,1.0,0.0,,,LC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Rep-Syn-6954,Animalia,動物界,Chordata,脊索動物門,Reptilia,爬蟲綱,Squamata,有鱗目,Gekkonidae,壁虎科,Gekko,,Gekko monarchus,monarchus,,,,,"(Schlegel, 1836)",,脊斑壁虎,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+419417,Animalia,動物界,Chordata,脊索動物門,Aves,鳥綱,Columbiformes,鴿形目,Columbidae,鳩鴿科,Geopelia,,Geopelia striata,striata,,,,,"(Linnaeus, 1766)",,斑馬鳩,1.0,1.0,0.0,,,LC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+395351,Animalia,動物界,Chordata,脊索動物門,Actinopterygii,條鰭魚綱,Perciformes,鱸形目,Cichlidae,麗魚科,Geophagus,,Geophagus brasiliensis,brasiliensis,,,,,"(Quoy &amp; Gaimard, 1824)",,巴西珠母麗魚,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+316731,Animalia,動物界,Mollusca,軟體動物門,Gastropoda,腹足綱,Stylommatophora,柄眼目,Zonitidae,琥珀蝸牛科,Hawaiia,,Hawaiia minuscula,minuscula,,,,,"(Binney, 1840)",,小琥珀蝸牛,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+395635,Animalia,動物界,Chordata,脊索動物門,Actinopterygii,條鰭魚綱,Perciformes,鱸形目,Cichlidae,麗魚科,Hemichromis,,Hemichromis bimaculatus,bimaculatus,,,,,"Gill, 1862",,雙斑伴麗魚,1.0,1.0,0.0,,,LC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+381013,Animalia,動物界,Chordata,脊索動物門,Actinopterygii,條鰭魚綱,Cypriniformes,鯉形目,Cyprinidae,鯉科,Hypophthalmichthys,,Hypophthalmichthys molitrix,molitrix,,,,,"(Valenciennes, 1844)",,鰱;竹葉鰱;白鰱;白葉仔;鰱仔,1.0,1.0,0.0,,,NT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+380999,Animalia,動物界,Chordata,脊索動物門,Actinopterygii,條鰭魚綱,Cypriniformes,鯉形目,Cyprinidae,鯉科,Hypophthalmichthys,,Hypophthalmichthys nobilis,nobilis,,,,,"(Richardson, 1845)",,鱅;黑鰱;大頭鰱;花鰱;胖頭鰱,1.0,1.0,0.0,,,DD,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+381014,Animalia,動物界,Chordata,脊索動物門,Actinopterygii,條鰭魚綱,Cypriniformes,鯉形目,Cyprinidae,鯉科,Hypsibarbus,,Hypsibarbus pierrei,pierrei,,,,,"(Sauvage, 1880)",,高體高鬚魚;高體四鬚鲃;粗鱗武昌魚;黃鰭武昌魚,1.0,1.0,0.0,,,VU,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+432370,Animalia,動物界,Chordata,脊索動物門,Aves,鳥綱,Passeriformes,雀形目,Leiothrichidae,噪眉科,Ianthocincla,,Ianthocincla sannio,sannio,,,,,"Swinhoe, 1867",,白頰噪眉,1.0,1.0,0.0,,,LC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+340374,Animalia,動物界,Arthropoda,節肢動物門,Insecta,昆蟲綱,Hemiptera,半翅目,Margarodidae,碩介殼蟲科,Icerya,,Icerya purchasi purchasi,purchasi,subsp.,purchasi,,,"Maskell, 1878",,吹綿介殼蟲,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+434972,Animalia,動物界,Chordata,脊索動物門,Reptilia,爬蟲綱,Squamata,有鱗目,Iguanidae,鬣蜥科,Iguana,,Iguana iguana,iguana,,,,,"(Linnaeus, 1758)",,綠鬣蜥;美洲綠鬣蜥,1.0,1.0,0.0,,,LC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+401957,Animalia,動物界,Mollusca,軟體動物門,Gastropoda,腹足綱,Stylommatophora,柄眼目,Streptaxidae,扭蝸牛科,Indoennea,,Indoennea bicolor,bicolor,,,,,"(Hutton, 1834)",,雙色草包蝸牛,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+444091,Animalia,動物界,Mollusca,軟體動物門,Gastropoda,腹足綱,Gastropoda ordo incertae sedis,地位未定,Bulinidae,,Indoplanorbis,,Indoplanorbis exustus,exustus,,,,,"(Deshayes, 1833)",,印度扁蜷,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+437242,Animalia,動物界,Chordata,脊索動物門,Amphibia,兩生綱,Anura,無尾目,Microhylidae,狹口蛙科,Kaloula,,Kaloula pulchra,pulchra,,,,,"Gray, 1831",,亞洲錦蛙;花狹口蛙,1.0,1.0,0.0,,,LC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+340343,Animalia,動物界,Arthropoda,節肢動物門,Insecta,昆蟲綱,Hemiptera,半翅目,Kerriidae,膠介殼蟲科,Kerria,,Kerria lacca lacca,lacca,subsp.,lacca,,,"(Kerr, 1782)",,紫膠介殼蟲,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+429190,Animalia,動物界,Mollusca,軟體動物門,Gastropoda,腹足綱,Scholifera,皺足目,Veronicelloidae,皺足蛞蝓科,Laevicaulis,,Laevicaulis alte,alte,,,,,"(Férussac, 1821)",,皺足蛞蝓;褐皺足蛞蝓;高突滑尾蛞蝓;高突覆套蛞蝓;高突足襞蛞蝓;覆套足襞蛞蝓;寬足蛞蝓,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+313411,Animalia,動物界,Mollusca,軟體動物門,Bivalvia,雙殼綱,Mytiloida,貽貝目,Mytilidae,殼菜蛤科,Limnoperna,,Limnoperna fortunei,fortunei,,,,,"(Dunker, 1857)",,河殼菜蛤,1.0,1.0,0.0,,,LC,,2022/11/27 下午 10:25:43,jt00chao@gmail.com,Limnoperna fortunei,河殼菜蛤,1-動物,14-軟體動物,,,"13-河口, 14-湖, 15-河道, 16-淡水, 18-濕地",5-不詳,29-不詳,23-不詳,不詳,不詳,1986年5月首次在台北新店溪上游直潭壩取水口的護欄柵發現[1]。,,1-具入侵性,"1-競爭, 9-汙染","99-其他, 2-經濟, 3-環境, 4-人類健康 ",不但導致食物競爭，也會直接以足絲纏死大型河蚌或纏住植物草莖 [8]。另一方面，河殼菜蛤也能造成微環境 (Microenvironment)，以利其他物種。筆者在大觀發電廠岸邊觀察，發現大量的河殼菜蛤附滿於浮筏水下的輪胎，並在岸上發現大量的河殼菜蛤及2個蜆的死殼，但沒看到河蚌的死殼。總之， 河殼菜蛤的侵入可能擾亂湖內正常食物鏈、棲地競爭或加惠於其他物種，最後會改變湖內之生物相。,推測為透過附著於船隻或機具底部，或者幼蟲存在於漁民放流魚隻的水源裡而擴散至其他地點。但台灣擴散機制仍不清楚。,"1-毒殺, 4-生物防治, 6-物理撲滅",很多化學物質 (包括氯) 能有效控制河殼菜蛤幼蟲 [7]，例如干擾管道內的硝化作用，使其形成三鹵甲烷[6]，但因為這些化學物質會造成複雜的化學反應而少有實際應用。,,黑褐色有光澤，殼表有細輪脈，內面有黑斑，殼長約2.5cm [2]。其形態、生態及生活史如同斑馬殼菜蛤，但殼形較長，殼表無黑色斑馬紋，殼皮黃或灰褐色，成貝小於35mm，可存活 2-3年，能存活於16-28℃之水域環境。因殼比斑馬殼菜蛤薄，所以較不能耐乾。足部具有足絲腺，可向任何方向分泌足絲，用以附著於平滑表面 [1]。,生活在河流及河口半淡鹹水區域，忍受度大，繁殖力強，與原生物種競爭，造成危害。此外，幼蟲可以輕易的通過自來水廠、發電廠或其他工廠進水系統的過濾器，附著於直徑小的管道，如有豐富的食物供其濾食，會迅速堵住水管，造成經濟上的損失。 ,中國,日本、美洲、台灣、阿根廷、巴西、巴拉圭、烏拉圭 [7],"棲息於河流及河口半淡鹹水區域。能適應的鹽度相當廣，除淡水之外，尚可忍受河口或沿海地區鹽度千分之12以下的海水。河殼菜蛤能存活於16-28℃之水域環境，幼生在靜置的水體中可以經歷數個月的浮游生活而不會死亡 [3]。
+喜好環境為淡水湖、河流與河口。在亞洲生長在8-32℃的水中，曾證實出現在35℃ 的水中。河殼菜蛤藉著其耐熱性質，成功的入侵南美洲至北美洲較低緯度大湖區的水體，但無法長期耐受厭氧的環境，最大的生長與繁殖量皆出現在有氧環境，水氧濃度需大於1.0 mg/L [4]
+",濾食性。攝食方法通常以鰓過濾浮游性微細植物 (如藻類) 和有機顆粒，再由鰓上的食物溝送入口中 [1]。,於16-28°C (六月到九月) 產卵，一年約產卵1-2次。雌雄異體，將配子排入水中並進行體外受精。溫度為使配子釋出水中的主要因素 [6]。,"受精卵發育為第一期幼蟲叫「擔輪幼蟲」，再發育為第二期幼蟲叫「面盤幼蟲」，開始攝食浮游生物，經一段時期變態成為幼體。第一、二期幼蟲均為浮游生活，可乘水漂流到具有豐富食物的水域。大約10天後，面盤幼蟲長出兩枚小貝殼、足及其他器官 (例如足絲腺)。大約經4星期的浮游生活後，面盤幼蟲就下降到水底，如果水底棲地不理想，牠會再昇起浮游，直到理想適合的棲地，然後分泌足絲，固定於適合的表面。壽命為2-3年[1]。
+一年可達性成熟，兩性的性腺在五月開始發育，於六月成熟，並在十月時退化，南美族群的生活史很少超過2-3年，最長的紀錄為5年與10年，分別發生在韓國與中國大陸 [6]。
+",在台灣分佈於日月潭、石門水庫、直潭。石門水庫有發現較正常體型兩倍大 (約5、6公分) 的河殼菜蛤。台灣三個水系的族群關係相近，推測可能是單次引入至某一水系再被引入至另外兩個水系，而河殼菜蛤於台灣水系間的擴散，可能透過工程船或休閒船引入至另一水域 [4]。,,,"河殼菜蛤可容忍的鹽度廣，因此在沿海地區活動的船舶成為潛在的播遷工具，尤其是大型的輪船需要大量的壓艙水，因此可攜帶其幼體遠渡重洋帶至世界各地，在外地入侵之後形成龐大族群造成危害[3]。
+台灣在1987年以前並沒有本種之紀錄，其入侵台灣之途徑已無跡可查 [1]。
+河殼菜蛤在輸水渠道有兩個夏季和冬季的生殖高峰。水溫是控制河殼菜蛤生殖和成長的因子：當水溫逐漸下降至25℃會促使配子釋放，在26℃以上或17℃以下則會抑制其生殖腺發育和體長生長，若水溫持續在25℃以上兩個月會造成貽貝大量死亡 [2]。
+","1.	吳錫圭、蔡奇立、林旭宏。2003。入侵台灣的河殼菜蛤。自然保育季刊 41: 32-35。
+2.	姜鈴、賴伯勳。2012。在石門水庫的入侵貽貝。2010 外來入侵種監控與管理國際研討會。
+3.	梁世雄。2008。外來入侵動物物種資料收集與管理工具之建立報告。
+4.	黃致維。2008。應用粒線體COI 片段探討台灣的河殼菜蛤族群遺傳結構。國立彰化師範大學 生物學系 碩士論文。
+5.	蔡明利。1992。淡水種貽貝入侵台灣。科學月刊273期(http://210.60.224.4/ct/content/1992/00090273/0013.htm)
+6.	ANSRP. Golden Mussel - Limnoperna fortunei. (http://el.erdc.usace.army.mil/ansrp/limnoperna_fortunei.pdf)
+7.	ISSG. 2013. Limnoperna fortunei. (http://www.issg.org/database/species/ecology.asp?si=416&fr=1&sts=&lang=EN)
+8.	Morton BS, Au CS, and Lam WW. 1976. The efficacy of chlorine in the control of Limnoperna fortunei (Dunker 1857) (Bivalvia: Mytilidae) colonizing parts of Hong Kong’s raw water supply system. Journal of the Institution of Water Engineers and Scientists 30:147-156.
+",1-草稿
+336092,Animalia,動物界,Arthropoda,節肢動物門,Insecta,昆蟲綱,Diptera,雙翅目,Agromyzidae,潛蠅科,Liriomyza,,Liriomyza huidobrensis,huidobrensis,,,,,"(Blanchard, 1926)",,南美班潛蠅,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+336096,Animalia,動物界,Arthropoda,節肢動物門,Insecta,昆蟲綱,Diptera,雙翅目,Agromyzidae,潛蠅科,Liriomyza,,Liriomyza sativae,sativae,,,,,"Blanchard, 1938",,蔬菜斑潛蠅,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+336098,Animalia,動物界,Arthropoda,節肢動物門,Insecta,昆蟲綱,Diptera,雙翅目,Agromyzidae,潛蠅科,Liriomyza,,Liriomyza trifolii,trifolii,,,,,"(Burgess, 1880)",,非洲菊斑潛蠅;三葉草斑潛蠅,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+349359,Animalia,動物界,Arthropoda,節肢動物門,Insecta,昆蟲綱,Coleoptera,鞘翅目,Curculionidae,象鼻蟲科,Lissorhoptrus,,Lissorhoptrus oryzophilus,oryzophilus,,,,,"Kuschel, 1952",,水稻水象鼻蟲,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+434978,Animalia,動物界,Arthropoda,節肢動物門,Insecta,昆蟲綱,Diptera,雙翅目,Cecidomyiidae,癭蚋科,Litchiomyia,,Litchiomyia chinensis,chinensis,,,,,"Yang &amp; Luo, 1999",,荔枝癭蚋,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+417669,Animalia,動物界,Chordata,脊索動物門,Amphibia,兩生綱,Anura,無尾目,Ranidae,赤蛙科,Lithobates,,Lithobates catesbeianus,catesbeianus,,,,,"(Shaw, 1802)",,美洲牛蛙;美國牛蛙;牛蛙,1.0,1.0,0.0,,,LC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+432303,Animalia,動物界,Chordata,脊索動物門,Aves,鳥綱,Passeriformes,雀形目,Estrildidae,梅花雀科,Lonchura,,Lonchura atricapilla deignani,atricapilla,,deignani,,,"Parkes, 1958",,黑頭文鳥(中南亞種);黑頭文鳥;栗腹文鳥,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+432302,Animalia,動物界,Chordata,脊索動物門,Aves,鳥綱,Passeriformes,雀形目,Estrildidae,梅花雀科,Lonchura,,Lonchura atricapilla jagori,atricapilla,,jagori,,,"(von Martens, CE, 1866)",,黑頭文鳥(菲律賓亞種);黑頭文鳥;栗腹文鳥,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+425209,Animalia,動物界,Chordata,脊索動物門,Aves,鳥綱,Passeriformes,雀形目,Estrildidae,梅花雀科,Lonchura,,Lonchura atricapilla sinensis,atricapilla,,sinensis,,,"(Blyth, 1852)",,栗腹文鳥(馬來亞種);黑頭文鳥(馬來亞種),1.0,1.0,0.0,,,,III,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+419422,Animalia,動物界,Chordata,脊索動物門,Aves,鳥綱,Passeriformes,雀形目,Estrildidae,梅花雀科,Lonchura,,Lonchura maja,maja,,,,,"(Linnaeus, 1766)",,白頭文鳥,1.0,1.0,0.0,,,LC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+431228,Animalia,動物界,Chordata,脊索動物門,Aves,鳥綱,Passeriformes,雀形目,Estrildidae,梅花雀科,Lonchura,,Lonchura oryzivora,oryzivora,,,,,"(Linnaeus, 1758)",,爪哇雀,1.0,1.0,0.0,,,EN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+419452,Animalia,動物界,Arthropoda,節肢動物門,Malacostraca,軟甲綱,Decapoda,十足目,Palaemonidae,長臂蝦科,Macrobrachium,,Macrobrachium dacqueti,dacqueti,,,,,"(Sunier, 1925)",,泰國蝦;大魁氏沼蝦,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+311396,Animalia,動物界,Arthropoda,節肢動物門,Malacostraca,軟甲綱,Decapoda,十足目,Palaemonidae,長臂蝦科,Macrobrachium,,Macrobrachium rosenbergii,rosenbergii,,,,,"(De Man, 1879)",,羅氏沼蝦;泰國長臂大蝦;泰國蝦,1.0,1.0,0.0,,,LC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+404832,Animalia,動物界,Mollusca,軟體動物門,Gastropoda,腹足綱,Stylommatophora,柄眼目,Ariophantidae,絲鼈甲蝸牛科,Macrochlamys,,Macrochlamys hippocastaneum,hippocastaneum,,,,,"Godwin-Austen, 1918",,高音符絲鼈甲蝸牛;高音符絲鱉甲蝸牛,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+438271,Animalia,動物界,Arthropoda,節肢動物門,Thecostraca,鞘甲綱,Balanomorpha,藤壺目,Balanidae,藤壺科,Megabalanus,,Megabalanus cocopoma,cocopoma,,,,,"(Darwin, 1854)",,泰坦巨藤壺,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+381015,Animalia,動物界,Chordata,脊索動物門,Actinopterygii,條鰭魚綱,Cypriniformes,鯉形目,Cyprinidae,鯉科,Megalobrama,,Megalobrama amblycephala,amblycephala,,,,,"Yih, 1955",,團頭魴;武昌魚,1.0,1.0,0.0,,,LC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+316703,Animalia,動物界,Mollusca,軟體動物門,Gastropoda,腹足綱,Stylommatophora,柄眼目,Philomycidae,黏液蛞蝓科,Meghimatium,,Meghimatium bilineatum,bilineatum,,,,,"(Benson, 1842)",,雙線蛞蝓;雙線嗜黏液蛞蝓,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+316705,Animalia,動物界,Mollusca,軟體動物門,Gastropoda,腹足綱,Stylommatophora,柄眼目,Philomycidae,黏液蛞蝓科,Meghimatium,,Meghimatium fruhstorferi,fruhstorferi,,,,,"Collinge, 1901",,山蛞蝓,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+405031,Animalia,動物界,Mollusca,軟體動物門,Gastropoda,腹足綱,Stylommatophora,柄眼目,Philomycidae,黏液蛞蝓科,Meghimatium,,Meghimatium pictum,pictum,,,,,"(Stoliczka, 1873)",,綉花蛞蝓,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+405030,Animalia,動物界,Mollusca,軟體動物門,Gastropoda,腹足綱,Stylommatophora,柄眼目,Philomycidae,黏液蛞蝓科,Meghimatium,,Meghimatium rugosum,rugosum,,,,,"(Chen &amp; Gao, 1982)",,皺紋蛞蝓,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+313904,Animalia,動物界,Mollusca,軟體動物門,Bivalvia,雙殼綱,Venerida,簾蛤目,Veneridae,簾蛤科,Meretrix,,Meretrix lusoria,lusoria,,,,,"(Roeding, 1798)",,文蛤,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+395340,Animalia,動物界,Chordata,脊索動物門,Actinopterygii,條鰭魚綱,Perciformes,鱸形目,Centrarchidae,棘臀魚科,Micropterus,,Micropterus salmoides,salmoides,,,,,"(Lacepède, 1802)",,大口黑鱸,1.0,1.0,0.0,,,LC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+381018,Animalia,動物界,Chordata,脊索動物門,Actinopterygii,條鰭魚綱,Cypriniformes,鯉形目,Cyprinidae,鯉科,Mylopharyngodon,,Mylopharyngodon piceus,piceus,,,,,"(Richardson, 1846)",,青魚;黑鰱;黑鰡;烏鰡;黑鯪,1.0,1.0,0.0,,,DD,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+313656,Animalia,動物界,Mollusca,軟體動物門,Bivalvia,雙殼綱,Venerida,簾蛤目,Dreissenidae,殼菜蛤科,Mytilopsis,,Mytilopsis sallei,sallei,,,,,"(Recluz, 1849)",,似殼菜蛤,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+313435,Animalia,動物界,Mollusca,軟體動物門,Bivalvia,雙殼綱,Mytiloida,貽貝目,Mytilidae,殼菜蛤科,Mytilus,,Mytilus edulis,edulis,,,,,"Linnaeus, 1758",,紫殼菜蛤;食用殼菜蛤,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+427873,Animalia,動物界,Arthropoda,節肢動物門,Arachnida,蛛形綱,Mesostigmata,中氣門蟎目,Phytoseiidae,捕植蟎科,Neoseiulus,,Neoseiulus californicus,californicus,,,,,"(McGregor, 1954)",,加州小新綏蟎,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+415704,Animalia,動物界,Arthropoda,節肢動物門,Insecta,昆蟲綱,Coleoptera,鞘翅目,Chrysomelidae,金花蟲科,Ophraella,,Ophraella communa,communa,,,,,"LeSage, 1986",,豬草條紋螢金花蟲,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+381623,Animalia,動物界,Chordata,脊索動物門,Actinopterygii,條鰭魚綱,Perciformes,鱸形目,Cichlidae,麗魚科,Oreochromis,,Oreochromis mossambicus,mossambicus,,,,,"(Peters, 1852)",,莫三比克口孵非鯽;非洲仔;南洋鯽仔;在來吳郭魚;帝士魚;帝水魚;吳郭魚;土種吳郭魚,1.0,1.0,0.0,,,VU,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+381624,Animalia,動物界,Chordata,脊索動物門,Actinopterygii,條鰭魚綱,Perciformes,鱸形目,Cichlidae,麗魚科,Oreochromis,,Oreochromis niloticus,niloticus,,,,,"(Linnaeus, 1758)",,尼羅口孵非鯽;尼羅非鯽;南洋鯽仔;尼羅吳郭魚;尼羅魚;尼羅口孵魚;吉富羅非魚;新吉富羅非魚;聖鯛,1.0,1.0,0.0,,,LC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+381663,Animalia,動物界,Chordata,脊索動物門,Actinopterygii,條鰭魚綱,Perciformes,鱸形目,Eleotridae,塘鱧科,Oxyeleotris,,Oxyeleotris marmorata,marmorata,,,,,"(Bleeker, 1852)",,斑駁尖塘鱧;雲斑尖塘鱧,1.0,1.0,0.0,,,LC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+427907,Animalia,動物界,Arthropoda,節肢動物門,Arachnida,蛛形綱,Trombidiformes,絨蟎目,Tetranychidae,葉蟎科,Panonychus,,Panonychus ulmi,ulmi,,,,,"(Koch, 1836)",,歐洲葉蟎,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+395570,Animalia,動物界,Chordata,脊索動物門,Actinopterygii,條鰭魚綱,Perciformes,鱸形目,Cichlidae,麗魚科,Parachromis,,Parachromis managuensis,managuensis,,,,,"(Günther, 1867)",,花身副麗魚;珍珠石斑;淡水石斑;馬拉麗體魚,1.0,1.0,0.0,,,LC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+428957,Animalia,動物界,Arthropoda,節肢動物門,Insecta,昆蟲綱,Hemiptera,半翅目,Pseudococcidae,粉介殼蟲科,Paracoccus,,Paracoccus marginatus,marginatus,,,,,"Williams &amp; Granara de Willink, 1992",,木瓜秀粉介殼蟲,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+339707,Animalia,動物界,Arthropoda,節肢動物門,Insecta,昆蟲綱,Hemiptera,半翅目,Aleyrodidae,粉蝨科,Paraleyrodes,,Paraleyrodes bondari,bondari,,,,,"Peracchi, 1971",,龐達粉蝨,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+395529,Animalia,動物界,Chordata,脊索動物門,Actinopterygii,條鰭魚綱,Perciformes,鱸形目,Ambassidae,雙邊魚科,Parambassis,,Parambassis ranga,ranga,,,,,"(Hamilton, 1822)",,蛙副雙邊魚;大面側仔;玻璃魚;蘭副雙邊魚,1.0,1.0,0.0,,,LC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+316690,Animalia,動物界,Mollusca,軟體動物門,Gastropoda,腹足綱,Stylommatophora,柄眼目,Ariophantidae,絲鼈甲蝸牛科,Parmarion,,Parmarion martensi,martensi,,,,,"Simroth, 1893",,馬丁氏鼈甲蛞蝓,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+419425,Animalia,動物界,Chordata,脊索動物門,Aves,鳥綱,Galliformes,雞形目,Phasianidae,雉科,Pavo,,Pavo cristatus,cristatus,,,,,"Linnaeus, 1758",,藍孔雀;印度藍孔雀,1.0,1.0,0.0,,,LC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+313436,Animalia,動物界,Mollusca,軟體動物門,Bivalvia,雙殼綱,Mytiloida,貽貝目,Mytilidae,殼菜蛤科,Perna,,Perna viridis,viridis,,,,,"(Linnaeus, 1758)",,綠殼菜蛤,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+419430,Animalia,動物界,Chordata,脊索動物門,Aves,鳥綱,Galliformes,雞形目,Phasianidae,雉科,Phasianus,,Phasianus colchicus karpowi,colchicus,,karpowi,,,"(Buturlin, 1904)",,環頸雉(外來引進亞種);高麗雉,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+341880,Animalia,動物界,Arthropoda,節肢動物門,Insecta,昆蟲綱,Hymenoptera,膜翅目,Formicidae,蟻科,Pheidole,,Pheidole megacephala,megacephala,,,,,"Fabricius, 1793",,熱帶大頭家蟻,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+314548,Animalia,動物界,Mollusca,軟體動物門,Gastropoda,腹足綱,Basommatophora,基眼目,Physidae,囊螺科,Physa,,Physa acuta,acuta,,,,,"Draparnaud, 1805",,囊螺,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+434971,Animalia,動物界,Chordata,脊索動物門,Reptilia,爬蟲綱,Squamata,有鱗目,Agamidae,飛蜥科,Physignathus,,Physignathus cocincinus,cocincinus,,,,,"Cuvier, 1829",,綠水龍;亞洲水龍;長鬣蜥;綠長鬣蜥,1.0,1.0,0.0,,,VU,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+444940,Animalia,動物界,Arthropoda,節肢動物門,Insecta,昆蟲綱,Lepidoptera,鱗翅目,Pieridae,粉蝶科,Pieris,,Pieris brassicae,brassicae,subsp.,,,,"(Linnaeus, 1758)",,大白粉蝶,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+347350,Animalia,動物界,Arthropoda,節肢動物門,Insecta,昆蟲綱,Lepidoptera,鱗翅目,Pieridae,粉蝶科,Pieris,,Pieris rapae crucivora,rapae,subsp.,crucivora,,,"Boisduval, 1836",,白粉蝶;紋白蝶;菜粉蝶;日本紋白蝶;菜白蝶,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+419431,Animalia,動物界,Chordata,脊索動物門,Aves,鳥綱,Passeriformes,雀形目,Ploceidae,織布文鳥科,Ploceus,,Ploceus cucullatus,cucullatus,,,,,"(Müller, 1776)",,黑頭織雀;黑頭棲群織布鳥,1.0,1.0,0.0,,,LC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+432301,Animalia,動物界,Chordata,脊索動物門,Aves,鳥綱,Passeriformes,雀形目,Ploceidae,織布文鳥科,Ploceus,,Ploceus subaureus,subaureus,,,,,"Smith, A, 1839",,非洲金織雀;非洲織雀,1.0,1.0,0.0,,,LC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+381035,Animalia,動物界,Chordata,脊索動物門,Actinopterygii,條鰭魚綱,Cyprinodontiformes,鱂形目,Poeciliidae,花鱂科,Poecilia,,Poecilia reticulata,reticulata,,,,,"Peters, 1859",,孔雀花鱂;虹鱂;孔雀魚;胎鱂,1.0,1.0,0.0,,,LC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+381036,Animalia,動物界,Chordata,脊索動物門,Actinopterygii,條鰭魚綱,Cyprinodontiformes,鱂形目,Poeciliidae,花鱂科,Poecilia,,Poecilia velifera,velifera,,,,,"(Regan, 1914)",,帆鰭花鱂;摩利魚;摩麗;立帆摩麗;花鱂;胎鱂,1.0,1.0,0.0,,,VU,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+380047,Animalia,動物界,Chordata,脊索動物門,Amphibia,兩生綱,Anura,無尾目,Rhacophoridae,樹蛙科,Polypedates,,Polypedates megacephalus,megacephalus,,,,,"Hallowell, 1861",,斑腿樹蛙,1.0,1.0,0.0,,,LC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+315085,Animalia,動物界,Mollusca,軟體動物門,Gastropoda,腹足綱,Mesogastropoda,中腹足目,Ampullariidae,蘋果螺科,Pomacea,,Pomacea canaliculata,canaliculata,,,,,"(Lamarck, 1819)",,福壽螺,1.0,1.0,0.0,,,LC,,2022/11/6 下午 3:10:14,jt00chao@gmail.com,,福壽螺,1-動物,14-軟體動物,,,"2-農業區, 14-湖, 15-河道, 16-淡水, 18-濕地",1-有意引進,"7-獲取水產養殖利益, 18-做為食物用, ",9-人為引進,1979,高雄縣美濃鎮黃姓婦人[2]。,,,1-具入侵性,4-草食作用,"1-農業, 2-經濟, 3-環境, 4-人類健康",,養殖場不當放流後自然擴散,"1-毒殺, 4-生物防治, 6-物理撲滅","一、物理防治：於栽培田區的入水口裝置鐵絲網，隔絕來自溝渠的福壽螺；人工撿拾福壽螺卵塊及螺體，可有效降低福壽螺的族群密度，並能兼顧農業生態環境的保育。
+二、栽培防治：冬季休閒期，進行一次耕犁作業，將遁入土壤冬眠的福壽螺成體翻出土面，干擾休眠過程，增加其死亡的機會。
+二、生物防治：放養鴨子至田區取食福壽螺；若水量大且水位高於30公分，可以釋放體重約3公斤的青魚 (烏鰡) 取食福壽螺。
+三、藥劑防治：蕹菜栽培初期，氣溫若低於15℃，則無防治的必要。施用時田間水應保持1～3公分，且須均勻噴施田區，才可達到防治效果。水蕹菜栽植初期及每次採收後的再分蘗期為重點防治時期。此外，10月份水蕹菜採收後，田間宜引水灌溉，耕犛整地後，進行一次防治作業，以消滅即將潛入土中休眠的福壽螺，可有效降低本田內的福螺密度。相關藥劑名稱、每公頃使用量、稀釋倍數(倍)及施藥方法請參考[5]。",趙榮台,大型淡水螺類(殼高達10cm)，呈球狀。外殼為棕或綠色，具帶狀螺紋環繞。某些水族寵物品種外殼呈淺金黃色；體色、體型差異大。福壽螺在水中以腮呼吸，育水質惡劣或缺氧時自頭部左後方伸出呼吸管(siphon)至水面，頭部反覆上下彎動，將空氣引入肺囊進行呼吸。肺囊位於外套膜左側，有發達的血管循環系。在乾燥環境下螺體縮入殼內緊閉口蓋，成體在這種乾旱條件下可忍受3個月以上不會死亡[4]。,為大型淡水螺類，為台灣十大入侵種之一。1979年由阿根廷引進至台灣養殖，期望可以取代原生種田螺，作為食用螺用，結果因口感不符期望、市場接受度低，導致農民棄養。棄養後在台灣各地立足，由於繁殖力高，加上食性廣泛、對環境適應力高，耐受性強，即使在高度污染的水域內亦可存活，因此迅速蔓延，嚴重危害農業、經濟、環境。 ,南美洲的阿根廷、巴西、烏拉圭等地,美國、中國、東南亞、日本、台灣,棲息於南北半球、熱帶及亞熱帶地區之淡水或半淡鹹水及湖沼、池塘、溝渠等靜水水域。棲息於10-100cm水深的邊緣地帶，適當的水溫為25-30℃之間[4]。,雜食性，但偏向植食。攝食種類甚廣，包括水生植物、陸生蔬菜類，甚魚類屍體[4]。福壽螺偏好的綠色植物: 萵苣 > 浮萍 > 金魚草＞空心菜＞布袋蓮根芽＞菱角＞秧苗[2]。,"雌雄異體、卵生。雌螺在夜間或黎明於水面上乾燥物體的表面，如稻桿、溝壁、牆壁、田埂、雜草等上生產卵塊，每一卵塊之卵粒數介於 151-773 粒，由3-4層卵粒疊覆成葡萄串狀，色澤鮮艷，極為醒目。[8] 卵為圓形，色粉紅至鮮紅，上有蠟粉狀物保護。每一雌螺每次平均產卵數為 250 粒，每一產卵期可產卵塊數約 7-9 個，每年有 4 個產卵期。因此，每一雌螺每年可產出 7,000-9,000 粒卵，繁殖能力驚人[7]。",成螺壽命可達2-6年。一年可繁殖2-4個世代，完成一世代需時88-204天，隨季節及食物而異。卵期約為14天。幼螺發育至3-4個月即達成熟。幼螺成長至殼高約1.5cm起開始危害水生作物。由孵化起算70-80天，殼高約2.5cm即達性成熟期[6]。,分布於台灣全島中、低海拔水域[1]。,,,,"1.	Global invasive species database (GISD). Pomacea canaliculata. (http://www.issg.org/database/species/ecology.asp?si=135&fr=1&sts=sss&lang=EN)
+2.	張文重。1985。金寶螺之生態研究。貝類學報 11 : 43-51。
+3.	許秀惠、許苑培、馮永富、黃晉興、廖君達、徐玲明。2002。植物保護技術專刊系列4-蕹菜篇。行政院農業委員會動植物防疫檢疫檢驗局。32-33頁。
+4.	陳俊宏等。2010。外來入侵動物物種資料收集及管理工具之建立報告。
+5.	費雯綺、王喻其編。2007。植物保護手冊─糧食作物及其他篇，第296-297頁。台中。412頁。
+6.	農業試驗所作物病蟲害與肥培管理技術資料光碟：(http://www.tari.gov.tw/techcd/%E8%94%AC%E8%8F%9C/%E8%91%89%E8%8F%9C%E9%A1%9E/%E7%94%95%E8%8F%9C/%E8%9F%B2%E5%AE%B3/甕菜-福壽螺.HTM)
+7.	廖君達。2000。福壽螺引進的省思。台中區農情月刊 8: 4。
+8.	簡秀芳、李木川、鄒慧娟、黃德昌。水稻福壽螺之防治。植物疫病害蟲管理。行政院農業委員會動植物防疫檢疫局。",1-草稿
+419450,Animalia,動物界,Mollusca,軟體動物門,Gastropoda,腹足綱,Mesogastropoda,中腹足目,Ampullariidae,蘋果螺科,Pomacea,,Pomacea insularum,insularum,,,,,"(Orbigny, 1835)",,島嶼福壽螺,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+315086,Animalia,動物界,Mollusca,軟體動物門,Gastropoda,腹足綱,Mesogastropoda,中腹足目,Ampullariidae,蘋果螺科,Pomacea,,Pomacea scalaris,scalaris,,,,,"Orbigny, 1835",,梯狀福壽螺,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+402662,Animalia,動物界,Annelida,環節動物門,Clitellata,環帶綱,Crassiclitellata,厚環帶目,Rhinodrilidae,吻蚓科,Pontoscolex,,Pontoscolex corethrurus,corethrurus,,,,,"(Müller, 1856)",,黃頸蜷蚓;黃頸透鈣蚓,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+310872,Animalia,動物界,Arthropoda,節肢動物門,Malacostraca,軟甲綱,Decapoda,十足目,Cambaridae,蝲蛄科,Procambarus,,Procambarus clarkii,clarkii,,,,,"(Girad, 1852)",,克氏原蝲蛄;美國螯蝦;美洲螯蝦;克氏螯蝦;小龍蝦;克氏原螯蝦;麻辣小龍蝦,1.0,1.0,0.0,,,LC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+444094,Animalia,動物界,Arthropoda,節肢動物門,Malacostraca,軟甲綱,Decapoda,十足目,Cambaridae,蝲蛄科,Procambarus,,Procambarus virginalis,virginalis,,,,,"Lyko, 2017",,大理石螯蝦,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+432265,Animalia,動物界,Chordata,脊索動物門,Aves,鳥綱,Psittaciformes,鸚形目,Psittacidae,鸚鵡科,Psittacula,,Psittacula krameri,krameri,,,,,"(Scopoli, 1769)",,紅領綠鸚鵡;玫瑰環鸚鵡;環頸鸚鵡;月輪,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+444672,Animalia,動物界,Chordata,脊索動物門,Aves,鳥綱,Passeriformes,雀形目,Leiothrichidae,噪眉科,Pterorhinus,,Pterorhinus chinensis,chinensis,,,,,"(Scopoli, 1786)",,黑喉噪眉;黑喉噪鶥,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+444673,Animalia,動物界,Chordata,脊索動物門,Aves,鳥綱,Passeriformes,雀形目,Leiothrichidae,噪眉科,Pterorhinus,,Pterorhinus perspicillatus,perspicillatus,,,,,"(Gmelin, 1789)",,黑臉噪眉;黑臉噪鶥,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+395255,Animalia,動物界,Chordata,脊索動物門,Actinopterygii,條鰭魚綱,Siluriformes,鯰形目,Loricariidae,甲鯰科,Pterygoplichthys,,Pterygoplichthys disjunctivus,disjunctivus,,,,,"(Weber, 1991)",,野翼甲鯰;琵琶鼠;清道夫;垃圾魚;普通清道夫;野脂身鲶,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+395254,Animalia,動物界,Chordata,脊索動物門,Actinopterygii,條鰭魚綱,Siluriformes,鯰形目,Loricariidae,甲鯰科,Pterygoplichthys,,Pterygoplichthys pardalis,pardalis,,,,,"(Castelnau, 1855)",,豹紋翼甲鯰;琵琶鼠;清道夫;垃圾魚;國王琵琶,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+419434,Animalia,動物界,Chordata,脊索動物門,Aves,鳥綱,Passeriformes,雀形目,Pycnonotidae,鵯科,Pycnonotus,,Pycnonotus jocosus,jocosus,,,,,"(Linnaeus, 1758)",,紅耳鵯,1.0,1.0,0.0,,,LC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+417733,Animalia,動物界,Arthropoda,節肢動物門,Insecta,昆蟲綱,Hymenoptera,膜翅目,Eulophidae,釉小蜂科,Quadrastichus,,Quadrastichus erythrinae,erythrinae,,,,,"Kim, 2004",,刺桐釉小蜂,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+416300,Animalia,動物界,Chordata,脊索動物門,Mammalia,哺乳綱,Rodentia,嚙齒目,Muridae,鼠科,Rattus,,Rattus exulans,exulans,,,,,"(Peale, 1848)",,緬甸小鼠;波里尼西亞鼠,1.0,1.0,0.0,,,LC,,2022-12-21,jt00chao@gmail.com,Rattus exulans,緬甸小鼠; 波里尼西亞鼠,1-動物,21-哺乳類,,,"6-密灌叢/疏灌叢, 7-牧地/草地",3-無心的引進,3-檢疫不夠仔細,14-海運,不詳,不詳,1999年4月，由行政院農委會花蓮區農業改良場與農業藥物毒物試驗所在花蓮縣吉安鄉光華村田間發現,,1-具入侵性,"1-競爭, 2-捕食, 8-傳染疾病","1-農業, 3-環境, 4-人類健康",,運輸(車子、船隻)、自行擴散,"99-其他, 1-毒殺, 2-陷阱","物理防治：主要透過陷阱、捕鼠籠。
+化學防治：在紐西蘭，化合物1080還沒被證實可以對抗緬甸小鼠，但是疑似是如溴鼠靈與溴敵鼠的抗凝血毒素。最近成功的移除行動是用直升機在空中撒Talon 20 P誘餌。Talon 20 P是以穀物為基礎約0.8克的沉澱物，含有抗凝血劑20 ppm。目前使用濃度為15kg/ha，成本約$75US/ha[6] 敵鼠(diphacinone)，殺鼠迷(coumatetralyl )和華法令(warfarin)，也應用田野研究評估，作為替代滅鼠劑。目前紐西蘭最廣泛使用的滅鼠劑是brodifacoum，但會對非目標的野生動物產生持久的殘留。
+生物防治：巨蜥和貓鼬早期被引入太平洋島嶼，試圖控制緬甸小鼠。
+避孕控制方法目前處於試驗階段，但很有潛力。美國野生動植物研究中心的科學家正在研究幾種可能的配方，可能可以有效的用口服接種[11]。
+",吳海音,"太平洋鼠 (緬甸小鼠) 是與人類最密切相關的三種小鼠 (Rattus rattus, R. norvegicus and R. exulans) 中最小的一種。緬甸小鼠身體修長、尖吻、大耳與相對較小較纖細的腳，棕色的背部對比白色的腹部。成熟的個體從鼻子尖端至尾巴末端長4.5-6英吋 (11.5-15cm)，體重1.5-3盎司(40-80g)。尾巴有凸出的細鱗狀環，約與其頭與身體同長，後腳長約23 mm[5]。相較於R. rattus與R. norvegicus的雌鼠分別有10與12顆乳頭，緬甸小鼠的雌鼠僅有8顆乳頭[15]。緬甸小鼠的形態 (頭骨大小) 隨著緯度與島嶼大小不同而改變 (柏格曼規則：物種在較溫暖的地理族群會有較小的體型而在較冷的地區族群會有較大的體型)。在熱帶地區此種效應最為明顯[6]。",緬甸小鼠在其原生地為居家鼠類，可與人類聚落及農作地共存，且因為人類活動或其他因素，而入侵到太平洋許多島嶼，對此些地區原生物種造成危害[2]，是原生昆蟲、蜥蜴、鳥類的天敵，農業的害蟲[9]。,東南亞[9]。一般以為這種鼠類起源於印尼的小巽他群島 (Lesser Sunda Islands)[13],"一支向西散佈到東南亞的越南、寮國、泰國、緬甸等地，另一支則隨毛利人與波里尼西亞人播遷至大洋洲諸島，乃至於澳洲、紐西蘭與夏威夷等地 [13,18]。","喜棲息於地被植物繁密與排水良好的地方，但也會出現在旱作、廢耕地、林地，甚至環礁島上。在草生地主要棲息於植被高度1m以下，且植被組成以非禾本科草本植物為主的休廢耕草生地 [2]。
+能夠生活在廣泛的棲地環境，包括草地，灌木叢和森林，但需要足夠的糧食供應和住所 (尤其是在溫帶地區)。能夠輕鬆地爬上樹，並能在樹上覓食，但不善於游泳。紐西蘭Tiritiri島的緬甸小鼠主要在夜間活動，但在高密度時，天黑前就已開始活動。進食區在樹根之間、地面樹幹的裂隙內、岩樁之間、紐西蘭尼考棕櫚樹 (nikau palms) 掉落的複葉基部下、偶爾在樹上，都是乾燥的地方。一般認為緬甸小鼠是一個活動力差的動物，活動範圍有限 [9]。",雜食性，以植物為主，另外會捕食小型脊椎動物、包括蜥蜴、鳥類[2]。攝食範圍廣，包括各種闊葉植物、草、水果、種子和小動物。牠們喜歡多肉的水果，像野牡丹、百香果、芭樂、刺莓、光果龍葵。在甘蔗田裡，甘蔗佔其取食食物體積的70%左右，在非穀類的田裡，甘蔗僅佔其取食食物體積的20%-50%。緬甸小鼠不能只靠甘蔗為生，牠們需要額外的蛋白質，如蚯蚓、蜘蛛、端足目動物、昆蟲、在地面築巢的幼鳥或蛋[15]。,"胎生。雌鼠可多次發情與自發性排卵[7, 9]。繁殖行為大部分取決於食物的充足與否。緬甸小鼠大部分為一夫一妻制，雌鼠一年內可多次繁殖 [8]。產仔數1-10隻 (平均3.8隻) 眾數 (mode) 為4隻 [7, 17]。雌鼠一年生產1-13窩 (平均5.2窩)，但一生擁有的生產潛力僅12個月或更短。一生生產最大窩數為18窩 [7]，非哺乳之妊娠期19-23天 [8,9]，哺乳期為妊娠期後3-7天 [7]。小鼠的生殖表現因地理區的不同而有變化，且受到天氣、食物取得及其它因素影響 [15]。入侵台灣花蓮地區之緬甸小鼠在春季與夏季有較高比例之個體處於生殖狀況。",生殖具季節性，每年春夏季或夏季到冬初為繁殖季。幼鼠於28天左右斷奶 [9]。,目前緬甸小鼠在花蓮地區的分布範圍不大，在受到天然與人為地理屏障的限制下，向外擴展的程度有限（分布範圍局限在吉安溪、台九線、木瓜溪與花蓮海岸間）[2]。目前已渡過木瓜溪往南擴張，在壽豐鄉亦能發現其蹤跡。,,,緬甸小鼠的活動力低，少有長距離移動與轉換活動範圍的情形 [3],"1.   自然與人文數位博物館。2013。緬甸小鼠。(http://digimuse.nmns.edu.tw/DigiMuse/NewModule.aspx?ObjectId=0b000001804372a5&ParentID=0b000001804372a5)
+2.   吳海音、吳逸華、儲瑞華、林曜松。2001。緬甸小鼠在台灣之發生及防治。植物保護學會會刊 43: 205-241。
+3.   吳逸華。2003。外來種緬甸小鼠於兩種尺度中的棲地利用。花蓮國立東華大學自然資源管理研究所碩士論文。
+4.   盧高宏、徐保雄。2003。緬甸小鼠之棲群分佈。植物保護學會會刊 45: 163-167。
+5.   儲瑞華、曹又仁、莊媛茹、陳皇奇、林曜松、吳海音。2007。台灣地區外來種緬甸小鼠的族群遺傳結構與生物地理起源。特有生物研究 9 (1):1-11。
+6.    Atkinson IAE, and Towns DR. 2001. Advances in New Zealand mammalogy 1990-2000: Pacific rat. J R Soc NZ 31(1): 99-109.
+7.    Egoscue HJ. 1970. A laboratory colony of the Polynesian rat, Rattus exulans. J Mamm. 51: 261-266.
+8.    Dilks P, and Towns D. 2002. Developing tools to detect and respond to rodent invasions of islands: workshop report and recommendations. Doc Science Internal Series 59.
+9.    Global Invasive Species Database (GISD). 2010. Rattus exulans. (http://www.issg.org/database/species/ecology.asp?si=170)
+10.   Mineau P, Richard FS, Robert CH and Stone WB. 2004. Towards a Risk Assessment of Second Generation Rodenticides: Do We have Enough Information to Proceed? Wildlife Damage Management, Internet Center for USDA National Wildlife Research Center -Staff Publications. 2nd National Invasive Rodent Summit.
+11.    Nash PB, and Miller LA. 2004. An Overview of Rodent Contraceptive Development at the USDMAPHIS Wildlife Services, National Wildlife Research Center, 2nd National Invasive Rodent Summit.
+12.    O'Connor CE, and Eason CT. 2000. Rodent baits and delivery systems for island protection. Science for Conservation 150.
+13.    Roberts M. 1991. Origin, Dispersal Routes, and Geographic Distribution of Rattus exulans, with Special Reference to New Zealand. Pacific Sci 45(2): 123-130.
+14.    Russell JC, Towns DR, Anderson SH, and Clout MN. 2005. Intercepting the first rat ashore. Nature 437(7062): 1107-1107.
+15.    Tobin M. 1994. Polynesian Rats. Prevention and Control of Wildlife Damage 121-124.
+16.    Weihong, JI, Veitch Dick CR, and Craig JL. 1999. An evaluation of the efficiency of rodent trapping methods: the effect of trap arrangement, cover type and bait. New Zeal J Ecol 23(1): 45-51.
+17.    Wiliam O, and Wirtz I. 1973. Growth and development of Rattus exulans. J Mamm 54(1): 189-202.
+18.    Wodzicki K, and Taylor RH. 1984. Distribution and status of the Polynesian rat Rattus exulans. Acta Zool Fennica 172: 99-101.",1-草稿
+434982,Animalia,動物界,Arthropoda,節肢動物門,Insecta,昆蟲綱,Coleoptera,鞘翅目,Dryophthoridae,椰象鼻蟲科,Rhabdoscelus,,Rhabdoscelus lineaticollis,lineaticollis,,,,,(Heller),,亞洲棕櫚象鼻蟲,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+348921,Animalia,動物界,Arthropoda,節肢動物門,Insecta,昆蟲綱,Thysanoptera,纓翅目,Thripidae,薊馬科,Rhipiphorothrips,,Rhipiphorothrips cruentatus,cruentatus,,,,,"Hood, 1919",,腹鉤薊馬,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+401817,Animalia,動物界,Arthropoda,節肢動物門,Insecta,昆蟲綱,Coleoptera,鞘翅目,Coccinellidae,瓢蟲科,Rodolia,,Rodolia cardinalis,cardinalis,,,,,"(Mulsant, 1850)",,澳洲瓢蟲,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+395347,Animalia,動物界,Chordata,脊索動物門,Actinopterygii,條鰭魚綱,Perciformes,鱸形目,Sciaenidae,石首魚科,Sciaenops,,Sciaenops ocellatus,ocellatus,,,,,"(Linnaeus, 1766)",,眼斑擬石首魚;紅鼓魚,1.0,1.0,0.0,,,LC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+418131,Animalia,動物界,Chordata,脊索動物門,Aves,鳥綱,Passeriformes,雀形目,Fringillidae,雀科,Serinus,,Serinus mozambicus,mozambicus,,,,,"(S. Muller, 1776)",,黃額絲雀;石燕,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+341929,Animalia,動物界,Arthropoda,節肢動物門,Insecta,昆蟲綱,Hymenoptera,膜翅目,Formicidae,蟻科,Solenopsis,,Solenopsis geminata,geminata,,,,,"Fabricius, 1840",,熱帶火家蟻;熱帶火蟻,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+401070,Animalia,動物界,Arthropoda,節肢動物門,Insecta,昆蟲綱,Hymenoptera,膜翅目,Formicidae,蟻科,Solenopsis,,Solenopsis invicta,invicta,,,,,"Buren, 1972",,紅入侵火家蟻;入侵紅火蟻,1.0,1.0,0.0,,,,,2022/11/6 下午 11:12:38,jt00chao@gmail.com,Solenopsis geminata,熱帶火家蟻; 熱帶火蟻,1-動物,7-昆蟲,,,"1-都市區, 2-農業區",3-無心的引進,"2-檢疫執法不力, 3-檢疫不夠仔細",15-貨櫃,不詳,不詳,2003年9-10月於桃園與嘉義地區農地發現案例,,1-具入侵性,"2-捕食, 4-草食作用","1-農業, 2-經濟, 3-環境, 4-人類健康",紅火蟻會減少無脊椎動物與爬蟲的多樣性，尤其有破壞原生螞蟻族群的潛力[22]，可能也會殺死或傷害蛙類、蜥蜴或小型哺乳類。在美國，紅火蟻至少對14種鳥類，13種爬蟲類，1種魚類與2種小型哺乳類造成負面影響 (透過捕食、競爭或叮咬)[21]，估計紅火蟻對人類經濟、農業與野生動物的影響至少五億美元[23]。,紅火蟻藉由自然方式擴散蔓延，如分巢 (budding)、地面遷移 (ground movement)、蟻筏 (ant raft)、交尾飛行 (swarming)。除此之外，尚可依附於土壤、稻草、盆栽植物及栽培介質、田間廢棄物、景觀與營建材料、與土壤接觸之機具設備等高風險物品，經人為攜帶 (hitchhiking movement) 散播[4]。,"1-毒殺, 4-生物防治, 6-物理撲滅","二階段化學藥劑防治法，利用餌劑 (Baits) 及獨立蟻丘處理法 (Individual Mound Treatments, IMT)，將二種處理方法共同配合使用，在紅入侵火蟻覓食區散佈餌劑，而約在10-14天後再使用獨立蟻丘處理方法，並持續處理直到問題解決。另外亦有非化學藥劑防治法，如沸水處理、水淹法、生物防治等[1]。非化學性的防治方法，如生物防治法在美國已被研究，且已有初步的釋放性試驗成果，但仍未至成熟階段。目前有兩類生物防治方法被認為深具控制入侵紅火蟻族群密度的潛力，分別為來自南美洲火蟻原生地的「小芽苞真菌 (Thelohania solenopsae)」 與「火蟻寄生蚤蠅 (Phorid fly, Pseudacteon tricuspis)」。雖然無法利用生物防治的方法將入侵紅火蟻完全滅絕，但是希望降低入侵紅火蟻的生存優勢，使本土螞蟻得以與其競爭，並減少化學藥劑的施用量。但就蟲害管理的概念，我們仍希望入侵紅火蟻可以自台灣根除，所以二階段方法仍是主要建議的滅除方法[9]。",石正人,入侵紅火蟻外觀與一般家裡常見的螞蟻類似，屬於中小型的螞蟻，體長約2至6mm，身體呈紅褐色，腹部的顏色較其他種類略深。具有明顯頭楯中齒；兵蟻亞階級，頭部比例較小，後頭部平順無凹陷、大顎內緣有明顯小齒。入侵紅火蟻為地棲型，成熟蟻巢會將土壤堆高形成突出地表約10-30cm，直徑約30-50cm的小丘形蟻塚，新形成的蟻巢約在4-9個月後出現小蟻塚。明顯隆起的蟻塚，是快速認定入侵紅火蟻的方法之一[1]。,"入侵紅火蟻是國際自然保育聯盟（International Union for Conservation of Nature, IUCN）所列世界一百大惡性入侵生物之一，會取食農作物、危害小型哺乳動物，影響農業收成；捕食蚯蚓、青蛙等土棲動物，改變土壤微環境；叮咬人類，嚴重者引起過敏或休克；可能築巢在電信、號誌等設施內，干擾通訊與交通，因此對農業生產、生態環境、人類健康與公共安全等具有嚴重威脅。台灣於2003年10月發現首宗紅火蟻危害案例，隨即展開防治措施[6]。",紅火蟻原生於南美洲[21],"被引進澳洲與北美的部分地區。也被引進到一些脆弱的島嶼生態系，包括一些加勒比海島嶼 (波多黎各與維京群島) 和太平洋島嶼 (紐西蘭) [21, 22]。",農業環境如水稻田、蔬菜園、園藝場、花卉植栽栽培區、休耕田、農舍、竹林、養雞廠。及都市環境如公園綠地植栽、行道樹、學校操場綠地、草坪、火車鐵軌、荒地、重劃區空地、機場[8]。,雜食性，除對土棲的動物造成捕食傷害外，在發生嚴重的地區，甚至土壤中的蚯蚓都被捕食殆盡，造成生態上的危害；此外，因會取食作物的種子、果實、幼芽、嫩莖與根系，故也會影響作物的成長與收成，造成農業損失[7]。,"入侵紅火蟻並沒有特定的婚飛時期 (交配期)，只要蟻巢成熟全年都可以有新的生殖個體形成。雌雄蟻會飛到約 90-300 m的空中進行婚飛配對與交配，完成交尾的雌蟻約可以飛行3-5km降落尋覓築新巢的地點。成熟蟻巢，平均每年約可以產生 4,500隻生殖雌蟻。族群分為單蟻后與多蟻后型。成熟的單蟻后蟻巢中約有5-24萬隻個體，每英畝可以形成80-120個蟻丘，成熟的多蟻后蟻巢中約有10-50萬隻個體，每英畝可形成超過400個蟻丘[1]。",成熟蟻巢中的蟻后每天約產1500-5000個卵，卵發育至成蟲約需20-45天 (工蟻)、30-60天 (大型工蟻)、180天 (兵蟻、蟻后與雄蟻)。蟻后壽命約6-7年，職蟻 (工蟻和兵蟻) 壽命約1-6個月[1]。,"在新北市林口區、桃園市六鄉鎮（桃園、蘆竹、大溪、龜山、八德、大園）、嘉義縣水上鄉有發現案例[7]。危害區域有農業區，(例如，水稻田、蔬菜園等約佔六成) 及非農業區 (例如, 公園綠地、行道樹、學校操場綠地等約佔四成)。發現首宗案例後立刻展開防治措施，因而並未擴散至其他縣市[6]。",,,,"1. 國家紅火蟻防治中心網頁 (https://fireant.baphiq.gov.tw/RedFireAnt/FrontEnd/Knowledge/Identification)
+2. 吳孟玲。2005。入侵紅火蟻之鑑定。植物重要防疫檢疫害蟲診斷鑑定研習會。
+3. 吳學平。2005。沙崙苗圃遭入侵紅火蟻為害之防治處理情形。台灣林業 131。
+4. 呂斯文、黃德昌。2004。入侵紅火蟻防治之處理組合與量化推算。農業世界雜誌 256: 40-45。
+5. 呂斯文、黃德昌。2005。美澳防治入侵紅火蟻與檢疫移動管制作法 農政與農情 151。
+6. 李昆龍、顏辰鳳、鄒慧娟、郭克忠。2008。我國防治入侵紅火蟻之措施與成效。農政與農情 191。
+7. 周泳成、蕭依玄、鄒慧娟、張弘毅。2004。認識入侵紅火蟻及其防治。農政與農情 144。
+8.林宗岐。2004。從國外來的壞螞蟻-火蟻。宜蘭大學農業推廣季刊 29。
+9. 林宗歧。國立彰化師範大學。04-7232105#3417。cclin@cc.ncue.edu.tw。
+10. 林宗岐、蕭旭峰、吳文哲。入侵紅火蟻於台灣危害的現況與衝擊。國立台灣大學昆蟲學系。Report no.
+11. 林宗歧、蕭旭峰、吳文哲。2004。認識入侵紅火蟻及其防治: 行政院農業委員會動植物防疫檢疫局.
+12. 邱一中。2004。認識入侵紅火以及其防範措施。農試所技術服務 59: 21-25。
+13. 邱一中、王清玲。2009。利用硼砂餌劑防治入侵紅火蟻之效果評估。台灣農業研究 58: 84-92。
+14. 邱一中、徐孟愉、王清玲。2005。殺蟲劑對入侵紅火蟻 (Solenopsis invicta) 和熱帶火蟻 (S. geminate)之毒效。植物保護學會會刊 47: 371-378。
+15. 張弘毅、周馥瑩。2005。令人聞之色變的生態殺手。科學發展 389。
+16. 陳昇寬、宋一鑫、林明瑩。2005。雲嘉南地區入侵紅火蟻之分佈監測及評估可能擴散之方向。台南區農業改良場研究彙報 46。
+17. 陳淑佩、王清玲、翁振宇。2004。防治入侵紅火蟻簡易餌劑之開發。農試所技術服務 60: 23-25。
+18. 黃基森。2005。入侵紅火蟻防治政策在環境保護上之意義研究。環境教育學刊 4: 79-108。
+19. 黃莉欣。2008。GIS與GPS於嘉義地區入侵紅火蟻監測調查上的應用。地理資訊在植物防疫之應用特刊: 103-120。
+20. 潘建安、張弘毅、吳文哲。2004。認識紅火蟻及其防範。台北: 行政院農業委員會動植物防疫檢疫局。
+21. Holway DA, Lach L, Suarez AV, Tsutsui ND, and Case TJ. 2002. The Causes and Consequences of Ant Invasions, Annu Rev Ecol Syst 33: 181-233.
+22. McGlynn TP. 1999. The Worldwide Transfer of Ants: Geographical Distribution and Ecological Invasions, J Biogeog 26(3): 535-548.
+23. Morrison LW, Porter SD, Daniels E, and Korzukhin MD. 2004. Potential Global Range Expansion of the Invasive Fire Ant, Solenopsis invicta), Biological Invasions 6: 183–191.",1-草稿
+444629,Animalia,動物界,Arthropoda,節肢動物門,Insecta,昆蟲綱,Lepidoptera,鱗翅目,Noctuidae,夜蛾科,Spodoptera,,Spodoptera frugiperda,frugiperda,,,,,"Smith &amp; Abbot, 1797",,草地貪夜蛾;秋行軍蟲;草地夜蛾,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+425238,Animalia,動物界,Chordata,脊索動物門,Aves,鳥綱,Passeriformes,雀形目,Sturnidae,椋鳥科,Sturnia,,Sturnia malabarica nemoricola,malabarica,,nemoricola,,,"(Jerdon, 1862)",,栗尾椋鳥;灰頭椋鳥,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+316720,Animalia,動物界,Mollusca,軟體動物門,Gastropoda,腹足綱,Stylommatophora,柄眼目,Subulinidae,錐蝸牛科,Subulina,,Subulina octona,octona,,,,,"(Bruguière, 1792)",,圓錐蝸牛,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+395244,Animalia,動物界,Chordata,脊索動物門,Actinopterygii,條鰭魚綱,Cypriniformes,鯉形目,Cyprinidae,鯉科,Systomus,,Systomus rubripinnis,rubripinnis,,,,,"(Valenciennes, 1842)",,橘尾窄口鲃;類小鲃;紅胸鰂;馬來鰂,1.0,1.0,0.0,,,DD,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+341946,Animalia,動物界,Arthropoda,節肢動物門,Insecta,昆蟲綱,Hymenoptera,膜翅目,Formicidae,蟻科,Tapinoma,,Tapinoma melanocephalum,melanocephalum,,,,,"(Fabricius, 1793)",,黑頭慌琉璃蟻;黑頭荒蟻,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+339530,Animalia,動物界,Arthropoda,節肢動物門,Insecta,昆蟲綱,Hemiptera,半翅目,Tessaratomidae,荔蝽科,Tessaratoma,,Tessaratoma papillosa,papillosa,,,,,"(Drury, 1770)",,荔枝椿象;荔蝽;荔枝蝽;奶雞蝽;奶雞椿象;荔枝蝽象,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+401547,Animalia,動物界,Arthropoda,節肢動物門,Arachnida,蛛形綱,Trombidiformes,絨蟎目,Tetranychidae,葉蟎科,Tetranychus,,Tetranychus evansi,evansi,,,,,"Baker&amp; Pritchard, 1960",,伊凡氏葉蟎,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+400535,Animalia,動物界,Arthropoda,節肢動物門,Arachnida,蛛形綱,Trombidiformes,絨蟎目,Tetranychidae,葉蟎科,Tetranychus,,Tetranychus urticae,urticae,,,,,"Koch, 1836",,二點葉蟎,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+349648,Animalia,動物界,Arthropoda,節肢動物門,Insecta,昆蟲綱,Coleoptera,鞘翅目,Scarabaeidae,金龜子科,Thaumastopeus,,Thaumastopeus shangaicus,shangaicus,,,,,"(Poll, 1886)",,藍艷騷金龜;暗藍扁騷金龜,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+419665,Animalia,動物界,Chordata,脊索動物門,Aves,鳥綱,Pelecaniformes,鵜形目,Threskiornithidae,䴉科,Threskiornis,,Threskiornis aethiopicus aethiopicus,aethiopicus,,aethiopicus,,,"(Latham, 1790)",,埃及聖䴉,1.0,1.0,0.0,,,LC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+348953,Animalia,動物界,Arthropoda,節肢動物門,Insecta,昆蟲綱,Thysanoptera,纓翅目,Thripidae,薊馬科,Thrips,,Thrips palmi,palmi,,,,,"Karny, 1925",,南黃薊馬,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+348954,Animalia,動物界,Arthropoda,節肢動物門,Insecta,昆蟲綱,Thysanoptera,纓翅目,Thripidae,薊馬科,Thrips,,Thrips simplex,simplex,,,,,"(Morison, 1930)",,唐菖蒲薊馬,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+417861,Animalia,動物界,Chordata,脊索動物門,Reptilia,爬蟲綱,Testudines,龜鱉目,Emydidae,澤龜科,Trachemys,,Trachemys scripta elegans,scripta,subsp.,elegans,,,"(Wied, 1838)",,紅耳龜;紅耳泥龜;巴西龜;巴西彩龜;翠龜;麻將龜;秀麗錦龜;七彩龜;彩龜,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+339751,Animalia,動物界,Arthropoda,節肢動物門,Insecta,昆蟲綱,Hemiptera,半翅目,Aleyrodidae,粉蝨科,Trialeurodes,,Trialeurodes vaporariorum,vaporariorum,,,,,"(Westwood, 1856)",,溫室粉蝨,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+434976,Animalia,動物界,Chordata,脊索動物門,Actinopterygii,條鰭魚綱,Perciformes,鱸形目,Osphronemidae,絲足鱸科,Trichogaster,,Trichogaster lalius,lalius,,,,,"(Hamilton, 1822)",,侏儒絲足鱸;拉利毛足鱸,1.0,1.0,0.0,,,LC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+343575,Animalia,動物界,Arthropoda,節肢動物門,Insecta,昆蟲綱,Hymenoptera,膜翅目,Trichogrammatidae,赤眼蜂科,Trichogramma,,Trichogramma chilonis,chilonis,,,,,"Ishii, 1941",,螟黃赤眼蜂,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+382223,Animalia,動物界,Chordata,脊索動物門,Actinopterygii,條鰭魚綱,Perciformes,鱸形目,Osphronemidae,絲足鱸科,Trichopodus,,Trichopodus trichopterus,trichopterus,,,,,"(Pallas, 1770)",,絲鰭毛足鬥魚;三星毛足鱸;絲鰭毛足鱸;三星仔;曼龍;三星攀鱸;三星鬥魚,1.0,1.0,0.0,,,LC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+419419,Animalia,動物界,Chordata,脊索動物門,Aves,鳥綱,Passeriformes,雀形目,Corvidae,鴉科,Urocissa,,Urocissa erythrorhyncha,erythrorhyncha,,,,,"(Boddaert, 1783)",,紅嘴藍鵲;中國藍鵲,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+419449,Animalia,動物界,Chordata,脊索動物門,Aves,鳥綱,Passeriformes,雀形目,Viduidae,維達鳥科,Vidua,,Vidua macroura,macroura,,,,,"(Pallas, 1764)",,針尾維達鳥;天仁雀,1.0,1.0,0.0,,,LC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+444093,Animalia,動物界,Chordata,脊索動物門,Actinopterygii,條鰭魚綱,Perciformes,鱸形目,Cichlidae,麗魚科,Vieja,,Vieja melanura,melanura,,,,,"(Günther, 1862)",,黑尾副尼麗魚,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+444555,Animalia,動物界,Arthropoda,節肢動物門,Insecta,昆蟲綱,Hymenoptera,膜翅目,Formicidae,蟻科,Wasmannia,,Wasmannia auropunctata,auropunctata,,,,,"(Roger, 1863)",,光點小火蟻;金刻沃氏蟻;小火蟻,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+433636,Animalia,動物界,Mollusca,軟體動物門,Bivalvia,雙殼綱,Mytiloida,貽貝目,Mytilidae,殼菜蛤科,Xenostrobus,,Xenostrobus securis,securis,,,,,"(Lamarck, 1819)",,斧形殼菜蛤,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+395313,Animalia,動物界,Chordata,脊索動物門,Actinopterygii,條鰭魚綱,Cyprinodontiformes,鱂形目,Poeciliidae,花鱂科,Xiphophorus,,Xiphophorus hellerii,hellerii,,,,,"Heckel, 1848",,劍尾魚;茉莉,1.0,1.0,0.0,,,LC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+395498,Animalia,動物界,Chordata,脊索動物門,Actinopterygii,條鰭魚綱,Cyprinodontiformes,鱂形目,Poeciliidae,花鱂科,Xiphophorus,,Xiphophorus maculatus,maculatus,,,,,"(Günther, 1866)",,花斑劍尾魚;紅劍;紅太陽,1.0,1.0,0.0,,,DD,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+381032,Animalia,動物界,Chordata,脊索動物門,Actinopterygii,條鰭魚綱,Cypriniformes,鯉形目,Cyprinidae,鯉科,Zacco,,Zacco platypus,platypus,,,,,"(Temminck &amp; Schlegel, 1846)",,平頜鱲;溪哥仔(幼魚及雌魚);青貓(雄);寬鰭鱲;日本溪哥;溪哥仔,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+202357,Plantae,植物界,Tracheophyta,維管束植物門,Magnoliopsida,木蘭綱,Asterales,菊目,Asteraceae,菊科,Ageratum,,Ageratum houstonianum,houstonianum,,,,,Mill.,,紫花藿香薊;熊耳草;墨西哥藍薊;勝紅薊;紫花毛麝香;臭草仔;斷血草,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+202362,Plantae,植物界,Tracheophyta,維管束植物門,Magnoliopsida,木蘭綱,Asterales,菊目,Asteraceae,菊科,Ambrosia,,Ambrosia artemisiifolia,artemisiifolia,,,,,L.,,豬草;瘤果菊,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+400927,Plantae,植物界,Tracheophyta,維管束植物門,Magnoliopsida,木蘭綱,Asterales,菊目,Asteraceae,菊科,Ambrosia,,Ambrosia psilostachya,psilostachya,,,,,DC.,,裸穗豬草,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+202686,Plantae,植物界,Tracheophyta,維管束植物門,Magnoliopsida,木蘭綱,Caryophyllales,石竹目,Basellaceae,落葵科,Basella,,Basella alba,alba,,,,,L.,,落葵,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+202404,Plantae,植物界,Tracheophyta,維管束植物門,Magnoliopsida,木蘭綱,Asterales,菊目,Asteraceae,菊科,Bidens,,Bidens pilosa radiata,pilosa,var.,radiata,,,L.,"Sch. Bip., 1842-1850",大花咸豐草;大花鬼針草;大花婆婆針;大白花鬼針;同治草;黏人草,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+201434,Plantae,植物界,Tracheophyta,維管束植物門,Magnoliopsida,木蘭綱,Poales,禾本目,Poaceae,禾本科,Brachiaria,,Brachiaria mutica,mutica,,,,,(Forssk.) Stapf,,巴拉草,1.0,1.0,0.0,,,LC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+201441,Plantae,植物界,Tracheophyta,維管束植物門,Magnoliopsida,木蘭綱,Poales,禾本目,Poaceae,禾本科,Bromus,,Bromus catharticus,catharticus,,,,,Vahl,,大扁雀麥;扁穗雀麥,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+204111,Plantae,植物界,Tracheophyta,維管束植物門,Magnoliopsida,木蘭綱,Saxifragales,虎耳草目,Crassulaceae,景天科,Bryophyllum,,Bryophyllum pinnatum,pinnatum,,,,,(Lam.) Oken,,落地生根,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+418244,Plantae,植物界,Tracheophyta,維管束植物門,Magnoliopsida,木蘭綱,Commelinales,鴨跖草目,Commelinaceae,鴨跖草科,Callisia,,Callisia repens,repens,,,,,(Jacq.) L.,,舖地錦竹草;翠玲瓏,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+204480,Plantae,植物界,Tracheophyta,維管束植物門,Magnoliopsida,木蘭綱,Sapindales,無患子目,Sapindaceae,無患子科,Cardiospermum,,Cardiospermum halicacabum,halicacabum,,,,,L.,,倒地鈴,1.0,1.0,0.0,,,LC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+438544,Plantae,植物界,Tracheophyta,維管束植物門,Magnoliopsida,木蘭綱,Poales,禾本目,Poaceae,禾本科,Cenchrus,,Cenchrus purpureus,purpureus,,,,,(Schumach.) Morrone,,象草,1.0,1.0,0.0,,,LC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+201453,Plantae,植物界,Tracheophyta,維管束植物門,Magnoliopsida,木蘭綱,Poales,禾本目,Poaceae,禾本科,Chloris,,Chloris barbata,barbata,,,,,Sw.,,孟仁草,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+202426,Plantae,植物界,Tracheophyta,維管束植物門,Magnoliopsida,木蘭綱,Asterales,菊目,Asteraceae,菊科,Chromolaena,,Chromolaena odorata,odorata,,,,,(L.) R.M. King &amp; H. Rob.,,香澤蘭;飛機草,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+202624,Plantae,植物界,Tracheophyta,維管束植物門,Magnoliopsida,木蘭綱,Brassicales,十字花目,Cleomaceae,白花菜科,Cleome,,Cleome rutidosperma,rutidosperma,,,,,DC.,,平伏莖白花菜;成功白花菜,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+202439,Plantae,植物界,Tracheophyta,維管束植物門,Magnoliopsida,木蘭綱,Asterales,菊目,Asteraceae,菊科,Conyza,,Conyza bonariensis,bonariensis,,,,,(L.) Cronquist,,美洲假蓬;野桐蒿,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+417676,Plantae,植物界,Tracheophyta,維管束植物門,Magnoliopsida,木蘭綱,Asterales,菊目,Asteraceae,菊科,Conyza,,Conyza canadensis,canadensis,,,,,(L.) Cronq,,加拿大蓬;小蓬草;小白酒草;小飛蓬;姬昔蓬;小燕草;鐵道車蓬;蛇舌草;竹葉艾;魚膽草;苦蒿;祁州一隻蒿;破布艾;小山艾;臭艾;野茼蒿,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+202443,Plantae,植物界,Tracheophyta,維管束植物門,Magnoliopsida,木蘭綱,Asterales,菊目,Asteraceae,菊科,Conyza,,Conyza sumatrensis,sumatrensis,,,,,(Retz.) E. Walker,,野茼蒿,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+202447,Plantae,植物界,Tracheophyta,維管束植物門,Magnoliopsida,木蘭綱,Asterales,菊目,Asteraceae,菊科,Crassocephalum,,Crassocephalum crepidioides,crepidioides,,,,,(Benth.) S. Moore,,昭和草,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+203088,Plantae,植物界,Tracheophyta,維管束植物門,Magnoliopsida,木蘭綱,Fabales,豆目,Fabaceae,豆科,Crotalaria,,Crotalaria pallida,pallida,,,,,"Ait., 1789",,黃野百合;豬屎豆,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ILD-3720,Plantae,植物界,Tracheophyta,維管束植物門,Magnoliopsida,木蘭綱,Fabales,豆目,Fabaceae,豆科,Crotalaria,,Crotalaria trichotoma,trichotoma,,,,,Bojer,,南美豬屎豆;光萼野百合;大野百合,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+417834,Plantae,植物界,Tracheophyta,維管束植物門,Magnoliopsida,木蘭綱,Poales,禾本目,Poaceae,禾本科,Cynodon,,Cynodon plectostachyus,plectostachyus,,,,,(K. Schum.) Pilg.,,星草,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+435189,Plantae,植物界,Tracheophyta,維管束植物門,Magnoliopsida,木蘭綱,Caryophyllales,石竹目,Amaranthaceae,莧科,Dysphania,,Dysphania ambrosioides,ambrosioides,,,,,(L.) Mosyakin &amp; Clemants,,臭杏;土荊芥,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+202481,Plantae,植物界,Tracheophyta,維管束植物門,Magnoliopsida,木蘭綱,Asterales,菊目,Asteraceae,菊科,Gaillardia,,Gaillardia pulchella,pulchella,,,,,Foug.,,天人菊,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+202483,Plantae,植物界,Tracheophyta,維管束植物門,Magnoliopsida,木蘭綱,Asterales,菊目,Asteraceae,菊科,Galinsoga,,Galinsoga quadriradiata,quadriradiata,,,,,Ruiz &amp; Pav.,,粗毛小米菊,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+416297,Plantae,植物界,Tracheophyta,維管束植物門,Magnoliopsida,木蘭綱,Asterales,菊目,Asteraceae,菊科,Helianthus,,Helianthus debilis cucumerifolius,debilis,subsp.,cucumerifolius,,,(Torr. &amp; A. Gray) Heiser,,瓜葉向日葵,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+417927,Plantae,植物界,Tracheophyta,維管束植物門,Magnoliopsida,木蘭綱,Apiales,繖形目,Araliaceae,五加科,Hydrocotyle,,Hydrocotyle leucocephala,leucocephala,,,,,Cham. &amp; Schltdl.,,香菇草;白花天胡荽,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+417814,Plantae,植物界,Tracheophyta,維管束植物門,Magnoliopsida,木蘭綱,Ericales,杜鵑花目,Balsaminaceae,鳳仙花科,Impatiens,,Impatiens walleriana,walleriana,,,,,Hook. f.,,非洲鳳仙花;玻璃翠;矮鳳仙;指甲花;勿碰我;急性子,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+204672,Plantae,植物界,Tracheophyta,維管束植物門,Magnoliopsida,木蘭綱,Solanales,茄目,Convolvulaceae,旋花科,Ipomoea,,Ipomoea aquatica,aquatica,,,,,Forssk.,,甕菜;空心菜;蕹菜,1.0,1.0,0.0,,,LC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+203567,Plantae,植物界,Tracheophyta,維管束植物門,Magnoliopsida,木蘭綱,Lamiales,唇形目,Verbenaceae,馬鞭草科,Lantana,,Lantana camara,camara,,,,,L.,,馬櫻丹;馬纓丹;五色梅,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+202647,Plantae,植物界,Tracheophyta,維管束植物門,Magnoliopsida,木蘭綱,Brassicales,十字花目,Brassicaceae,十字花科,Lepidium,,Lepidium virginicum,virginicum,,,,,L.,,獨行菜;北美獨行菜,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+203176,Plantae,植物界,Tracheophyta,維管束植物門,Magnoliopsida,木蘭綱,Fabales,豆目,Fabaceae,豆科,Leucaena,,Leucaena leucocephala,leucocephala,,,,,(Lam.) de Wit,,銀合歡;灰金合歡;白合歡,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ITS-565301,Plantae,植物界,Tracheophyta,維管束植物門,Magnoliopsida,木蘭綱,Poales,禾本目,Poaceae,禾本科,Melinis,,Melinis repens,repens,,,,,"(Willd.) Zizka, 1988",,紅毛草,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+417599,Plantae,植物界,Tracheophyta,維管束植物門,Magnoliopsida,木蘭綱,Asterales,菊目,Asteraceae,菊科,Mikania,,Mikania micrantha,micrantha,,,,,Kunth,,小花蔓澤蘭,1.0,1.0,0.0,,,,,2022/11/6 下午 5:40:19,jt00chao@gmail.com,Mikania micrantha,小花蔓澤蘭,2-植物,,"7-芳草植物, 8-藤蔓、爬藤",,"2-農業區, 3-擾動區, 4-人工林, 5-原始林, 6-密灌叢/疏灌叢, 7-牧地/草地, 11-海岸, 17-濱溪帶, 18-濕地",3-無心的引進,29-不詳,23-不詳,不詳,不詳,,,1-具入侵性,1-競爭,"2-經濟, 3-環境",,"小花蔓澤蘭有眾多種子，種子細小且輕盈，容易藉著風力、動物和昆蟲攜行或人類的活動遠距散播；無性繁殖能力亦強，故有極高的擴張潛力。[4, 8]","1-毒殺, 4-生物防治, 6-物理撲滅","一、「連續切蔓法」：將小花蔓澤蘭之莖部從近地表處切除，每個月切一次，連續切三個月；在夏季及秋季時以此步驟進行，可消除90%以上的小花蔓澤蘭植株，但冬季及春季之除蔓效果較差 [1,5]。
+二、相剋作用：鳳凰木的葉及花對小花蔓澤蘭具有強烈植物毒性，覆蓋鳳凰木之葉粉或花瓣粉於土表，可對小花蔓澤蘭之小苗造成高達90%之致死率；噴灑鳳凰木之葉部萃取液於小花蔓澤蘭的葉表也能夠造成高死亡率。故可將鳳凰木與新植苗木混植，藉鳳凰木提供遮蔭及毒害小花蔓澤蘭；而在已成林的林緣也可嘗試栽種鳳凰木當保護帶，藉此抵抗小花蔓澤蘭的危害。[1,4]
+三、殺草劑：噴灑草脫淨、滅必淨、達有龍、復祿芬及草芬定等萌前殺草劑可造成小花蔓澤蘭98%以上的致死率；而嘉磷塞、固殺草、巴拉刈、2,4-D、三氯比、氟氯比等萌後殺草劑之防治效果則達93% [2, 7]。但使用殺草劑對環境造成的問題可能比蔓藤危害更嚴重，故不建議貿然採用 [4]。
+四、生物防治：國內外有關小花蔓澤蘭生物防治之研究，包括病原菌、昆蟲、中藥煎煮液、植物相剋作用等面向 [6]。由英國引進台灣之銹病菌 (小花蔓澤蘭原產地之天敵) 具寄主專一性和絕對寄生性，為安全可行又實際的生物防治法 [11]。受感染之小花蔓澤蘭植株有生長點死亡、葉片及莖蔓畸形、產生病斑、枯萎之現象，由於銹病菌為短週期、生活史中只有冬孢子，傳播速率較慢，故防治時應多點、多次釋放 [12]。",,"多年生草本或略有木質的藤本植物，莖細長，匍匐或攀緣，多分枝，外被短柔毛或近無毛。幼時綠色，老莖則呈淡褐色，且具有多條肋紋。葉片在蔓莖中部者呈三角狀卵形至卵形，基部心形或近截形，先端漸尖，長4-13 cm，寬2-9 cm，邊緣具數個粗齒或淺波狀圓鋸齒；位於莖上部的葉漸小，葉柄亦短，新生葉之葉柄則出代紫紅再轉綠，葉脈3-7出之掌狀脈，葉柄2-8 cm。在枝節位處有半透明薄膜狀撕裂形突起。頭狀花序多數，常排成複傘房花序狀，頭狀花序長4-.5-6 mm，含小花4朵。總苞片綠色，4枚，狹長橢圓形，頂端漸尖，總苞基部有一線狀橢圓形小包葉(外苞片)；花冠白色，管狀，長3-4 mm，5齒裂，具香味。瘦果黑色，長1.5-2mm，被毛，具5棱，冠毛由32-40條刺毛組成，白色，長2-4 mm。[8,10]",小花蔓澤蘭的生長快速，在國外有「一分鐘一英哩雜草」(mile-a-minute weed)之稱，形容其蔓莖生長的快速。開花數量很多，種子細小輕盈，容易藉著風力、動物和昆蟲或人類長距離散播，致有極高的擴張潛力。在入侵地區到處蔓延，許多植物都被它纏勒或覆蓋致死，嚴重破壞原生生態系生物多樣性。小花蔓澤蘭所到之處不僅草本植物及灌木受害，就連喬木也不例外，故植物學家稱之為恐怖的「植物殺手」、「綠癌」、「綠色福壽螺」或「生態入侵者」。[8],中、南美洲和加勒比海地區。,"1950 年以後，被引入南亞及東南亞為地被植物；幾十年來已由引種地區向外擴散，在南亞、東南亞、大陸廣東、大洋洲島嶼及澳洲北部等地區造成高度危害 [8]。現已散布到非洲的茅裡西斯(Mauritius)、亞洲的印度、孟加拉、斯里蘭卡、泰國、菲律賓、馬來西亞、新加坡、印尼、南海諸島、香港、中國大陸沿海地帶及臺灣；大洋洲則見於巴布亞紐幾內亞、太平洋島嶼等、澳洲昆士蘭、美屬薩摩亞、關島、東加、斐濟、帛琉、法屬玻里尼西亞之社會群島、美洲本土各州等地 [8,9,13]。","小花蔓澤蘭在熱帶美洲常見於受干擾的環境、潮濕的土地或沼澤地區；在南美洲則分布於潮濕的森林和淡水沼澤森林內；中國大陸的深圳及東莞等地則常出現在受破壞的林地邊緣、荒廢農地、路邊、疏於管理的果園、水庫、污水溝旁及濕地邊緣等。在台灣地區小花蔓澤蘭常見入侵於低海拔人工林、次生林及保安林，尤其以靠近山區鄉鎮內的荒廢果園、檳榔園、廢耕地、路旁及邊坡等地受害較為嚴重[10]。
+喜好生長在陽光充足及潮濕的開闊地環境，較粗壯的植株即會往上攀附在林木的樹冠上，藉以爭取更多的陽光以利其生長。在土壤潮濕、疏鬆、富含有機質及陽光充足的生育地中，生長特別迅速，但不耐遮蔭、乾燥及貧瘠的土壤。在林下環境無法生存，但在35％相對光量環境即可有最大生物量，生長環境光度越強根系越旺盛。[5, 8]",,種子繁殖；無性繁殖能力亦強，蔓莖接觸土壤的每個節可長出根及新芽、節間亦能長出不定根。[8],"多年生藤蔓。夏季為小花蔓澤蘭之生長旺盛其，植株迅速擴散，冬季呈乾枯狀，為種子散播期；各地花果期不一，臺灣約在10月中開始著花，11-12月為開花結果最盛期，花期從現蕾至盛花期間大約5 天，開花後5天完成受精，再過5-7 天種子成熟即散布，生命周期很快完成。 [5, 8,10]","小花蔓澤蘭在全台17 個縣市、130 個鄉鎮的農地皆有紀錄，危害範圍逐年增加 [6]。常入侵低海拔人工林、次生林及保安林，尤其在海拔1,000 公尺以下靠近山區鄉鎮的的山坡地、人跡罕至的公有地、圳堤溝壁、廢耕或管理不善的果園、檳榔園等，路旁及邊坡等地受害較嚴重 [8]。",,,"小花蔓澤蘭所能發芽的溫度範圍比原生的蔓澤蘭廣，種子發芽率及生長勢顯著高於蔓澤蘭，而營養生長期之葉片及葉面積之生長速率也顯著較高，顯示小花蔓澤蘭的競爭力較蔓澤蘭強，近年來，小花蔓澤蘭族群幾乎全部取代了野生的蔓澤蘭族群，破壞甚巨。[3, 7]","[1]	郭耀綸、陳志遠、林杰昌。2002。藉連續切蔓法及相剋作用防治外來入侵的小花蔓澤蘭。台灣林業科學17(2): 171-81。
+[2]	徐玲明、蔣慕琰。2002。台灣主要除草劑防治小花蔓澤蘭(Mikania micrantha Kunth)之效果。中華民國雜草學會會刊23: 73-81。
+[3]	徐玲明、蔣慕琰。2003。小花蔓澤蘭與蔓澤蘭發芽及營養生長之比較。植物保護學會會刊45: 3
+[4]	21-328。
+[5]	郭耀綸、陳志遠、黃慈薇。2003。小花蔓澤蘭的生態生理性狀。小花蔓澤蘭危害與管理研討會。11-27頁。
+[6]	陳阿興、蕭祺輝。2003。小花蔓澤蘭防治與管理。小花蔓澤蘭危害與管理研討會。69-77頁。
+[7]	陳滄海、陳仁昭、汪慈慧、王均琍、趙永椿。2003。小花蔓澤蘭之生物防治。小花蔓澤蘭危害與管理研討會專刊。79-96頁。
+[8]	徐玲明。2003。蔓澤蘭之生育特性及化學防治。小花蔓澤蘭危害與管理研討會專刊。111-121頁。
+[9]	黃士元、彭仁傑、郭曜豪。2003。小花蔓澤蘭在台灣之蔓延及監測。小花蔓澤蘭危害與管理研討會專刊。123-145頁。
+[10]	廖天賜。2003。小花蔓澤蘭在世界各地蔓延及危害。小花蔓澤蘭危害與管理研討會專刊。147-153頁。
+[11]	黃士元、廖天賜。2004。入侵植物小花蔓澤蘭之生態習性及危害。自然科教育專輯209: 73-81.
+[12]	曾顯雄。2005。小花蔓澤蘭之真菌性天敵生物防治研究。林務局暨所屬機關委託研究計畫。Report no.
+[13]	曾顯雄。2009。小花蔓澤蘭的古典生物防治。科學月刊444: 34-40
+[14]	Global Invasive Species Database (GISD) - Mikania micrantha. Website: http://www.issg.org/database/species/ecology.asp?si=42&fr=1&sts=sss&lang=EN",1-草稿
+418164,Plantae,植物界,Tracheophyta,維管束植物門,Magnoliopsida,木蘭綱,Commelinales,鴨跖草目,Commelinaceae,鴨跖草科,Murdannia,,Murdannia bracteata,bracteata,,,,,(C.B. Clarke) Kuntze ex J.K. Morton,,大苞水竹葉;痰火草,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+203794,Plantae,植物界,Tracheophyta,維管束植物門,Magnoliopsida,木蘭綱,Myrtales,桃金孃目,Onagraceae,柳葉菜科,Oenothera,,Oenothera glazioviana,glazioviana,,,,,Micheli,,黃花月見草,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+203795,Plantae,植物界,Tracheophyta,維管束植物門,Magnoliopsida,木蘭綱,Myrtales,桃金孃目,Onagraceae,柳葉菜科,Oenothera,,Oenothera laciniata,laciniata,,,,,Hill,,裂葉月見草,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+432465,Plantae,植物界,Tracheophyta,維管束植物門,Magnoliopsida,木蘭綱,Caryophyllales,石竹目,Cactaceae,仙人掌科,Opuntia,,Opuntia monacantha,monacantha,,,,,(Willd.) Haw.,,單刺仙人掌;仙人掌;綠仙人掌,1.0,1.0,0.0,,,LC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+201608,Plantae,植物界,Tracheophyta,維管束植物門,Magnoliopsida,木蘭綱,Poales,禾本目,Poaceae,禾本科,Panicum,,Panicum maximum,maximum,,,,,Jacq.,,大黍,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+417631,Plantae,植物界,Tracheophyta,維管束植物門,Magnoliopsida,木蘭綱,Poales,禾本目,Poaceae,禾本科,Paspalum,,Paspalum notatum,notatum,,,,,Flüggé,,巴西亞雀稗;百喜草,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+440859,Plantae,植物界,Tracheophyta,維管束植物門,Magnoliopsida,木蘭綱,Malpighiales,黃褥花目,Passifloraceae,西番蓮科,Passiflora,,Passiflora vesicaria,vesicaria,,,,,L.,,毛西番蓮,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Kew-259467,Plantae,植物界,Tracheophyta,維管束植物門,Magnoliopsida,木蘭綱,Commelinales,鴨跖草目,Pontederiaceae,雨久花科,Pontederia,,Pontederia crassipes,crassipes,,,,,Mart.,,布袋蓮;浮水蓮花;鳳眼蓮,1.0,1.0,0.0,,,,,2022/12/16 上午 10:41:08,jt00chao@gmail.com,,布袋蓮,2-植物,,1-水生植物類,,"2-農業區, 15-河道, 18-濕地",1-有意的引進,24-供景觀之用,9-人為引進,1898及1901年引入[5],不詳 [5],,,1-具入侵性,"1-競爭, 10-物理擾動, 12-改變水文, 13-改變底棲自然群集","1-農業, 2-經濟, 3-環境",布袋蓮在台灣造成的危害，在於區域排水及灌排水路，水道內大量繁殖的布袋蓮會造成上游淤積、阻塞灌排水路、影響閘門啟開及易釀水患，因而增加水路疏浚費用。歷年來多以機械或人工撈除及噴灑除草劑，耗費大量之人力，在無道路地區及廣大水域，則因無法以機械撈除、使撈除成本大增；又廢棄物處理成本亦甚昂貴，噴除草劑則直接危害工作人員、野生動物及徒增殘毒問題等。自1989年至2000年止，農委會補助各縣市政府之布袋蓮清理費高達6.81億元 [17],"布袋蓮的快速生長及蔓延，與植株頂芽及側芽分生組織分化產生葉片與走莖 (stolons) 密切相關。透過快速走莖繁殖的擴散方式，常可在兩、三個月間，將一條溝渠或一個水域完全覆蓋、不留任何空隙 [2,3]。布袋蓮一旦進入淡水生態系，便可以藉由人類活動 (例如在游泳區的維修過程) 黏附在漁具或船舶 (船體，船錨練，引擎，船身或其他部份) 上，甚至可透過排水系統擴散。此外，因為現在的機械式水道維護都是使用切除植株的方式，這種作法也造常植株片段的散播[20]。布袋蓮迷人的紫色花朵，深受觀賞性池塘和花園愛好者的喜愛。最具傳播擴散機制可歸咎於人類刻意在池塘或水壩種植布袋蓮作為觀賞植物，另一種新興的傳播方式就是透過網路銷售的水族館業主和從事水族作物園丁將之散播野外 [20]。","4-生物防治, 6-物理撲滅",使用化學藥劑或機械移除布袋蓮，會對水質環境會造成非常大的影響，因此控制布袋蓮最好的方法為生物防治法，前人研究發現布袋蓮象鼻蟲 (Neochetina eichhorniae Warner) 是對付布袋蓮最有效且可長期使用的生物防治法 [10]。當象鼻蟲成蟲取食食痕、幼蟲造成的隧道及蟲孔密度增加時，每株布袋蓮的無性繁殖之分生植株及側芽密度顯著較低 [9]。將草魚 (Ctenopharyngodon idella) 及布袋蓮象鼻蟲 (Neochetina spp.) 共同作用於布袋蓮時，比起單獨使用一個物種進行生物防治來的更有效率，可以有效抑制布袋蓮的族群數量、單株的葉片數量及生長狀況 [12]。不過，當水中的營養鹽濃度高時，布袋蓮莖、葉的生長及走莖的無性繁殖速度大幅提升，但花朵的產量會減少；而盲蝽 Eccritotarsus  catarinensis 的取食行為雖能顯著降低布袋蓮的走莖繁殖速率、成熟莖葉長度及葉綠素含量，但影響效果不如水域的營養鹽濃度。因此，欲有效控制布袋蓮首先要降低水域中的營養鹽濃度 [11]。,徐玲明,"多年生草本，長於泥或漂浮水面，根為鬚根，全都是不定根，長度可到達90公分或更長，末端具有明顯的根冠，莖由一個主軸構成，節間很短，所有的根、葉、花序、走莖都由莖上長出。走莖由莖頂末稍部位長出來，在其另一端可以再長出一株布袋蓮的新植株。葉片革質，闊卵形或長斜方形或橢圓形；葉柄長10-50 cm，常膨大成球囊狀，切開可以發現內部有非常發達的氣室。花具柄，約15朵，螺旋排列於總花梗，每朵花的先端裂成六枚花被片，其中上方的一枚最大，中間具有黃色斑點，花被片的基部則合生成筒狀，子房就藏在花被筒中。雌蕊花柱單一，雄蕊則有六枚，三枚較長，另外三枚較短。形成二群雄蕊和花柱，由於三者在不同高度位置上的組合，形成了所謂的「三型花柱」，分別為長花柱、中花柱和短花柱三種類型。果實為約15 mm長的蒴果，果皮薄，外面為凋萎後的花被筒包著，果實成熟後由花序上脫落掉入水中。種子約1.7 mm長，寬約0.8 mm，具有約10條左右的縱紋線[2,4]。","原產南美洲巴西亞馬遜河流域，是世界上最常見、生長最旺盛的侵入性水生植物之一，亦為東南亞最主要的水生雜草。生長和繁殖的能力造成重大的保護問題具有相當大的社會經濟影響。布袋蓮可用於園藝上，因為它的葉子和花朵的美麗極具觀賞價值，世界自然保育聯盟將之列為全球100大入侵物種之一，西班牙的生物入侵專家小組 (GEIB) 將之列為前20大入侵物種之一。由於繁殖過快，可以競爭成功、排除其他水生植物，快速傳播。布袋蓮的生物量大，會覆蓋多樣棲地的水面，干擾水資源的使用與管理 [6, 18]。",亞馬遜河流域和巴西西部潘塔納爾 (Pantanal) 地區廣泛的湖泊與沼澤 [16],已擴散到全球熱帶及亞熱帶水域 [16],布袋蓮對水質條件的需求很低，只要有水、光照、營養鹽，就能夠生長 [3]。常見於高日照、溫暖的淡水池塘、草澤、溼地、湖泊、集水區、河流等 [16] 溫度在28-30℃時生長最旺盛 [6]。此外，在污染的水域亦能生長 [7]。布袋蓮可以在靜止或是流速緩慢的水域中形成聚落，產生大片厚實的布袋蓮圃。常見於河口棲地，湖泊，市區，河道和濕地。布袋蓮對水位變動，季節性的水流速變動、極端的養分供給、水質酸鹼度（pH值)、溫度或有毒物質的耐受度都很高，但不能忍受半鹹水和鹽水的環境 [20]。,,布袋蓮是自由飄浮的水生植物，可以透過營養繁殖，透過匍匐莖上腋芽分裂植株或是藉由種子繁殖[20]。營養繁殖可透過斷裂的個體植株花團生長。匍匐莖（能夠從節點形成新的芽和不定根的水平芽點）易受風吹或水流運動而斷裂，浮動植株族群和團圃可以透過風或水的運動傳播[21]。,"布袋蓮為多年生植物。種子沉于水底後休眠期長達15 年。種子發芽後，初期之幼苗藉根固著在泥土中，且葉子為線形，隨後新長出的葉片會慢慢變大，約第八枚葉子時開始有漂浮體出現，此時，老的根部腐爛，使莖和根部分離而漂浮出水面。走莖從莖頂末稍部位長出來，並逐漸形成一棵新植株，透過這種方式可迅速繁殖大量的個體 [2, 6]。
+在台灣花期為全年。但主要集中在九月。開花的過程可分為兩個階段，第一階段是開花，第二階段為花序軸下彎，整個程序約兩天。在台灣，通常在某天下午五時布袋蓮先抽出花苞，晚上11時花序逐漸從花苞中伸出來。第二天早上七時左右，花序全部伸展，花朵則在八時左右同時綻開。到下午五時左右進入開花的第二個階段，花被片開始閉合，花軸從苞片下方逐漸彎曲，第三天早晨七時左右，花軸整個彎曲。每一朵花的壽命均只有一天，花朵綻開的時間因氣溫不同而有稍早或稍晚的變化，花朵閉合和花軸下彎也可能提早或延至深夜或隔日[2, 6]。
+花期始於10月初並持續到夏季月份。每株花朵從開始到枯萎的時間為1～2天。當單顆植株上所有花苞都枯萎，莖會逐漸彎曲入水，整個過程約18天。接著種子會從每朵枯掉花的基部種子莢被釋放。在溫暖氣候夏，營養繁殖會很快速並且可以在很短時間型成大面積的布袋蓮圃 [23]。","全台河流中下游水域、溝渠、池塘。常遮蔽整個水域，干擾水上活動、阻礙水流、消耗水分、降低水分中溶氧及水中生物數量等多方面衝擊及影響[1, 7]。",,,"布袋蓮在原產地每年都有定期的乾旱及海水侵入，使植物體死亡，第二年再以種子萌發生長，因此族群能在自然的條件下維持穩定。而在其它入侵地區則無此條件，因此造成繁殖及蔓延速度失控，侵占整個水域 [2]。
+當布袋蓮生長的水域中具有鎘金屬的污染時，會誘導生成植物螯合素，將水域中的鎘金屬吸收至根部，並往上送至其他組織，如莖部及葉部。因此在重金屬汙染之水域，布袋蓮可作為生物復育方法的選擇物種之一 [8, 13, 14]。
+","1.  李松柏。2001。布袋蓮的有性繁殖。台灣濕地90年7月26期。http://www.wetland.org.tw/about/hope/hope26/26-12.htm
+2.  蔣永正、蔣慕琰。2005。臺灣布袋蓮(Eichhornia crassipes)之生育特性及生長季節性變化。植物保護學會會刊47: 337-346。
+3.   劉和義、楊遠波、林讚標。2001。台灣維管束植物簡誌第五卷。中華民國行政院農業委員會。頁47。
+http://subject.forest.gov.tw/species/vascular/5/index-1.htm
+4.   陳德順、胡大維。1976。台灣外來觀賞植物名錄。川流出版社。台灣。618 頁。
+5.   張文亮、徐玉標。1979。布袋蓮之生態、防除與利用。農業工程學報 25：102-113。
+6.   蔡亞佑。2000。壓力流況下橋梁前後布袋蓮之堆積型態與水流特性。國立成功大學水利及海洋工程研究所碩士論文。   http://ndltd.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi?o=dnclcdr&s=id=%22088NCKU0083015%22.&searchmode=basic
+7.   何子潔。2002。重金屬鎘在布袋蓮中的隔離與輸送之研究。國立台灣大學農業化學研究所碩士論文。
+   http://ndltd.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi?o=dnclcdr&s=id=%22090NTU00406062%22.&searchmode=basic
+8.   蔡逸文。2009。布袋蓮象鼻蟲之族群密度、空間分佈及對布袋蓮防治效果評估。國立中興大學昆蟲學研究所碩士論文。http://nchuir.lib.nchu.edu.tw/handle/309270000/104069
+9.   Cilliers, J. C. 1991. Biological control of water hyacinth, Eichhornia crassipes (Pontederiaceae), in South Africa. Agriculture, Ecosystems, Environment, 37, 207-217.
+10.  Coetzee, J. A., M. J. Byrne, and M. P. Hill. 2007. Impact of nutrients and herbivory by Eccritotarsus catarinensis on the biological control of water hyacinth, Eichhornia crassipes. Aquatic Botany, 86, 179-186.
+11.  Gopalakrishnan, A., M. Rajkumar, J. Sun, A. Parida, and B. Venmathi-Maran. 2011. Integrated biological control of water hyacinths, Eichhornia crassipes by a novel combination of grass carp Ctenopharyngodon idella( Valenciennes, 1844), and the weevil, Neochetina spp. Chinese Journal of Oceanology and Limnology, 29(1): 162-166.
+http://link.springer.com/article/10.1007%2Fs00343-011-0101-z
+12.  Grill, E., E. L. Winnacker, and M. H. Zenk. 1985. Phytochelatins: the principal heavy-metal complexing peptides of higher plants. Science 230: 674-676
+13.   Kay, S. H., W. T. Haller, and L. A. Garrard. 1984. Effects of heavy metals on water hyacinths (Eichhornia crassipes (Mart.) Solms). Aquatic Toxicology 5: 117-128.
+14.   Tropicos.org. Missouri Botanical Garden. 2011. Website: http://www.tropicos.org/Name/26100027
+15.   Global Ivasive Speices Database (GISD). Website: http://www.issg.org/database/species/ecology.asp?si=70&fr=1&sts=sss&lang=EN
+16.   蔡逸文，陳吉同。2002。布袋蓮生物防治。苗栗區農業專訊第十九期。http://mdares.coa.gov.tw/view.php?catid=1487
+17.   Ruiz Téllez, T.; Rodrigo López, E. M. de; Lorenzo Granado, G.; Albano Pérez, E.; Morán López, R.; Sánchez Guzmán, J. M. 2008., The water hyacinth, E. Crassipes: an invasive plant in Guadiana River Basin (Spain). Aquatic Invasions Vol. 3 No. 1 pp. 42-53
+18.   臺灣植物誌第二版。Flora of Taiwan, 2nd edition, Vol. 5
+ http://tai2.ntu.edu.tw/ebook/ebookpage.php?volume=5&book=Fl. Taiwan 2nd edit.&page=133
+19.   Eichhornia crassipes, 2008, EPPO Bulletin,38: 441–449 http://onlinelibrary.wiley.com/doi/10.1111/j.1365-2338.2008.01261.x/full.                                                                                                                                                      20.   Eichhornia crassipes. Smithsonian Marine Station at Fort Pierce. http://www.sms.si.edu/irlspec/Eichhornia_crassipes.htm
+21.   Fujita M.,1985, The Presence of Two Cd-Binding Components in the Roots of Water Hyacinth Cultivated in a Cd2+-Containing Medium., Plant Cell Physiol 26 (2): 295-300. http://pcp.oxfordjournals.org/content/26/2/295.short
+22.   Land Protection (Invasive Plants and Animals), 2007, Fact sheet- Water hyacinth (Eichhornia crassipes)., Queensland Government, Department of Primary Industries and Fisheries.
+",1-草稿
+418154,Plantae,植物界,Tracheophyta,維管束植物門,Magnoliopsida,木蘭綱,Lamiales,唇形目,Acanthaceae,爵床科,Ruellia,,Ruellia tuberosa,tuberosa,,,,,L.,,塊根蘆莉草;塊莖蘆莉草,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+418044,Plantae,植物界,Tracheophyta,維管束植物門,Magnoliopsida,木蘭綱,Solanales,茄目,Solanaceae,茄科,Solanum,,Solanum mauritianum,mauritianum,,,,,Scop.,,野煙樹,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+418388,Plantae,植物界,Tracheophyta,維管束植物門,Magnoliopsida,木蘭綱,Alismatales,澤瀉目,Araceae,天南星科,Syngonium,,Syngonium podophyllum,podophyllum,,,,,Schott,,合果芋,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+202577,Plantae,植物界,Tracheophyta,維管束植物門,Magnoliopsida,木蘭綱,Asterales,菊目,Asteraceae,菊科,Tithonia,,Tithonia diversifolia,diversifolia,,,,,(Hemsl.) A. Gray,,王爺葵,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+417630,Plantae,植物界,Tracheophyta,維管束植物門,Magnoliopsida,木蘭綱,Commelinales,鴨跖草目,Commelinaceae,鴨跖草科,Tradescantia,,Tradescantia fluminensis,fluminensis,,,,,Vell.,,紫葉水竹草;巴西水竹草;巴西水竹葉,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+202578,Plantae,植物界,Tracheophyta,維管束植物門,Magnoliopsida,木蘭綱,Asterales,菊目,Asteraceae,菊科,Tridax,,Tridax procumbens,procumbens,,,,,L.,,長柄菊,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+144232,Fungi,真菌界,Ascomycota,子囊菌門,Sordariomycetes,糞殼菌綱,Hypocreales,肉座菌目,Nectriaceae,叢赤殼科,Fusarium,,Fusarium oxysporum cubense,oxysporum,f.,cubense,,,Schlechtend: Fr. Emend. Snyder &amp; Hansen,(E. F. Sm.) W. C. Snyder &amp; H. N. Hansen,香蕉分化型尖鐮孢菌,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+123,Fungi,真菌界,Ascomycota,子囊菌門,Sordariomycetes,糞殼菌綱,Hypocreales,肉座菌目,Nectriaceae,叢赤殼科,Fusarium,,Fusarium oxysporum cubense,oxysporum,f.,cubense,,,Schlechtend: Fr. Emend. Snyder &amp; Hansen,(E. F. Sm.) W. C. Snyder &amp; H. N. Hansen,哈爸,1.0,1.0,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+nan,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+nan,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+nan,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+nan,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+nan,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+nan,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+nan,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+nan,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+nan,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+nan,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+nan,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+nan,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+nan,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+nan,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+nan,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+nan,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+nan,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+nan,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+nan,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+nan,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+nan,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+nan,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+nan,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+nan,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+nan,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+nan,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+nan,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+nan,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+nan,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+nan,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+nan,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+nan,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+nan,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+nan,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+nan,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+nan,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+nan,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+nan,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+nan,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+nan,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+nan,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+nan,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+nan,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+nan,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+nan,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+nan,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+nan,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+nan,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+nan,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+nan,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"[20] Eichhornia crassipes, 2008, EPPO Bulletin,38: 441–449 http://onlinelibrary.wiley.com/doi/10.1111/j.1365-2338.2008.01261.x/full",
+nan,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+nan,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,[21] Eichhornia crassipes. Smithsonian Marine Station at Fort Pierce. http://www.sms.si.edu/irlspec/Eichhornia_crassipes.htm,
+nan,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+nan,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"[22] Fujita M.,1985, The Presence of Two Cd-Binding Components in the Roots of Water Hyacinth Cultivated in a Cd2+-Containing Medium., Plant Cell Physiol 26 (2): 295-300. http://pcp.oxfordjournals.org/content/26/2/295.short",
+nan,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+nan,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"[23] Land Protection (Invasive Plants and Animals), 2007, Fact sheet- Water hyacinth (Eichhornia crassipes)., Queensland Government, Department of Primary Industries and Fisheries.",

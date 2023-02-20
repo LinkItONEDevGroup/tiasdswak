@@ -1,1 +1,5 @@
 name_code,kingdom,kingdom_c,phylum,phylum_c,class,class_c,order,order_c,family,family_c,genus,genus_c,name,species,infraspecies_marker,infraspecies,infraspecies2_marker,infraspecies2,author,author2,common_name_c,is_alien,is_invasive,is_cultivated,is_endemic,cites_code,iucn_code,coa_code
+144232,Fungi,真菌界,Ascomycota,子囊菌門,Sordariomycetes,糞殼菌綱,Hypocreales,肉座菌目,Nectriaceae,叢赤殼科,Fusarium,,Fusarium oxysporum cubense,oxysporum,f.,cubense,,,Schlechtend: Fr. Emend. Snyder &amp; Hansen,(E. F. Sm.) W. C. Snyder &amp; H. N. Hansen,香蕉分化型尖鐮孢菌,1,1,0,,,,
+442121,Plantae,植物界,Tracheophyta,維管束植物門,Magnoliopsida,木蘭綱,Fabales,豆目,Fabaceae,豆科,Lens,,Lens esculenta,esculenta,,,,,Moench.,,金麥豌,1,0,1,,,,
+123,Fungi,真菌界,Ascomycota,子囊菌門,Sordariomycetes,糞殼菌綱,Hypocreales,肉座菌目,Nectriaceae,叢赤殼科,Fusarium,,Fusarium oxysporum cubense,oxysporum,f.,cubense,,,Schlechtend: Fr. Emend. Snyder &amp; Hansen,(E. F. Sm.) W. C. Snyder &amp; H. N. Hansen,哈爸,1,1,0,,,,
+203509,Plantae,植物界,Tracheophyta,維管束植物門,Magnoliopsida,木蘭綱,Lamiales,唇形目,Lamiaceae,唇形科,Ocimum,,Ocimum gratissimum,gratissimum,,,,,L.,,美羅勒;印度零陵香,1,0,0,,,,

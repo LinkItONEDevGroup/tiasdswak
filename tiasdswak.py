@@ -40,6 +40,7 @@ class TiasdSwak():
         self.df_extend = pd.read_csv(DBFILE_EXTEND)
         self.df_extend = self.df_extend.astype({'name_code':'str'})
         self.df_group = pd.read_csv(FILE_GROUP)
+        self.df_coldef = pd.read_csv(COL_DEF)
         self.gen_group()
     def gen_group(self):
         group={}

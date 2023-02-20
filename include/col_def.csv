@@ -1,0 +1,192 @@
+name,ch,eng,type,design,pars,hints,
+name_code,台灣物種名錄代號,TaiBNET Code,文字,主鍵,,,
+name,學名,name,文字,,,一般需與官方資訊相同,
+common_name_c,俗名,common_name_c,文字,,,一般需與官方資訊相同,
+life_type,類別,Life form types,單選,"兩大類
+好像要分成 四大類，動物/植物要另外填","1-動物
+2-植物
+3-微生物",,
+life_type_animal,動物,Animal,多選,"類別選動物時，才需填寫
+多選順序為何？","1-水蚤
+2-大西洋櫛水母
+3-水母
+4-珊瑚
+5-海葵
+6-線蟲
+7-昆蟲
+8-蜘蛛
+9-馬陸, 蜈蚣
+10-蠍子
+11-螃蟹
+12-蝦蛄
+13-扁蟲
+14-軟體動物
+15-蚯蚓
+16-海星
+17-魚類
+18-兩棲類
+19-爬蟲類
+20-鳥類
+21-哺乳類",,
+life_type_plant,植物,Plant,多選,類別選植物時，才需填寫,"1-水生植物類
+2-喬木
+3-灌木
+4-草
+5-燈心草
+6-莎草
+7-芳草植物
+8-藤蔓、爬藤
+9-鳳梨科植物
+10-蕨類
+11-多肉植物",,
+microorganism,微生物,Microorganism,多選,類別選微生物時，才需填寫,"1-病毒
+2-細菌
+3-古箘
+4-真菌
+5-藻類
+6-原生生物",,
+habitat_types,棲地類型,Habitat types,多選,,"99-其他
+1-都市區
+2-農業區
+3-擾動區
+4-人工林
+5-原始林
+6-密灌叢/疏灌叢
+7-牧地/草地
+8-凍原(苔原)
+9-沙漠
+10-冰
+11-海岸
+12-海洋棲地
+13-河口
+14-湖
+15-河道
+16-淡水
+17-濱溪帶
+18-濕地
+19-潮間帶
+20-宿主
+21-媒介
+22-不明",,ID 變化
+introduction_type,引進之方式,Introduction type,單選,有哪些,"1-有意引進
+2-有意以非法方式引進
+3-無心的引進
+4-重新引進
+5-不詳",,
+introduction_cause,引進的原因,Cause of introduction types,多選,,"99-其他
+1-生物防治
+2-檢疫執法不力
+3-檢疫不夠仔細
+4-走私
+5-獲取農業利益
+6-獲取林業利益
+7-獲取水產養殖利益
+8-獲取園藝利益
+9-與生鮮食品交易有關
+10-與種苗交易有關
+11-與寵物交易有關
+12-與水族館交易有關
+13-與國際貿易有關
+14-透過網路交易
+15-與軍事活動有關
+16-援助計劃的一部分
+17-分享資源
+18-做為食物用
+19-做為飼料用
+20-做為裝飾用
+21-供植物園使用
+22-供動物園使用
+23-順應社會需求
+24-供景觀之用
+25-動物改良用
+26-搬運機械器具
+27-運輸家畜禽
+28-運輸棲地材料
+29-不詳",,
+introduction_vector,引進的媒介,Vector of introduction types,多選,,"99-其他
+1-寄主植物
+2-媒介植物
+3-寄主動物
+4-媒介動物
+5-水
+6-水流
+7-風
+8-垃圾
+9-人為引進
+10-飛機
+11-旅客行李
+12-運輸
+13-郵件
+14-海運
+15-貨櫃
+16-貨櫃墊板包裝用材
+17-壓艙物
+18-壓艙水
+19-附著船底的積垢
+20-散裝貨運
+21-公路運輸工具
+22-機械裝置
+23-不詳",,
+introduction_date,引進時間,Year of introduciton,文字,,,,
+introduction_people,引進人,Introducer,文字,,,,
+found_date,發現時間,First reported,文字,,,,
+introduction_desc,引進管道的說明,Description of pathways,文字,,,,
+invasiveness,入侵性,Invasiveness,單選,,"1-具入侵性
+2-不具入侵性
+3-無特定說明
+4-不確定",,
+mechanism,入侵機制,Mechanism,多選,,"99-其他
+1-競爭
+2-捕食
+3-寄生
+4-草食作用
+5-和其它入侵種之間的互動
+6-雜交
+7-具病原性
+8-傳染疾病
+9-汙染
+10-物理擾動
+11-改變火燒規律
+12-改變水文
+13-改變底棲自然群集
+14-改變養分循環規律
+15-改變演替模式
+16-不詳",,
+outcome,"入侵的後果
+",Outcome of invasion,多選,,"99-其他
+1-農業
+2-經濟
+3-環境
+4-人類健康
+5-不詳",,
+description_of_outcomes,"入侵後果說明
+",Description of outcomes,文字,,,,
+dispersal_mechanisms,播遷機制,Dispersal mechanisms,文字,,,,
+eradication_methods,撲滅方法,Eradication methods,多選,"另外弄一個其他欄位
+其他：生殖干擾，英文這部分有點搞混","99-其他
+1-毒殺
+2-陷阱
+3-射殺
+4-生物防治
+5-以狗獵捕
+6-物理撲滅
+7-不詳",,ID 變化
+control_methods,防治方法,Control methods,文字,,,,
+data_provider,資料提供者,Data provider,文字,,,,
+description,物種描述,Species description,文字,,,,
+summary,本種概述,Summary,文字,,,,
+native_range,地理分佈/原產地,Geographical range/Native range,文字,,,,
+introduced_range,地理分佈/被引進地,Geographical range/Introduced range,文字,,,,
+habitat_description,棲地描述,Habitat description,文字,,,,
+nutrition,營養,Nutrition,文字,,,,
+reproduction,繁殖方式,Reproduction,文字,,,,
+life_cycle,生活史,Life cycle,文字,,,,
+species_status,台灣地區現況資料,Species status,文字,,,,
+images,照片,images,文字,,,"花/小花.jpeg
+花/小花2.jpeg",
+suggestion,建議,Suggestion,文字,,,對欄位與選項有相關建議，請說明,
+note,備註,Note,文字,,,資訊無適當欄位合適提供，請補充在這裡,
+reference,參考資料,References,文字,,,"請說明這筆資料相關的參考文獻或資料
+
+盡可能提供 URL 或是 DOI 等，可精確跳轉到正確來源",
+record_status,本筆狀態,Record status,單選,,1-草稿,填寫資料時，資料狀態一率為草稿。同時邀請填表人，參與週期的確認會議（歡迎參與，不另邀請）,
