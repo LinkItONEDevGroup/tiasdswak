@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.2.335">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>台灣外來入侵種資料集(Taiwan Invasive Alien Species Dataset) 工具箱 - 1&nbsp; 工具安裝與說明</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { color: #008000; } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { color: #008000; font-weight: bold; } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./invasive_sp_list.html" rel="next">
+<link href="./guides.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-sidebar floating">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+    <div class="container-fluid d-flex justify-content-between">
+      <h1 class="quarto-secondary-nav-title"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">工具安裝與說明</span></h1>
+      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
+        <i class="bi bi-chevron-right"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">台灣外來入侵種資料集(Taiwan Invasive Alien Species Dataset) 工具箱</a> 
+        <div class="sidebar-tools-main tools-wide">
+    <a href="https://github.com/LinkItONEDevGroup/tiasdswak" title="Source Code" class="sidebar-tool px-1"><i class="bi bi-github"></i></a>
+    <a href="" title="Download" id="sidebar-tool-dropdown-0" class="sidebar-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false"><i class="bi bi-download"></i></a>
+    <ul class="dropdown-menu" aria-labelledby="sidebar-tool-dropdown-0">
+        <li>
+          <a class="dropdown-item sidebar-tools-main-item" href="./台灣外來入侵種資料集-Taiwan-Invasive-Alien-Species-Dataset--工具箱.pdf">
+            <i class="bi bi-bi-file-pdf pe-1"></i>
+          Download PDF
+          </a>
+        </li>
+        <li>
+          <a class="dropdown-item sidebar-tools-main-item" href="./台灣外來入侵種資料集-Taiwan-Invasive-Alien-Species-Dataset--工具箱.epub">
+            <i class="bi bi-bi-journal pe-1"></i>
+          Download ePub
+          </a>
+        </li>
+        <li>
+          <a class="dropdown-item sidebar-tools-main-item" href="./台灣外來入侵種資料集-Taiwan-Invasive-Alien-Species-Dataset--工具箱.docx">
+            <i class="bi bi-bi-file-word pe-1"></i>
+          Download Docx
+          </a>
+        </li>
+    </ul>
+    <a href="" title="Share" id="sidebar-tool-dropdown-1" class="sidebar-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false"><i class="bi bi-share"></i></a>
+    <ul class="dropdown-menu" aria-labelledby="sidebar-tool-dropdown-1">
+        <li>
+          <a class="dropdown-item sidebar-tools-main-item" href="https://www.facebook.com/sharer/sharer.php?u=|url|">
+            <i class="bi bi-bi-facebook pe-1"></i>
+          Facebook
+          </a>
+        </li>
+        <li>
+          <a class="dropdown-item sidebar-tools-main-item" href="https://twitter.com/intent/tweet?url=|url|">
+            <i class="bi bi-bi-twitter pe-1"></i>
+          Twitter
+          </a>
+        </li>
+    </ul>
+</div>
+    </div>
+      </div>
+      <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+      </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">前言</a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="./guides.html" class="sidebar-item-text sidebar-link">guides.html</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./tiasds_toolbox.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">工具安裝與說明</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="./invasive_sp_list.html" class="sidebar-item-text sidebar-link">invasive_sp_list.html</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./output/rpt_313411-河殼菜蛤.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">313411 (河殼菜蛤)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./output/rpt_315085-福壽螺.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">315085 (福壽螺)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./output/rpt_403968-中國梨木蝨.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">403968 (中國梨木蝨)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./output/rpt_417599-小花蔓澤蘭.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">417599 (小花蔓澤蘭)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./output/rpt_340020-蘇鐵白輪盾介殼蟲.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">340020 (蘇鐵白輪盾介殼蟲)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./output/rpt_416300-緬甸小鼠;波里尼西亞鼠.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">416300 (緬甸小鼠;波里尼西亞鼠)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./output/rpt_401070-紅入侵火家蟻;入侵紅火蟻.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">401070 (紅入侵火家蟻;入侵紅火蟻)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./output/rpt_422619-多線真稜蜥;多線南蜥;多紋南蜥.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">422619 (多線真稜蜥;多線南蜥;多紋南蜥)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./output/rpt_Kew-259467-布袋蓮;浮水蓮花;鳳眼蓮.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Kew-259467 (布袋蓮;浮水蓮花;鳳眼蓮)</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#先從-github-tiasdswak-下載" id="toc-先從-github-tiasdswak-下載" class="nav-link active" data-scroll-target="#先從-github-tiasdswak-下載"><span class="toc-section-number">1.1</span>  先從 github tiasdswak 下載</a></li>
+  <li><a href="#版本" id="toc-版本" class="nav-link" data-scroll-target="#版本"><span class="toc-section-number">1.2</span>  版本</a></li>
+  <li><a href="#釋出流程與方法" id="toc-釋出流程與方法" class="nav-link" data-scroll-target="#釋出流程與方法"><span class="toc-section-number">1.3</span>  釋出流程與方法</a></li>
+  <li><a href="#使用須知" id="toc-使用須知" class="nav-link" data-scroll-target="#使用須知"><span class="toc-section-number">1.4</span>  使用須知</a></li>
+  <li><a href="#cli使用手冊" id="toc-cli使用手冊" class="nav-link" data-scroll-target="#cli使用手冊"><span class="toc-section-number">1.5</span>  CLI使用手冊</a>
+  <ul class="collapse">
+  <li><a href="#設定" id="toc-設定" class="nav-link" data-scroll-target="#設定"><span class="toc-section-number">1.5.1</span>  設定</a></li>
+  <li><a href="#功能" id="toc-功能" class="nav-link" data-scroll-target="#功能"><span class="toc-section-number">1.5.2</span>  功能</a></li>
+  <li><a href="#命令與使用範例" id="toc-命令與使用範例" class="nav-link" data-scroll-target="#命令與使用範例"><span class="toc-section-number">1.5.3</span>  命令與使用範例</a></li>
+  <li><a href="#重要指引" id="toc-重要指引" class="nav-link" data-scroll-target="#重要指引"><span class="toc-section-number">1.5.4</span>  重要指引</a></li>
+  </ul></li>
+  <li><a href="#開發工具使用手冊" id="toc-開發工具使用手冊" class="nav-link" data-scroll-target="#開發工具使用手冊"><span class="toc-section-number">1.6</span>  開發工具使用手冊</a></li>
+  </ul>
+<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/LinkItONEDevGroup/tiasdswak/edit/main/tiasds_toolbox.md" class="toc-action">Edit this page</a></p><p><a href="https://github.com/LinkItONEDevGroup/tiasdswak/issues/new" class="toc-action">Report an issue</a></p><p><a href="https://github.com/LinkItONEDevGroup/tiasdswak/blob/main/tiasds_toolbox.md" class="toc-action">View source</a></p></div></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title d-none d-lg-block"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">工具安裝與說明</span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<section id="先從-github-tiasdswak-下載" class="level2" data-number="1.1">
+<h2 data-number="1.1" class="anchored" data-anchor-id="先從-github-tiasdswak-下載"><span class="header-section-number">1.1</span> 先從 github tiasdswak 下載</h2>
+<p>安裝建議使用 anaconda 套件環境</p>
+<p>使用以下命令安裝：</p>
+<ul>
+<li>先更改 environment.yml 內的 name, prefix，改成自己喜歡的環境名稱與路徑</li>
+</ul>
+<div class="sourceCode" id="cb1"><pre class="sourceCode sh code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="ex">conda</span> env create <span class="at">-f</span> environment.yml </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<ul>
+<li>如果出問題需要看確認可行的環境，可參考開發者環境狀態(預計主要版本都會更新 environment_detail.yml, 如果有更新的話)，此檔案由以下命令產生</li>
+</ul>
+<div class="sourceCode" id="cb2"><pre class="sourceCode sh code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="ex">conda</span> env export <span class="op">&gt;</span> environment_detail.yml</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<ul>
+<li>環境升級參考命令</li>
+</ul>
+<div class="sourceCode" id="cb3"><pre class="sourceCode sh code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="ex">conda</span> env update <span class="at">-n</span> tiasdswak <span class="at">-f</span> environment.yml</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<ul>
+<li>環境簡要說明</li>
+</ul>
+</section>
+<section id="版本" class="level2" data-number="1.2">
+<h2 data-number="1.2" class="anchored" data-anchor-id="版本"><span class="header-section-number">1.2</span> 版本</h2>
+<p>目前程式版本為 V0.2，資料版本為：2023Q1.a1</p>
+</section>
+<section id="釋出流程與方法" class="level2" data-number="1.3">
+<h2 data-number="1.3" class="anchored" data-anchor-id="釋出流程與方法"><span class="header-section-number">1.3</span> 釋出流程與方法</h2>
+<ul>
+<li>匯出 台灣外來入侵種資料集 (回覆)
+<ul>
+<li>如果有更新
+<ul>
+<li>外來入侵種民間資料庫</li>
+<li>台灣物種名錄-台灣外來物種</li>
+</ul></li>
+</ul></li>
+<li>tiasdswak tool/dbreload 1
+<ul>
+<li>產生 include/台灣外來入侵種資料集 - 合併補充資料集.csv saved</li>
+<li>匯入 台灣外來入侵種資料集 - 合併補充資料集</li>
+</ul></li>
+<li>tiasdswak.ipynb 產製報表 *.md</li>
+<li>用 Obsidian 個別產生 pdf</li>
+<li>github commit -包含 include 與 md/pdf</li>
+<li><a href="https://drive.google.com/open?id=1dsLBu-q9tyDqMeVFMWUGmyhvqFYwXmcrK4L0HlRiz2M&amp;usp=drive_copy">台灣外來入侵種資料集</a> 標記版號</li>
+<li><a href="https://docs.google.com/spreadsheets/d/1FFHZNCVA-uAINYYCOjtsCY2_UuyclPejH_Mh9WfEVR0/edit?resourcekey=undefined#gid=1890334775">台灣外來入侵種資料集</a> (回覆) 標記版號</li>
+<li>上傳 drive/釋出</li>
+</ul>
+</section>
+<section id="使用須知" class="level2" data-number="1.4">
+<h2 data-number="1.4" class="anchored" data-anchor-id="使用須知"><span class="header-section-number">1.4</span> 使用須知</h2>
+<p>工具箱主要提供兩種工具，CLI 給不會寫python 的使用者，notebook 給熟悉 python 的使用者。 兩者目的不同： CLI 主要是將常用的功能提供給使用者使用， notebook 則是提供彈性的開發者支援，方便會寫程式的使用者，做更多的資料分析</p>
+</section>
+<section id="cli使用手冊" class="level2" data-number="1.5">
+<h2 data-number="1.5" class="anchored" data-anchor-id="cli使用手冊"><span class="header-section-number">1.5</span> CLI使用手冊</h2>
+<section id="設定" class="level3" data-number="1.5.1">
+<h3 data-number="1.5.1" class="anchored" data-anchor-id="設定"><span class="header-section-number">1.5.1</span> 設定</h3>
+<pre><code># pandas setting
+MAX_ROWS=10 #60
+MAX_COLUMNS=8 #20
+MAX_COLWIDTH=50 #50</code></pre>
+</section>
+<section id="功能" class="level3" data-number="1.5.2">
+<h3 data-number="1.5.2" class="anchored" data-anchor-id="功能"><span class="header-section-number">1.5.2</span> 功能</h3>
+<ul>
+<li>tool
+<ul>
+<li>列出 standard:政府資料 ,append:民間資料庫 ,extend:補充資料 ,mix= 政府+民間,merge= 政府+民間+補充 ,cur:目前查詢結果(default)</li>
+<li>可針對資料集使用 sql 來查詢，並存成 CSV</li>
+<li>name_code 轉換 taxonUUID</li>
+</ul></li>
+<li>tbn
+<ul>
+<li>取得 name_code 在 TBN 目前的觀察數量</li>
+<li>取得 taxonUUID 的數量 （每隔固定間隔時間）</li>
+</ul></li>
+</ul>
+</section>
+<section id="命令與使用範例" class="level3" data-number="1.5.3">
+<h3 data-number="1.5.3" class="anchored" data-anchor-id="命令與使用範例"><span class="header-section-number">1.5.3</span> 命令與使用範例</h3>
+<div class="sourceCode" id="cb5"><pre class="sourceCode sh code-with-copy"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="ex">$</span> python tiasdswak.py</span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="ex">root</span>        : INFO     LASS <span class="at">-</span> TiasdSWAK version: v0.1</span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a><span class="ex">TiasdCLI</span><span class="op">&gt;</span>help</span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a><span class="ex">Documented</span> commands <span class="er">(</span><span class="bu">type</span> help <span class="op">&lt;</span>topic<span class="op">&gt;</span><span class="kw">)</span><span class="bu">:</span></span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a><span class="ex">========================================</span></span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a><span class="ex">about</span>  displayall  help  quit  reload_setting  reset  tbn  tool</span>
+<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a><span class="ex">TiasdCLI</span><span class="op">&gt;</span>about</span>
+<span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a><span class="ex">TiasdSWAK</span> version: v0.1</span>
+<span id="cb5-11"><a href="#cb5-11" aria-hidden="true" tabindex="-1"></a><span class="ex">TiasdCLI</span><span class="op">&gt;</span>tool</span>
+<span id="cb5-12"><a href="#cb5-12" aria-hidden="true" tabindex="-1"></a><span class="ex">TiasdCLI:tool</span><span class="op">&gt;</span>help</span>
+<span id="cb5-13"><a href="#cb5-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-14"><a href="#cb5-14" aria-hidden="true" tabindex="-1"></a><span class="ex">Documented</span> commands <span class="er">(</span><span class="bu">type</span> help <span class="op">&lt;</span>topic<span class="op">&gt;</span><span class="kw">)</span><span class="bu">:</span></span>
+<span id="cb5-15"><a href="#cb5-15" aria-hidden="true" tabindex="-1"></a><span class="ex">========================================</span></span>
+<span id="cb5-16"><a href="#cb5-16" aria-hidden="true" tabindex="-1"></a><span class="ex">dbreload</span>  help  list  quit  sql</span>
+<span id="cb5-17"><a href="#cb5-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-18"><a href="#cb5-18" aria-hidden="true" tabindex="-1"></a><span class="ex">TiasdCLI:tool</span><span class="op">&gt;</span>help list</span>
+<span id="cb5-19"><a href="#cb5-19" aria-hidden="true" tabindex="-1"></a><span class="ex">list</span> : list content of db</span>
+<span id="cb5-20"><a href="#cb5-20" aria-hidden="true" tabindex="-1"></a><span class="ex">list</span> [db_name] [content]</span>
+<span id="cb5-21"><a href="#cb5-21" aria-hidden="true" tabindex="-1"></a>    <span class="ex">[db_name]</span> standard:政府資料 ,append:民間資料庫 ,extend:補充資料 ,mix= 政府+民間,merge= 政府+民間+補充 ,cur:目前查詢結果<span class="er">(</span><span class="ex">default</span><span class="kw">)</span></span>
+<span id="cb5-22"><a href="#cb5-22" aria-hidden="true" tabindex="-1"></a>    <span class="ex">[content]</span> 0: show info, 1: show content <span class="er">(</span><span class="ex">default</span><span class="kw">)</span></span>
+<span id="cb5-23"><a href="#cb5-23" aria-hidden="true" tabindex="-1"></a><span class="ex">ex:</span> list cur 0</span>
+<span id="cb5-24"><a href="#cb5-24" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb5-25"><a href="#cb5-25" aria-hidden="true" tabindex="-1"></a><span class="ex">TiasdCLI:tool</span><span class="op">&gt;</span>help sql</span>
+<span id="cb5-26"><a href="#cb5-26" aria-hidden="true" tabindex="-1"></a><span class="ex">apply</span> sql to select, default save result to output/query.csv</span>
+<span id="cb5-27"><a href="#cb5-27" aria-hidden="true" tabindex="-1"></a><span class="ex">sql</span> [sql_cmd]</span>
+<span id="cb5-28"><a href="#cb5-28" aria-hidden="true" tabindex="-1"></a><span class="ex">ex:</span> sql select <span class="pp">*</span> from df where common_name_c=<span class="st">'埃及聖䴉'</span></span>
+<span id="cb5-29"><a href="#cb5-29" aria-hidden="true" tabindex="-1"></a><span class="ex">ex:</span> sql select <span class="pp">*</span> from df where <span class="st">"類別-動物"</span>=<span class="st">'鳥類'</span></span>
+<span id="cb5-30"><a href="#cb5-30" aria-hidden="true" tabindex="-1"></a><span class="ex">ex:</span> sql select <span class="pp">*</span> from df where <span class="st">"棲地類型Habitat types"</span> like <span class="st">'%農業區%'</span></span>
+<span id="cb5-31"><a href="#cb5-31" aria-hidden="true" tabindex="-1"></a><span class="ex">ex:</span> sql select <span class="pp">*</span> from df where class_c=<span class="st">'鳥綱'</span> and common_name_c like <span class="st">'%八哥%'</span></span>
+<span id="cb5-32"><a href="#cb5-32" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-33"><a href="#cb5-33" aria-hidden="true" tabindex="-1"></a>        </span>
+<span id="cb5-34"><a href="#cb5-34" aria-hidden="true" tabindex="-1"></a><span class="ex">TiasdCLI:tool</span><span class="op">&gt;</span>sql select <span class="pp">*</span> from df where common_name_c=<span class="st">'埃及聖䴉'</span></span>
+<span id="cb5-35"><a href="#cb5-35" aria-hidden="true" tabindex="-1"></a><span class="va">sql</span><span class="op">=</span>select <span class="ex">*</span> from df where common_name_c=<span class="st">'埃及聖䴉'</span>, filename=output/query.csv</span>
+<span id="cb5-36"><a href="#cb5-36" aria-hidden="true" tabindex="-1"></a><span class="kw">|</span>    <span class="kw">|</span>   <span class="ex">name_code</span> <span class="kw">|</span> <span class="ex">kingdom</span>   <span class="kw">|</span> <span class="ex">kingdom_c</span>   <span class="kw">|</span> <span class="ex">phylum</span>   <span class="kw">|</span> <span class="ex">phylum_c</span>   <span class="kw">|</span> <span class="ex">class</span>   <span class="kw">|</span> <span class="ex">class_c</span>   <span class="kw">|</span> <span class="ex">order</span>          <span class="kw">|</span> <span class="ex">order_c</span>   <span class="kw">|</span> <span class="ex">family</span>            <span class="kw">|</span> <span class="ex">family_c</span>   <span class="kw">|</span> <span class="ex">genus</span>        <span class="kw">|</span> <span class="ex">genus_c</span>   <span class="kw">|</span> <span class="ex">name</span>                                 <span class="kw">|</span> <span class="ex">species</span>     <span class="kw">|</span> <span class="ex">infraspecies_marker</span>   <span class="kw">|</span> <span class="ex">infraspecies</span>   <span class="kw">|</span> <span class="ex">infraspecies2_marker</span>   <span class="kw">|</span> <span class="ex">infraspecies2</span>   <span class="kw">|</span> <span class="ex">author</span>         <span class="kw">|</span> <span class="ex">author2</span>   <span class="kw">|</span> <span class="ex">common_name_c</span>   <span class="kw">|</span>   <span class="ex">is_alien</span> <span class="kw">|</span>   <span class="ex">is_invasive</span> <span class="kw">|</span>   <span class="ex">is_cultivated</span> <span class="kw">|</span> <span class="ex">is_endemic</span>   <span class="kw">|</span> <span class="ex">cites_code</span>   <span class="kw">|</span> <span class="ex">iucn_code</span>   <span class="kw">|</span> <span class="ex">coa_code</span>   <span class="kw">|</span> <span class="ex">時間戳記</span>               <span class="kw">|</span> <span class="ex">電子郵件地址</span>      <span class="kw">|</span> <span class="ex">life_type</span>   <span class="kw">|</span> <span class="ex">life_type_animal</span>   <span class="kw">|</span> <span class="ex">life_type_plant</span>   <span class="kw">|</span> <span class="ex">habitat_types</span>   <span class="kw">|</span> <span class="ex">棲地類型-中文其他</span>   <span class="kw">|</span> <span class="ex">棲地類型-英文其他</span>   <span class="kw">|</span> <span class="ex">reference</span>                                                                                                                                                         <span class="kw">|</span> <span class="ex">description</span>   <span class="kw">|</span> <span class="ex">suggestion</span>   <span class="kw">|</span> <span class="ex">note</span>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               <span class="kw">|</span> <span class="ex">introduction_type</span>   <span class="kw">|</span> <span class="ex">introduction_cause</span>   <span class="kw">|</span> <span class="ex">introduction_vector</span>   <span class="kw">|</span> <span class="ex">introduction_date</span>                                                                                                               <span class="kw">|</span> <span class="ex">introduction_people</span>       <span class="kw">|</span> <span class="ex">found_date</span>   <span class="kw">|</span> <span class="ex">introduction_desc</span>   <span class="kw">|</span> <span class="ex">invasiveness</span>   <span class="kw">|</span> <span class="ex">mechanism</span>   <span class="kw">|</span> <span class="ex">outcome</span>   <span class="kw">|</span> <span class="ex">dispersal_mechanisms</span>                                                                                                                                                                                                                        <span class="kw">|</span> <span class="ex">eradication_methods</span>   <span class="kw">|</span> <span class="ex">tbd1</span>   <span class="kw">|</span> <span class="ex">tbd2</span>   <span class="kw">|</span> <span class="ex">description.1</span>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               <span class="kw">|</span> <span class="ex">summary</span>                                                                                                                                                                                 <span class="kw">|</span> <span class="ex">tbd3</span>                                                                                         <span class="kw">|</span> <span class="ex">tbd4</span>                                                                                                                                                                            <span class="kw">|</span> <span class="ex">habitat_description</span>                                                                                                                                                                                                                                                                                                                                        <span class="kw">|</span> <span class="ex">nutrition</span>                                                                                                                                                                                                                                                                                                                                                                                                                                                 <span class="kw">|</span> <span class="ex">reproduction</span>                                                                                                                                                                                                                                                                                                                                          <span class="kw">|</span> <span class="ex">life_cycle</span>                                                                                                                                                                                    <span class="kw">|</span> <span class="ex">species_status</span>                                                                                                                                                                                                                                                                                                                                     <span class="kw">|</span></span>
+<span id="cb5-37"><a href="#cb5-37" aria-hidden="true" tabindex="-1"></a><span class="ex">...</span></span>
+<span id="cb5-38"><a href="#cb5-38" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-39"><a href="#cb5-39" aria-hidden="true" tabindex="-1"></a><span class="ex">CSV</span> file saved: output/query.csv</span>
+<span id="cb5-40"><a href="#cb5-40" aria-hidden="true" tabindex="-1"></a><span class="ex">TiasdCLI:tool</span><span class="op">&gt;</span>quit</span>
+<span id="cb5-41"><a href="#cb5-41" aria-hidden="true" tabindex="-1"></a><span class="ex">TiasdCLI</span><span class="op">&gt;</span>help</span>
+<span id="cb5-42"><a href="#cb5-42" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-43"><a href="#cb5-43" aria-hidden="true" tabindex="-1"></a><span class="ex">Documented</span> commands <span class="er">(</span><span class="bu">type</span> help <span class="op">&lt;</span>topic<span class="op">&gt;</span><span class="kw">)</span><span class="bu">:</span></span>
+<span id="cb5-44"><a href="#cb5-44" aria-hidden="true" tabindex="-1"></a><span class="ex">========================================</span></span>
+<span id="cb5-45"><a href="#cb5-45" aria-hidden="true" tabindex="-1"></a><span class="ex">about</span>  displayall  help  quit  reload_setting  reset  tbn  tool</span>
+<span id="cb5-46"><a href="#cb5-46" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-47"><a href="#cb5-47" aria-hidden="true" tabindex="-1"></a><span class="ex">TiasdCLI</span><span class="op">&gt;</span>tbn</span>
+<span id="cb5-48"><a href="#cb5-48" aria-hidden="true" tabindex="-1"></a><span class="ex">TiasdCLI:tbn</span><span class="op">&gt;</span>help</span>
+<span id="cb5-49"><a href="#cb5-49" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-50"><a href="#cb5-50" aria-hidden="true" tabindex="-1"></a><span class="ex">Documented</span> commands <span class="er">(</span><span class="bu">type</span> help <span class="op">&lt;</span>topic<span class="op">&gt;</span><span class="kw">)</span><span class="bu">:</span></span>
+<span id="cb5-51"><a href="#cb5-51" aria-hidden="true" tabindex="-1"></a><span class="ex">========================================</span></span>
+<span id="cb5-52"><a href="#cb5-52" aria-hidden="true" tabindex="-1"></a><span class="ex">get_taxon</span>  getcnt  help  quit  tbn_his</span>
+<span id="cb5-53"><a href="#cb5-53" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-54"><a href="#cb5-54" aria-hidden="true" tabindex="-1"></a><span class="ex">TiasdCLI:tbn</span><span class="op">&gt;</span>help get_taxon</span>
+<span id="cb5-55"><a href="#cb5-55" aria-hidden="true" tabindex="-1"></a><span class="st">"get_taxon : get taxonUUID by name_code</span></span>
+<span id="cb5-56"><a href="#cb5-56" aria-hidden="true" tabindex="-1"></a><span class="st">get_taxon [name_code]</span></span>
+<span id="cb5-57"><a href="#cb5-57" aria-hidden="true" tabindex="-1"></a><span class="st">    [name_code] (default: 419665)</span></span>
+<span id="cb5-58"><a href="#cb5-58" aria-hidden="true" tabindex="-1"></a><span class="st">ex: get_taxon 419665</span></span>
+<span id="cb5-59"><a href="#cb5-59" aria-hidden="true" tabindex="-1"></a><span class="st">"</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb6"><pre class="sourceCode sh code-with-copy"><code class="sourceCode bash"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="ex">TiasdCLI:tbn</span><span class="op">&gt;</span>get_taxon 419665</span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a><span class="ex">name_code</span><span class="er">(</span><span class="ex">419665</span><span class="kw">)</span><span class="ex">-</span><span class="op">&gt;</span>taxonUUID<span class="er">(</span><span class="ex">71a2a98f-257e-4c20-9248-3136dffbdcab</span><span class="kw">)</span></span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a><span class="ex">TiasdCLI:tbn</span><span class="op">&gt;</span>help getcnt</span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a><span class="st">"getcnt : get name_code's occurrence count </span></span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a><span class="st">getcnt [name_code] : (default: current name_codes in result of sql command)</span></span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a><span class="st">ex: getcnt 419665</span></span>
+<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a><span class="st">TiasdCLI:tbn&gt;getcnt 419665</span></span>
+<span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a><span class="st">name_code(419665)-&gt;taxonUUID(71a2a98f-257e-4c20-9248-3136dffbdcab) , cnt=370</span></span>
+<span id="cb6-10"><a href="#cb6-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-11"><a href="#cb6-11" aria-hidden="true" tabindex="-1"></a><span class="st">TiasdCLI:tbn&gt;help tbn_his</span></span>
+<span id="cb6-12"><a href="#cb6-12" aria-hidden="true" tabindex="-1"></a><span class="st">"</span><span class="ex">tbn_his</span> : get taxonUUID<span class="st">'s occurrence count history</span></span>
+<span id="cb6-13"><a href="#cb6-13" aria-hidden="true" tabindex="-1"></a><span class="st">tbn_his [taxonUUID] [days] [count]</span></span>
+<span id="cb6-14"><a href="#cb6-14" aria-hidden="true" tabindex="-1"></a><span class="st">    [taxonUUID] (default:233a25cd-bac6-4bb2-94bb-a4b4c173c218)</span></span>
+<span id="cb6-15"><a href="#cb6-15" aria-hidden="true" tabindex="-1"></a><span class="st">    [days] (default: 365.25)</span></span>
+<span id="cb6-16"><a href="#cb6-16" aria-hidden="true" tabindex="-1"></a><span class="st">    [count] (default: 3)</span></span>
+<span id="cb6-17"><a href="#cb6-17" aria-hidden="true" tabindex="-1"></a><span class="st">ex: tbn_his 233a25cd-bac6-4bb2-94bb-a4b4c173c218 365.25 3</span></span>
+<span id="cb6-18"><a href="#cb6-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-19"><a href="#cb6-19" aria-hidden="true" tabindex="-1"></a><span class="st">TiasdCLI:tbn&gt;tbn_his 233a25cd-bac6-4bb2-94bb-a4b4c173c218 365.25 3</span></span>
+<span id="cb6-20"><a href="#cb6-20" aria-hidden="true" tabindex="-1"></a><span class="st">https://www.tbn.org.tw/api/v25/occurrence?taxonUUID=233a25cd-bac6-4bb2-94bb-a4b4c173c218&amp;eventDate=2021-10-10~2022-10-10&amp;limit=20</span></span>
+<span id="cb6-21"><a href="#cb6-21" aria-hidden="true" tabindex="-1"></a><span class="st">https://www.tbn.org.tw/api/v25/occurrence?taxonUUID=233a25cd-bac6-4bb2-94bb-a4b4c173c218&amp;eventDate=2020-10-10~2021-10-10&amp;limit=20</span></span>
+<span id="cb6-22"><a href="#cb6-22" aria-hidden="true" tabindex="-1"></a><span class="st">https://www.tbn.org.tw/api/v25/occurrence?taxonUUID=233a25cd-bac6-4bb2-94bb-a4b4c173c218&amp;eventDate=2019-10-10~2020-10-10&amp;limit=20</span></span>
+<span id="cb6-23"><a href="#cb6-23" aria-hidden="true" tabindex="-1"></a><span class="st">getting...2021-10-10~2022-10-10</span></span>
+<span id="cb6-24"><a href="#cb6-24" aria-hidden="true" tabindex="-1"></a><span class="st">total=10160</span></span>
+<span id="cb6-25"><a href="#cb6-25" aria-hidden="true" tabindex="-1"></a><span class="st">getting...2020-10-10~2021-10-10</span></span>
+<span id="cb6-26"><a href="#cb6-26" aria-hidden="true" tabindex="-1"></a><span class="st">total=39842</span></span>
+<span id="cb6-27"><a href="#cb6-27" aria-hidden="true" tabindex="-1"></a><span class="st">getting...2019-10-10~2020-10-10</span></span>
+<span id="cb6-28"><a href="#cb6-28" aria-hidden="true" tabindex="-1"></a><span class="st">total=30316</span></span>
+<span id="cb6-29"><a href="#cb6-29" aria-hidden="true" tabindex="-1"></a><span class="st">2021-10-10~2022-10-10:10160</span></span>
+<span id="cb6-30"><a href="#cb6-30" aria-hidden="true" tabindex="-1"></a><span class="st">2020-10-10~2021-10-10:39842</span></span>
+<span id="cb6-31"><a href="#cb6-31" aria-hidden="true" tabindex="-1"></a><span class="st">2019-10-10~2020-10-10:30316</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="重要指引" class="level3" data-number="1.5.4">
+<h3 data-number="1.5.4" class="anchored" data-anchor-id="重要指引"><span class="header-section-number">1.5.4</span> 重要指引</h3>
+<p><strong>如何更新 DB</strong></p>
+<p>資料維護在<a href="https://docs.google.com/spreadsheets/d/1dsLBu-q9tyDqMeVFMWUGmyhvqFYwXmcrK4L0HlRiz2M/edit?usp=sharing">台灣外來入侵種資料庫建構討論</a>， 將以下幾個頁籤個別匯出 CSV, 蓋過 include/* 對應的檔案</p>
+<table class="table">
+<thead>
+<tr class="header">
+<th>來源</th>
+<th>覆蓋</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><a href="https://docs.google.com/spreadsheets/d/1dsLBu-q9tyDqMeVFMWUGmyhvqFYwXmcrK4L0HlRiz2M/edit?usp=sharing">台灣外來入侵種資料集</a></td>
+<td>include/台灣物種名錄-台灣外來物種.csv</td>
+</tr>
+<tr class="even">
+<td>台灣物種名錄-台灣外來物種</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><a href="https://docs.google.com/spreadsheets/d/1dsLBu-q9tyDqMeVFMWUGmyhvqFYwXmcrK4L0HlRiz2M/edit?usp=sharing">台灣外來入侵種資料集</a></td>
+<td>include/外來入侵種民間資料庫.csv</td>
+</tr>
+<tr class="even">
+<td>外來入侵種民間資料庫</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>補充資料 <a href="https://docs.google.com/spreadsheets/d/1FFHZNCVA-uAINYYCOjtsCY2_UuyclPejH_Mh9WfEVR0/edit?resourcekey=undefined#gid=1890334775">目前填寫結果</a></td>
+<td>include/台灣外來入侵種資料庫補充資料集 - 補充資料.csv</td>
+</tr>
+</tbody>
+</table>
+<p>可用以下命令產出 台灣外來入侵種資料庫補充資料集 - 合併補充資料集.csv tool/dbreload 1 - 建議 DB 有更新時，可以執行一次，製作 台灣外來入侵種資料庫補充資料集 - 合併補充資料集.csv，這樣可以用 excel like 的工具查看資料。但並非必要</p>
+<div class="sourceCode" id="cb7"><pre class="sourceCode sh code-with-copy"><code class="sourceCode bash"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="ex">$</span> python aisswak.py</span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a><span class="ex">TiasdCLI</span><span class="op">&gt;</span>tool</span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a><span class="ex">TiasdCLI:tool</span><span class="op">&gt;</span>dbreload 1</span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a><span class="ex">include/台灣外來入侵種資料集</span> <span class="at">-</span> 合併補充資料集.csv saved</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+</section>
+<section id="開發工具使用手冊" class="level2" data-number="1.6">
+<h2 data-number="1.6" class="anchored" data-anchor-id="開發工具使用手冊"><span class="header-section-number">1.6</span> 開發工具使用手冊</h2>
+<pre><code>conda activate  tiasdswak
+$ jupyter notebook </code></pre>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./guides.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">guides.html</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./invasive_sp_list.html" class="pagination-link">
+        <span class="nav-page-text">invasive_sp_list.html</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+</body></html>

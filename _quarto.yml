@@ -1,0 +1,59 @@
+project:
+  type: book
+  output-dir: docs
+
+book:
+  title: "台灣外來入侵種資料集(Taiwan Invasive Alien Species Dataset) 工具箱"
+  author: "哈爸、趙榮台、企鵝、Cheng-Tao Lin"
+  # cover-image: images/bookcover.png
+  date: "2023-02-20"
+  #favicon: images/gisfavicon.png
+  page-navigation: true
+  language: zh
+  #number-depth: 2
+  repo-url: https://github.com/LinkItONEDevGroup/tiasdswak
+  repo-actions: [edit, issue, source]
+  downloads: [pdf, epub, docx]
+  sharing: [facebook, twitter]
+
+  chapters:
+    - index.qmd
+    - part: guides.md
+      chapters:
+      - tiasds_toolbox.md
+    - part: invasive_sp_list.md
+      chapters:
+      - output/rpt_313411-河殼菜蛤.md
+      - output/rpt_315085-福壽螺.md
+      - output/rpt_403968-中國梨木蝨.md
+      - output/rpt_417599-小花蔓澤蘭.md
+      - output/rpt_340020-蘇鐵白輪盾介殼蟲.md
+      - output/rpt_416300-緬甸小鼠;波里尼西亞鼠.md
+      - output/rpt_401070-紅入侵火家蟻;入侵紅火蟻.md
+      - output/rpt_422619-多線真稜蜥;多線南蜥;多紋南蜥.md
+      - output/rpt_Kew-259467-布袋蓮;浮水蓮花;鳳眼蓮.md
+
+
+
+#bibliography: references.bib
+
+format:
+  html:
+    theme: simplex 
+    code-copy: true
+    fig-responsive: true
+    citations-hover: true
+    comment-hover: true
+    crossref:
+      fig-title: 圖
+      tbl-title: 表
+      fig-prefix: 圖
+      tbl-prefix: 表
+  pdf:
+    header-includes:
+      - \usepackage{fontspec} # 使用 fontspec package
+      - \usepackage{xeCJK}    # 使用 xeCJK package
+      - \setCJKmainfont{Songti TC}
+    documentclass: scrreprt
+  epub:
+    css: epub-styles.css
