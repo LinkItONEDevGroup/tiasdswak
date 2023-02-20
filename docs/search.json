@@ -1,0 +1,198 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "台灣外來入侵種資料集(Taiwan Invasive Alien Species Dataset) 工具箱",
+    "section": "",
+    "text": "前言\n台灣外來入侵種資料集(Taiwan Invasive Alien Species Dataset) 工具箱\n約半年前，遇到趙榮台，他跟我說有生態資料庫建構的需求，與是我說我可以幫忙。東摸西摸了半年，在企鵝與政道的幫助下，要來對外釋出這個資料庫。 緣起是生態專家覺得台灣外來入侵種的資料庫，應該更公開，並能融入更多生態專家的知識，釋出給更多關心的夥伴，讓大家想處理外來入侵種時，能有更正確的背景知識。 我們想要整理與釋出台灣外來入侵種的資料，這次先拿台灣十大外來入侵物種當作開始，後面會持續召開社群公開會議，讓關心的夥伴一起參與，請關注後面會議相關資訊。 附圖是一筆資料，做概念性展示。\n檔案庫為目前專案與資料（台灣十大外來入侵物種）。\n其他相關資訊，紀錄在此公開文件中。"
+  },
+  {
+    "objectID": "tiasds_toolbox.html#先從-github-tiasdswak-下載",
+    "href": "tiasds_toolbox.html#先從-github-tiasdswak-下載",
+    "title": "1  工具安裝與說明",
+    "section": "1.1 先從 github tiasdswak 下載",
+    "text": "1.1 先從 github tiasdswak 下載\n安裝建議使用 anaconda 套件環境\n使用以下命令安裝：\n\n先更改 environment.yml 內的 name, prefix，改成自己喜歡的環境名稱與路徑\n\nconda env create -f environment.yml \n\n如果出問題需要看確認可行的環境，可參考開發者環境狀態(預計主要版本都會更新 environment_detail.yml, 如果有更新的話)，此檔案由以下命令產生\n\nconda env export > environment_detail.yml\n\n環境升級參考命令\n\nconda env update -n tiasdswak -f environment.yml\n\n環境簡要說明"
+  },
+  {
+    "objectID": "tiasds_toolbox.html#版本",
+    "href": "tiasds_toolbox.html#版本",
+    "title": "1  工具安裝與說明",
+    "section": "1.2 版本",
+    "text": "1.2 版本\n目前程式版本為 V0.2，資料版本為：2023Q1.a1"
+  },
+  {
+    "objectID": "tiasds_toolbox.html#釋出流程與方法",
+    "href": "tiasds_toolbox.html#釋出流程與方法",
+    "title": "1  工具安裝與說明",
+    "section": "1.3 釋出流程與方法",
+    "text": "1.3 釋出流程與方法\n\n匯出 台灣外來入侵種資料集 (回覆)\n\n如果有更新\n\n外來入侵種民間資料庫\n台灣物種名錄-台灣外來物種\n\n\ntiasdswak tool/dbreload 1\n\n產生 include/台灣外來入侵種資料集 - 合併補充資料集.csv saved\n匯入 台灣外來入侵種資料集 - 合併補充資料集\n\ntiasdswak.ipynb 產製報表 *.md\n用 Obsidian 個別產生 pdf\ngithub commit -包含 include 與 md/pdf\n台灣外來入侵種資料集 標記版號\n台灣外來入侵種資料集 (回覆) 標記版號\n上傳 drive/釋出"
+  },
+  {
+    "objectID": "tiasds_toolbox.html#使用須知",
+    "href": "tiasds_toolbox.html#使用須知",
+    "title": "1  工具安裝與說明",
+    "section": "1.4 使用須知",
+    "text": "1.4 使用須知\n工具箱主要提供兩種工具，CLI 給不會寫python 的使用者，notebook 給熟悉 python 的使用者。 兩者目的不同： CLI 主要是將常用的功能提供給使用者使用， notebook 則是提供彈性的開發者支援，方便會寫程式的使用者，做更多的資料分析"
+  },
+  {
+    "objectID": "tiasds_toolbox.html#cli使用手冊",
+    "href": "tiasds_toolbox.html#cli使用手冊",
+    "title": "1  工具安裝與說明",
+    "section": "1.5 CLI使用手冊",
+    "text": "1.5 CLI使用手冊\n\n1.5.1 設定\n# pandas setting\nMAX_ROWS=10 #60\nMAX_COLUMNS=8 #20\nMAX_COLWIDTH=50 #50\n\n\n1.5.2 功能\n\ntool\n\n列出 standard:政府資料 ,append:民間資料庫 ,extend:補充資料 ,mix= 政府+民間,merge= 政府+民間+補充 ,cur:目前查詢結果(default)\n可針對資料集使用 sql 來查詢，並存成 CSV\nname_code 轉換 taxonUUID\n\ntbn\n\n取得 name_code 在 TBN 目前的觀察數量\n取得 taxonUUID 的數量 （每隔固定間隔時間）\n\n\n\n\n1.5.3 命令與使用範例\n$ python tiasdswak.py\nroot        : INFO     LASS - TiasdSWAK version: v0.1\nTiasdCLI>help\n\nDocumented commands (type help <topic>):\n========================================\nabout  displayall  help  quit  reload_setting  reset  tbn  tool\n\nTiasdCLI>about\nTiasdSWAK version: v0.1\nTiasdCLI>tool\nTiasdCLI:tool>help\n\nDocumented commands (type help <topic>):\n========================================\ndbreload  help  list  quit  sql\n\nTiasdCLI:tool>help list\nlist : list content of db\nlist [db_name] [content]\n    [db_name] standard:政府資料 ,append:民間資料庫 ,extend:補充資料 ,mix= 政府+民間,merge= 政府+民間+補充 ,cur:目前查詢結果(default)\n    [content] 0: show info, 1: show content (default)\nex: list cur 0\n        \nTiasdCLI:tool>help sql\napply sql to select, default save result to output/query.csv\nsql [sql_cmd]\nex: sql select * from df where common_name_c='埃及聖䴉'\nex: sql select * from df where \"類別-動物\"='鳥類'\nex: sql select * from df where \"棲地類型Habitat types\" like '%農業區%'\nex: sql select * from df where class_c='鳥綱' and common_name_c like '%八哥%'\n\n        \nTiasdCLI:tool>sql select * from df where common_name_c='埃及聖䴉'\nsql=select * from df where common_name_c='埃及聖䴉', filename=output/query.csv\n|    |   name_code | kingdom   | kingdom_c   | phylum   | phylum_c   | class   | class_c   | order          | order_c   | family            | family_c   | genus        | genus_c   | name                                 | species     | infraspecies_marker   | infraspecies   | infraspecies2_marker   | infraspecies2   | author         | author2   | common_name_c   |   is_alien |   is_invasive |   is_cultivated | is_endemic   | cites_code   | iucn_code   | coa_code   | 時間戳記               | 電子郵件地址      | life_type   | life_type_animal   | life_type_plant   | habitat_types   | 棲地類型-中文其他   | 棲地類型-英文其他   | reference                                                                                                                                                         | description   | suggestion   | note                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               | introduction_type   | introduction_cause   | introduction_vector   | introduction_date                                                                                                               | introduction_people       | found_date   | introduction_desc   | invasiveness   | mechanism   | outcome   | dispersal_mechanisms                                                                                                                                                                                                                        | eradication_methods   | tbd1   | tbd2   | description.1                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               | summary                                                                                                                                                                                 | tbd3                                                                                         | tbd4                                                                                                                                                                            | habitat_description                                                                                                                                                                                                                                                                                                                                        | nutrition                                                                                                                                                                                                                                                                                                                                                                                                                                                 | reproduction                                                                                                                                                                                                                                                                                                                                          | life_cycle                                                                                                                                                                                    | species_status                                                                                                                                                                                                                                                                                                                                     |\n...\n\nCSV file saved: output/query.csv\nTiasdCLI:tool>quit\nTiasdCLI>help\n\nDocumented commands (type help <topic>):\n========================================\nabout  displayall  help  quit  reload_setting  reset  tbn  tool\n\nTiasdCLI>tbn\nTiasdCLI:tbn>help\n\nDocumented commands (type help <topic>):\n========================================\nget_taxon  getcnt  help  quit  tbn_his\n\nTiasdCLI:tbn>help get_taxon\n\"get_taxon : get taxonUUID by name_code\nget_taxon [name_code]\n    [name_code] (default: 419665)\nex: get_taxon 419665\n\"\nTiasdCLI:tbn>get_taxon 419665\nname_code(419665)->taxonUUID(71a2a98f-257e-4c20-9248-3136dffbdcab)\nTiasdCLI:tbn>help getcnt\n\"getcnt : get name_code's occurrence count \ngetcnt [name_code] : (default: current name_codes in result of sql command)\nex: getcnt 419665\n\nTiasdCLI:tbn>getcnt 419665\nname_code(419665)->taxonUUID(71a2a98f-257e-4c20-9248-3136dffbdcab) , cnt=370\n\nTiasdCLI:tbn>help tbn_his\n\"tbn_his : get taxonUUID's occurrence count history\ntbn_his [taxonUUID] [days] [count]\n    [taxonUUID] (default:233a25cd-bac6-4bb2-94bb-a4b4c173c218)\n    [days] (default: 365.25)\n    [count] (default: 3)\nex: tbn_his 233a25cd-bac6-4bb2-94bb-a4b4c173c218 365.25 3\n\nTiasdCLI:tbn>tbn_his 233a25cd-bac6-4bb2-94bb-a4b4c173c218 365.25 3\nhttps://www.tbn.org.tw/api/v25/occurrence?taxonUUID=233a25cd-bac6-4bb2-94bb-a4b4c173c218&eventDate=2021-10-10~2022-10-10&limit=20\nhttps://www.tbn.org.tw/api/v25/occurrence?taxonUUID=233a25cd-bac6-4bb2-94bb-a4b4c173c218&eventDate=2020-10-10~2021-10-10&limit=20\nhttps://www.tbn.org.tw/api/v25/occurrence?taxonUUID=233a25cd-bac6-4bb2-94bb-a4b4c173c218&eventDate=2019-10-10~2020-10-10&limit=20\ngetting...2021-10-10~2022-10-10\ntotal=10160\ngetting...2020-10-10~2021-10-10\ntotal=39842\ngetting...2019-10-10~2020-10-10\ntotal=30316\n2021-10-10~2022-10-10:10160\n2020-10-10~2021-10-10:39842\n2019-10-10~2020-10-10:30316\n\n\n1.5.4 重要指引\n如何更新 DB\n資料維護在台灣外來入侵種資料庫建構討論， 將以下幾個頁籤個別匯出 CSV, 蓋過 include/* 對應的檔案\n\n\n\n來源\n覆蓋\n\n\n\n\n台灣外來入侵種資料集\ninclude/台灣物種名錄-台灣外來物種.csv\n\n\n台灣物種名錄-台灣外來物種\n\n\n\n台灣外來入侵種資料集\ninclude/外來入侵種民間資料庫.csv\n\n\n外來入侵種民間資料庫\n\n\n\n補充資料 目前填寫結果\ninclude/台灣外來入侵種資料庫補充資料集 - 補充資料.csv\n\n\n\n可用以下命令產出 台灣外來入侵種資料庫補充資料集 - 合併補充資料集.csv tool/dbreload 1 - 建議 DB 有更新時，可以執行一次，製作 台灣外來入侵種資料庫補充資料集 - 合併補充資料集.csv，這樣可以用 excel like 的工具查看資料。但並非必要\n$ python aisswak.py\nTiasdCLI>tool\nTiasdCLI:tool>dbreload 1\ninclude/台灣外來入侵種資料集 - 合併補充資料集.csv saved"
+  },
+  {
+    "objectID": "tiasds_toolbox.html#開發工具使用手冊",
+    "href": "tiasds_toolbox.html#開發工具使用手冊",
+    "title": "1  工具安裝與說明",
+    "section": "1.6 開發工具使用手冊",
+    "text": "1.6 開發工具使用手冊\nconda activate  tiasdswak\n$ jupyter notebook"
+  },
+  {
+    "objectID": "output/rpt_313411-河殼菜蛤.html#habitat_description-棲地描述-habitat-description",
+    "href": "output/rpt_313411-河殼菜蛤.html#habitat_description-棲地描述-habitat-description",
+    "title": "2  313411 (河殼菜蛤)",
+    "section": "2.1 habitat_description | 棲地描述 | Habitat description",
+    "text": "2.1 habitat_description | 棲地描述 | Habitat description\n棲息於河流及河口半淡鹹水區域。能適應的鹽度相當廣，除淡水之外，尚可忍受河口或沿海地區鹽度千分之12以下的海水。河殼菜蛤能存活於16-28℃之水域環境，幼生在靜置的水體中可以經歷數個月的浮游生活而不會死亡 [3]。\n喜好環境為淡水湖、河流與河口。在亞洲生長在8-32℃的水中，曾證實出現在35℃ 的水中。河殼菜蛤藉著其耐熱性質，成功的入侵南美洲至北美洲較低緯度大湖區的水體，但無法長期耐受厭氧的環境，最大的生長與繁殖量皆出現在有氧環境，水氧濃度需大於1.0 mg/L [4]"
+  },
+  {
+    "objectID": "output/rpt_313411-河殼菜蛤.html#life_cycle-生活史-life-cycle",
+    "href": "output/rpt_313411-河殼菜蛤.html#life_cycle-生活史-life-cycle",
+    "title": "2  313411 (河殼菜蛤)",
+    "section": "2.2 life_cycle | 生活史 | Life cycle",
+    "text": "2.2 life_cycle | 生活史 | Life cycle\n受精卵發育為第一期幼蟲叫「擔輪幼蟲」，再發育為第二期幼蟲叫「面盤幼蟲」，開始攝食浮游生物，經一段時期變態成為幼體。第一、二期幼蟲均為浮游生活，可乘水漂流到具有豐富食物的水域。大約10天後，面盤幼蟲長出兩枚小貝殼、足及其他器官 (例如足絲腺)。大約經4星期的浮游生活後，面盤幼蟲就下降到水底，如果水底棲地不理想，牠會再昇起浮游，直到理想適合的棲地，然後分泌足絲，固定於適合的表面。壽命為2-3年[1]。\n一年可達性成熟，兩性的性腺在五月開始發育，於六月成熟，並在十月時退化，南美族群的生活史很少超過2-3年，最長的紀錄為5年與10年，分別發生在韓國與中國大陸 [6]。"
+  },
+  {
+    "objectID": "output/rpt_313411-河殼菜蛤.html#note-備註-note",
+    "href": "output/rpt_313411-河殼菜蛤.html#note-備註-note",
+    "title": "2  313411 (河殼菜蛤)",
+    "section": "2.3 note | 備註 | Note",
+    "text": "2.3 note | 備註 | Note\n河殼菜蛤可容忍的鹽度廣，因此在沿海地區活動的船舶成為潛在的播遷工具，尤其是大型的輪船需要大量的壓艙水，因此可攜帶其幼體遠渡重洋帶至世界各地，在外地入侵之後形成龐大族群造成危害[3]。\n台灣在1987年以前並沒有本種之紀錄，其入侵台灣之途徑已無跡可查 [1]。\n河殼菜蛤在輸水渠道有兩個夏季和冬季的生殖高峰。水溫是控制河殼菜蛤生殖和成長的因子：當水溫逐漸下降至25℃會促使配子釋放，在26℃以上或17℃以下則會抑制其生殖腺發育和體長生長，若水溫持續在25℃以上兩個月會造成貽貝大量死亡 [2]。"
+  },
+  {
+    "objectID": "output/rpt_313411-河殼菜蛤.html#reference-參考資料-references",
+    "href": "output/rpt_313411-河殼菜蛤.html#reference-參考資料-references",
+    "title": "2  313411 (河殼菜蛤)",
+    "section": "2.4 reference | 參考資料 | References",
+    "text": "2.4 reference | 參考資料 | References\n\n吳錫圭、蔡奇立、林旭宏。2003。入侵台灣的河殼菜蛤。自然保育季刊 41: 32-35。\n姜鈴、賴伯勳。2012。在石門水庫的入侵貽貝。2010 外來入侵種監控與管理國際研討會。\n梁世雄。2008。外來入侵動物物種資料收集與管理工具之建立報告。\n黃致維。2008。應用粒線體COI 片段探討台灣的河殼菜蛤族群遺傳結構。國立彰化師範大學 生物學系 碩士論文。\n蔡明利。1992。淡水種貽貝入侵台灣。科學月刊273期(http://210.60.224.4/ct/content/1992/00090273/0013.htm)\nANSRP. Golden Mussel - Limnoperna fortunei. (http://el.erdc.usace.army.mil/ansrp/limnoperna_fortunei.pdf)\nISSG. 2013. Limnoperna fortunei. (http://www.issg.org/database/species/ecology.asp?si=416&fr=1&sts=&lang=EN)\nMorton BS, Au CS, and Lam WW. 1976. The efficacy of chlorine in the control of Limnoperna fortunei (Dunker 1857) (Bivalvia: Mytilidae) colonizing parts of Hong Kong’s raw water supply system. Journal of the Institution of Water Engineers and Scientists 30:147-156."
+  },
+  {
+    "objectID": "output/rpt_315085-福壽螺.html#control_methods-防治方法-control-methods",
+    "href": "output/rpt_315085-福壽螺.html#control_methods-防治方法-control-methods",
+    "title": "3  315085 (福壽螺)",
+    "section": "3.1 control_methods | 防治方法 | Control methods",
+    "text": "3.1 control_methods | 防治方法 | Control methods\n一、物理防治：於栽培田區的入水口裝置鐵絲網，隔絕來自溝渠的福壽螺；人工撿拾福壽螺卵塊及螺體，可有效降低福壽螺的族群密度，並能兼顧農業生態環境的保育。\n二、栽培防治：冬季休閒期，進行一次耕犁作業，將遁入土壤冬眠的福壽螺成體翻出土面，干擾休眠過程，增加其死亡的機會。\n二、生物防治：放養鴨子至田區取食福壽螺；若水量大且水位高於30公分，可以釋放體重約3公斤的青魚 (烏鰡) 取食福壽螺。\n三、藥劑防治：蕹菜栽培初期，氣溫若低於15℃，則無防治的必要。施用時田間水應保持1～3公分，且須均勻噴施田區，才可達到防治效果。水蕹菜栽植初期及每次採收後的再分蘗期為重點防治時期。此外，10月份水蕹菜採收後，田間宜引水灌溉，耕犛整地後，進行一次防治作業，以消滅即將潛入土中休眠的福壽螺，可有效降低本田內的福螺密度。相關藥劑名稱、每公頃使用量、稀釋倍數(倍)及施藥方法請參考[5]。 ## reference | 參考資料 | References 1. Global invasive species database (GISD). Pomacea canaliculata. (http://www.issg.org/database/species/ecology.asp?si=135&fr=1&sts=sss&lang=EN)\n\n張文重。1985。金寶螺之生態研究。貝類學報 11 : 43-51。\n許秀惠、許苑培、馮永富、黃晉興、廖君達、徐玲明。2002。植物保護技術專刊系列4-蕹菜篇。行政院農業委員會動植物防疫檢疫檢驗局。32-33頁。\n陳俊宏等。2010。外來入侵動物物種資料收集及管理工具之建立報告。\n費雯綺、王喻其編。2007。植物保護手冊─糧食作物及其他篇，第296-297頁。台中。412頁。\n農業試驗所作物病蟲害與肥培管理技術資料光碟：(http://www.tari.gov.tw/techcd/%E8%94%AC%E8%8F%9C/%E8%91%89%E8%8F%9C%E9%A1%9E/%E7%94%95%E8%8F%9C/%E8%9F%B2%E5%AE%B3/甕菜-福壽螺.HTM)\n廖君達。2000。福壽螺引進的省思。台中區農情月刊 8: 4。\n簡秀芳、李木川、鄒慧娟、黃德昌。水稻福壽螺之防治。植物疫病害蟲管理。行政院農業委員會動植物防疫檢疫局。"
+  },
+  {
+    "objectID": "output/rpt_403968-中國梨木蝨.html#description-物種描述-species-description",
+    "href": "output/rpt_403968-中國梨木蝨.html#description-物種描述-species-description",
+    "title": "4  403968 (中國梨木蝨)",
+    "section": "4.1 description | 物種描述 | Species description",
+    "text": "4.1 description | 物種描述 | Species description\n木蝨是一種小型的昆蟲，體型通常約2 至5 mm，成蟲外觀猶似迷你蟬，但觸角頗長，共有十節，停歇時左右翅放置體後呈屋脊狀。頭部複眼發達，有三個單眼，側單眼在頭頂兩側近複眼處，中單眼則位於極度退化的前額，頰部依不同類群發達程度不一，較發達者向下突出，形成頰椎。中國梨木蝨為夾錐三角形，頭頂呈一和緩之半圓形凹陷。成蟲分夏型及冬型2種，夏型體長2.5~2.7㎜ 左右，體呈淡黃綠色、黃色、綠色或黃綠相間，翅上無斑紋。冬型體長3㎜左右，體呈深褐色，有黑色斑紋，前翅後緣有明顯褐斑。若蟲體扁圓形，初孵化的若蟲體型小，性活潑。第一代初孵化的若蟲乳白色，之後漸轉為黃色至綠色，有些末齡若蟲體表呈褐色。若蟲經4次脫皮後羽化為成蟲。卵長橢圓形，一端尖細，一端鈍圓，固著植物表面。初產下的卵為乳白色，而成熟接近孵化的卵則為淡黃色，若蟲會分泌白色蠟及蜜露，若蟲體緣為簡單型剛毛。 ## nutrition | 營養 | Nutrition 植食性昆蟲，刺吸式口器取食，以梨樹為主。\nPhytophagous insect. Both nymphs and adults have piercing-sucking mouthparts. They feed by removing plant fluids from tender foliage, especially on pears. ## reproduction | 繁殖方式 | Reproduction 卵生\nOviparous. ## note | 備註 | Note 目前因應策略仍以藥劑防治為主。即以9.6%亦達胺溶液3000倍或20%亞滅培可溶性粉劑4000倍防治，每隔7天再防治1次。[1]"
+  },
+  {
+    "objectID": "output/rpt_417599-小花蔓澤蘭.html#control_methods-防治方法-control-methods",
+    "href": "output/rpt_417599-小花蔓澤蘭.html#control_methods-防治方法-control-methods",
+    "title": "5  417599 (小花蔓澤蘭)",
+    "section": "5.1 control_methods | 防治方法 | Control methods",
+    "text": "5.1 control_methods | 防治方法 | Control methods\n一、「連續切蔓法」：將小花蔓澤蘭之莖部從近地表處切除，每個月切一次，連續切三個月；在夏季及秋季時以此步驟進行，可消除90%以上的小花蔓澤蘭植株，但冬季及春季之除蔓效果較差 [1,5]。\n二、相剋作用：鳳凰木的葉及花對小花蔓澤蘭具有強烈植物毒性，覆蓋鳳凰木之葉粉或花瓣粉於土表，可對小花蔓澤蘭之小苗造成高達90%之致死率；噴灑鳳凰木之葉部萃取液於小花蔓澤蘭的葉表也能夠造成高死亡率。故可將鳳凰木與新植苗木混植，藉鳳凰木提供遮蔭及毒害小花蔓澤蘭；而在已成林的林緣也可嘗試栽種鳳凰木當保護帶，藉此抵抗小花蔓澤蘭的危害。[1,4]\n三、殺草劑：噴灑草脫淨、滅必淨、達有龍、復祿芬及草芬定等萌前殺草劑可造成小花蔓澤蘭98%以上的致死率；而嘉磷塞、固殺草、巴拉刈、2,4-D、三氯比、氟氯比等萌後殺草劑之防治效果則達93% [2, 7]。但使用殺草劑對環境造成的問題可能比蔓藤危害更嚴重，故不建議貿然採用 [4]。\n四、生物防治：國內外有關小花蔓澤蘭生物防治之研究，包括病原菌、昆蟲、中藥煎煮液、植物相剋作用等面向 [6]。由英國引進台灣之銹病菌 (小花蔓澤蘭原產地之天敵) 具寄主專一性和絕對寄生性，為安全可行又實際的生物防治法 [11]。受感染之小花蔓澤蘭植株有生長點死亡、葉片及莖蔓畸形、產生病斑、枯萎之現象，由於銹病菌為短週期、生活史中只有冬孢子，傳播速率較慢，故防治時應多點、多次釋放 [12]。 ## habitat_description | 棲地描述 | Habitat description 小花蔓澤蘭在熱帶美洲常見於受干擾的環境、潮濕的土地或沼澤地區；在南美洲則分布於潮濕的森林和淡水沼澤森林內；中國大陸的深圳及東莞等地則常出現在受破壞的林地邊緣、荒廢農地、路邊、疏於管理的果園、水庫、污水溝旁及濕地邊緣等。在台灣地區小花蔓澤蘭常見入侵於低海拔人工林、次生林及保安林，尤其以靠近山區鄉鎮內的荒廢果園、檳榔園、廢耕地、路旁及邊坡等地受害較為嚴重[10]。\n喜好生長在陽光充足及潮濕的開闊地環境，較粗壯的植株即會往上攀附在林木的樹冠上，藉以爭取更多的陽光以利其生長。在土壤潮濕、疏鬆、富含有機質及陽光充足的生育地中，生長特別迅速，但不耐遮蔭、乾燥及貧瘠的土壤。在林下環境無法生存，但在35％相對光量環境即可有最大生物量，生長環境光度越強根系越旺盛。[5, 8] ## reference | 參考資料 | References [1] 郭耀綸、陳志遠、林杰昌。2002。藉連續切蔓法及相剋作用防治外來入侵的小花蔓澤蘭。台灣林業科學17(2): 171-81。\n[2] 徐玲明、蔣慕琰。2002。台灣主要除草劑防治小花蔓澤蘭(Mikania micrantha Kunth)之效果。中華民國雜草學會會刊23: 73-81。\n[3] 徐玲明、蔣慕琰。2003。小花蔓澤蘭與蔓澤蘭發芽及營養生長之比較。植物保護學會會刊45: 3\n[4] 21-328。\n[5] 郭耀綸、陳志遠、黃慈薇。2003。小花蔓澤蘭的生態生理性狀。小花蔓澤蘭危害與管理研討會。11-27頁。\n[6] 陳阿興、蕭祺輝。2003。小花蔓澤蘭防治與管理。小花蔓澤蘭危害與管理研討會。69-77頁。\n[7] 陳滄海、陳仁昭、汪慈慧、王均琍、趙永椿。2003。小花蔓澤蘭之生物防治。小花蔓澤蘭危害與管理研討會專刊。79-96頁。\n[8] 徐玲明。2003。蔓澤蘭之生育特性及化學防治。小花蔓澤蘭危害與管理研討會專刊。111-121頁。\n[9] 黃士元、彭仁傑、郭曜豪。2003。小花蔓澤蘭在台灣之蔓延及監測。小花蔓澤蘭危害與管理研討會專刊。123-145頁。\n[10] 廖天賜。2003。小花蔓澤蘭在世界各地蔓延及危害。小花蔓澤蘭危害與管理研討會專刊。147-153頁。\n[11] 黃士元、廖天賜。2004。入侵植物小花蔓澤蘭之生態習性及危害。自然科教育專輯209: 73-81.\n[12] 曾顯雄。2005。小花蔓澤蘭之真菌性天敵生物防治研究。林務局暨所屬機關委託研究計畫。Report no.\n[13] 曾顯雄。2009。小花蔓澤蘭的古典生物防治。科學月刊444: 34-40\n[14] Global Invasive Species Database (GISD) - Mikania micrantha. Website: http://www.issg.org/database/species/ecology.asp?si=42&fr=1&sts=sss&lang=EN"
+  },
+  {
+    "objectID": "output/rpt_340020-蘇鐵白輪盾介殼蟲.html#dispersal_mechanisms-播遷機制-dispersal-mechanisms",
+    "href": "output/rpt_340020-蘇鐵白輪盾介殼蟲.html#dispersal_mechanisms-播遷機制-dispersal-mechanisms",
+    "title": "6  340020 (蘇鐵白輪盾介殼蟲)",
+    "section": "6.1 dispersal_mechanisms | 播遷機制 | Dispersal mechanisms",
+    "text": "6.1 dispersal_mechanisms | 播遷機制 | Dispersal mechanisms\n在自然因素上可能是藉由風及氣流被動式進行短距離或鄰近植株間的擴散；在人為的因素上則可能是藉由人為攜帶或苗木販售搬運等方式進行傳播。\n蘇鐵白輪盾介殼蟲在台灣短短不到三年的時間，已快速的蔓延危害超過三百公里以上的距離，從台北拓展到高雄、屏東、花蓮、台東，如此快速遷移擴散的主要原因，除了人為的攜帶，苗木販售搬運的長距離移動之外，在短距離的遷移和鄰近植株間的傳播，則主要依靠具有移動能力主動分散的初齡若蟲。此外，移動的初齡若蟲和卵也可藉由風及氣流進行被動的分散。"
+  },
+  {
+    "objectID": "output/rpt_340020-蘇鐵白輪盾介殼蟲.html#control_methods-防治方法-control-methods",
+    "href": "output/rpt_340020-蘇鐵白輪盾介殼蟲.html#control_methods-防治方法-control-methods",
+    "title": "6  340020 (蘇鐵白輪盾介殼蟲)",
+    "section": "6.2 control_methods | 防治方法 | Control methods",
+    "text": "6.2 control_methods | 防治方法 | Control methods\n\n修除受害部位的枝條，為避免害蟲擴散，一定要將其枝葉完全燒毀。\n利用強力水柱去除植株頂端內各個新芽及鱗莖的介殼蟲，再使用44%大滅松乳劑稀釋1000倍加上稀釋100倍的95%夏油噴灑於整棵植株上，每隔兩星期施作一次，共4次。平常若有發現介殼蟲的蹤跡，可再補行防治措施一次。\n在發生該害蟲後的三年內，建議進行冬季植株管理工作，包括修剪老舊枝葉，噴灑化學防治藥劑及施用有機肥等，以減少來年蟲害的發生，並增加植株本身的抵抗力。"
+  },
+  {
+    "objectID": "output/rpt_340020-蘇鐵白輪盾介殼蟲.html#description-物種描述-species-description",
+    "href": "output/rpt_340020-蘇鐵白輪盾介殼蟲.html#description-物種描述-species-description",
+    "title": "6  340020 (蘇鐵白輪盾介殼蟲)",
+    "section": "6.3 description | 物種描述 | Species description",
+    "text": "6.3 description | 物種描述 | Species description\n\n雌成蟲形態\n\n雌成蟲介殼呈白色，外形多變，呈梨形或邊緣不規則形。蟲體為橘色隱於介殼之下，軀體粗短，大多為膜質，頭胸部區及臀板有骨化現象。前體圓弧狀，與本屬其他種類相比，此區之膨脹程度較不明顯。中胸寬於後胸，腹部逐漸向後窄縮，整體而言是前體寬於後體。腹部背面亞體緣部具背腺管列。亞中區背小管位於後胸和腹部第1、2節，亦常延及中胸。第1腹節側葉每側各具1-2根腺刺。第4腹節每側各具2根緣腺刺，第5-8腹節每側則各具1根。第3-5腹節背方體中區至亞緣區具背腺管列。氣孔盤狀腺孔在前胸具10-24個，後胸6-15個。臀板寬廣，邊緣呈圓弧狀，中臀葉大於側臀葉，第2與3臀葉亦發達。中臀葉末端內陷，且內陷區後緣呈微鋸齒狀，頂部圓滑。第2臀葉內瓣圓弧狀，較外瓣大，二者相似。第3臀葉內瓣發達，外瓣小，呈鋸齒狀。圍陰腺孔中群12-17個，前側群14-26個，後側群14-21個。\n\n雄成蟲形態\n\n雄成蟲體為橙黃色，無腺管發育。頭三角形，具4眼，背腹各2，口器退化。觸角絲狀，每節上有很多細長的剛毛，前胸和頭癒合，膜質，前胸背板完全發育。中胸發達，骨化程度高，前胸與中胸背板表面皆具皺摺，中胸背側板有翅一對，約和蟲體等長，翅基部窄端部寬，膜質，表面具大量絨毛，翅脈有共同軸再分成R和M脈2條。後翅退化成棍狀，端部有1長剛毛。足發達，細長，有許多長剛毛，單爪。腹部末端具長形交尾器，其基部有一對長剛毛，內具鞘[1]。\n\n初齡若蟲形態\n\n初孵化時體膜質，橙色，呈卵圓形。體表具大量皺摺，體緣著生有長形剛毛。觸角5節，基節最膨大，上有2根長剛毛，第三節中央內陷，看似2節，第五節最細長，上有環紋，具長形端剛毛數根。眼點位於頭部前方體側，明顯突起。中胸及後胸腹方各有一對氣孔，周圍具三格盤狀孔。足部發育完全，附節末端具細長單爪。腹部腹面體節相接處有大量微刺，呈鋸齒狀排列。臀板第一葉突起不明顯，第二葉完全發育，分為2片，每片4齒，第三葉未發育。腹部末端具1對長尾毛，長度可達身體的一半。"
+  },
+  {
+    "objectID": "output/rpt_340020-蘇鐵白輪盾介殼蟲.html#native_range-地理分佈原產地-geographical-rangenative-range",
+    "href": "output/rpt_340020-蘇鐵白輪盾介殼蟲.html#native_range-地理分佈原產地-geographical-rangenative-range",
+    "title": "6  340020 (蘇鐵白輪盾介殼蟲)",
+    "section": "6.4 native_range | 地理分佈/原產地 | Geographical range/Native range",
+    "text": "6.4 native_range | 地理分佈/原產地 | Geographical range/Native range\n原產地在東南亞，Takagi (1977)在泰國曼谷的蘇鐵上採集到標本。\nThe origin of the Cycad Aulacaspis scale (CAS) is from Southeast Asia where it was described in Thailand by Takagi (1977) from specimens collected in Bangkok on Cycas sp."
+  },
+  {
+    "objectID": "output/rpt_340020-蘇鐵白輪盾介殼蟲.html#introduced_range-地理分佈被引進地-geographical-rangeintroduced-range",
+    "href": "output/rpt_340020-蘇鐵白輪盾介殼蟲.html#introduced_range-地理分佈被引進地-geographical-rangeintroduced-range",
+    "title": "6  340020 (蘇鐵白輪盾介殼蟲)",
+    "section": "6.5 introduced_range | 地理分佈/被引進地 | Geographical range/Introduced range",
+    "text": "6.5 introduced_range | 地理分佈/被引進地 | Geographical range/Introduced range\n台灣、香港和新加坡、美國的佛羅里達州和夏威夷群島，以及中美洲加勒比海區域的開曼群島、美屬維京群島和波多黎各等地區。\nTaiwan, Hong Kong and Singapore, Florida in the United States and the Hawaiian Islands, and Central America Caribbean region, the Cayman Islands, the U.S. Virgin Islands and Puerto Rico"
+  },
+  {
+    "objectID": "output/rpt_340020-蘇鐵白輪盾介殼蟲.html#habitat_description-棲地描述-habitat-description",
+    "href": "output/rpt_340020-蘇鐵白輪盾介殼蟲.html#habitat_description-棲地描述-habitat-description",
+    "title": "6  340020 (蘇鐵白輪盾介殼蟲)",
+    "section": "6.6 habitat_description | 棲地描述 | Habitat description",
+    "text": "6.6 habitat_description | 棲地描述 | Habitat description\n主要寄生在蘇鐵科(Cycadaceae)、美洲鳳尾蕉科(Zamiaceae)和蕨狀蘇鐵科(Stangeriaceae)的植物。\nParasites in Cycadaceae, Zamiaceae and Stangeriaceae plants."
+  },
+  {
+    "objectID": "output/rpt_340020-蘇鐵白輪盾介殼蟲.html#nutrition-營養-nutrition",
+    "href": "output/rpt_340020-蘇鐵白輪盾介殼蟲.html#nutrition-營養-nutrition",
+    "title": "6  340020 (蘇鐵白輪盾介殼蟲)",
+    "section": "6.7 nutrition | 營養 | Nutrition",
+    "text": "6.7 nutrition | 營養 | Nutrition\n植食性。食蘇鐵科 (Cycadaceae)與蕨蘇鐵科 (Stangeriaceae)的多種植物，其中以蘇鐵屬受害最為嚴重。\nPhytophagous. The Cycad Aulacaspis scale feeds on many plant species of families Cycadaceae and Stangeriaceae, especially genus Cycas that was damaged seriously by Cycad Aulacaspis scale."
+  },
+  {
+    "objectID": "output/rpt_340020-蘇鐵白輪盾介殼蟲.html#suggestion-建議-suggestion",
+    "href": "output/rpt_340020-蘇鐵白輪盾介殼蟲.html#suggestion-建議-suggestion",
+    "title": "6  340020 (蘇鐵白輪盾介殼蟲)",
+    "section": "6.8 suggestion | 建議 | Suggestion",
+    "text": "6.8 suggestion | 建議 | Suggestion\n台灣全島皆有分佈。\nDistributed in all of Taiwan ## reference | 參考資料 | References 1. 邱一中、吳文哲、賴博永、石正人。2004。蘇鐵白輪盾介殼蟲之發生生態及防治。台灣作物病蟲害綜合管理研討會專刊: 169-191. 農業試驗所特刊第106號。\n\n許迪川。2008。蘇鐵的主要蟲害及其防治方法。行政院農業委員會臺東區農業改良場。\n傅春旭。2007。常見樹木病蟲害介紹與防治。行政院農委會林業試驗所。\n黃紹毅。2008。蘇鐵白輪盾介殼蟲捕食性天敵雙色出尾蟲大量繁殖及防治監測。行政院農業委員會林務局委託計畫系列97-07-1-1號。台中, 國立中興大學昆蟲學系。\nGermain, JF, and Hodges GS. 2007. First report of Aulacaspis yasumatsui (Hemiptera: Diaspididae) in Africa (Ivory coast), and update on distribution. Fla Entomol 90(4): 755-756.\nGISD. 2013. Aulacaspis yasumatsui. (http://www.issg.org/database/species/ecology.asp?si=814&fr=1&sts=)\nHoward FW, Hamon A, McLaughlin M, Weissling T, and Yang SL. 1999. Aulacaspis yasumatsui (Hemiptera: Sternorrhyncha: Diaspididae), a scale insect pest of cycads recently introduced into Florida. Fla Entomol 82 (1): 14-27.\nTaiBNET. 2013. Aulacaspis yasumatsui.\n\n(http://taibnet.sinica.edu.tw/chi/taibnet_species_detail.php?name_code=340020&PHPSESSID=2gt7tt98rv1hk0luk3k68oci42)"
+  },
+  {
+    "objectID": "output/rpt_416300-緬甸小鼠;波里尼西亞鼠.html#control_methods-防治方法-control-methods",
+    "href": "output/rpt_416300-緬甸小鼠;波里尼西亞鼠.html#control_methods-防治方法-control-methods",
+    "title": "7  416300 (緬甸小鼠;波里尼西亞鼠)",
+    "section": "7.1 control_methods | 防治方法 | Control methods",
+    "text": "7.1 control_methods | 防治方法 | Control methods\n物理防治：主要透過陷阱、捕鼠籠。\n化學防治：在紐西蘭，化合物1080還沒被證實可以對抗緬甸小鼠，但是疑似是如溴鼠靈與溴敵鼠的抗凝血毒素。最近成功的移除行動是用直升機在空中撒Talon 20 P誘餌。Talon 20 P是以穀物為基礎約0.8克的沉澱物，含有抗凝血劑20 ppm。目前使用濃度為15kg/ha，成本約$75US/ha[6] 敵鼠(diphacinone)，殺鼠迷(coumatetralyl )和華法令(warfarin)，也應用田野研究評估，作為替代滅鼠劑。目前紐西蘭最廣泛使用的滅鼠劑是brodifacoum，但會對非目標的野生動物產生持久的殘留。\n生物防治：巨蜥和貓鼬早期被引入太平洋島嶼，試圖控制緬甸小鼠。\n避孕控制方法目前處於試驗階段，但很有潛力。美國野生動植物研究中心的科學家正在研究幾種可能的配方，可能可以有效的用口服接種[11]。"
+  },
+  {
+    "objectID": "output/rpt_416300-緬甸小鼠;波里尼西亞鼠.html#habitat_description-棲地描述-habitat-description",
+    "href": "output/rpt_416300-緬甸小鼠;波里尼西亞鼠.html#habitat_description-棲地描述-habitat-description",
+    "title": "7  416300 (緬甸小鼠;波里尼西亞鼠)",
+    "section": "7.2 habitat_description | 棲地描述 | Habitat description",
+    "text": "7.2 habitat_description | 棲地描述 | Habitat description\n喜棲息於地被植物繁密與排水良好的地方，但也會出現在旱作、廢耕地、林地，甚至環礁島上。在草生地主要棲息於植被高度1m以下，且植被組成以非禾本科草本植物為主的休廢耕草生地 [2]。\n能夠生活在廣泛的棲地環境，包括草地，灌木叢和森林，但需要足夠的糧食供應和住所 (尤其是在溫帶地區)。能夠輕鬆地爬上樹，並能在樹上覓食，但不善於游泳。紐西蘭Tiritiri島的緬甸小鼠主要在夜間活動，但在高密度時，天黑前就已開始活動。進食區在樹根之間、地面樹幹的裂隙內、岩樁之間、紐西蘭尼考棕櫚樹 (nikau palms) 掉落的複葉基部下、偶爾在樹上，都是乾燥的地方。一般認為緬甸小鼠是一個活動力差的動物，活動範圍有限 [9]。 ## reference | 參考資料 | References 1. 自然與人文數位博物館。2013。緬甸小鼠。(http://digimuse.nmns.edu.tw/DigiMuse/NewModule.aspx?ObjectId=0b000001804372a5&ParentID=0b000001804372a5)\n\n吳海音、吳逸華、儲瑞華、林曜松。2001。緬甸小鼠在台灣之發生及防治。植物保護學會會刊 43: 205-241。\n吳逸華。2003。外來種緬甸小鼠於兩種尺度中的棲地利用。花蓮國立東華大學自然資源管理研究所碩士論文。\n盧高宏、徐保雄。2003。緬甸小鼠之棲群分佈。植物保護學會會刊 45: 163-167。\n儲瑞華、曹又仁、莊媛茹、陳皇奇、林曜松、吳海音。2007。台灣地區外來種緬甸小鼠的族群遺傳結構與生物地理起源。特有生物研究 9 (1):1-11。\nAtkinson IAE, and Towns DR. 2001. Advances in New Zealand mammalogy 1990-2000: Pacific rat. J R Soc NZ 31(1): 99-109.\nEgoscue HJ. 1970. A laboratory colony of the Polynesian rat, Rattus exulans. J Mamm. 51: 261-266.\nDilks P, and Towns D. 2002. Developing tools to detect and respond to rodent invasions of islands: workshop report and recommendations. Doc Science Internal Series 59.\nGlobal Invasive Species Database (GISD). 2010. Rattus exulans. (http://www.issg.org/database/species/ecology.asp?si=170)\nMineau P, Richard FS, Robert CH and Stone WB. 2004. Towards a Risk Assessment of Second Generation Rodenticides: Do We have Enough Information to Proceed? Wildlife Damage Management, Internet Center for USDA National Wildlife Research Center -Staff Publications. 2nd National Invasive Rodent Summit.\nNash PB, and Miller LA. 2004. An Overview of Rodent Contraceptive Development at the USDMAPHIS Wildlife Services, National Wildlife Research Center, 2nd National Invasive Rodent Summit.\nO’Connor CE, and Eason CT. 2000. Rodent baits and delivery systems for island protection. Science for Conservation 150.\nRoberts M. 1991. Origin, Dispersal Routes, and Geographic Distribution of Rattus exulans, with Special Reference to New Zealand. Pacific Sci 45(2): 123-130.\nRussell JC, Towns DR, Anderson SH, and Clout MN. 2005. Intercepting the first rat ashore. Nature 437(7062): 1107-1107.\nTobin M. 1994. Polynesian Rats. Prevention and Control of Wildlife Damage 121-124.\nWeihong, JI, Veitch Dick CR, and Craig JL. 1999. An evaluation of the efficiency of rodent trapping methods: the effect of trap arrangement, cover type and bait. New Zeal J Ecol 23(1): 45-51.\nWiliam O, and Wirtz I. 1973. Growth and development of Rattus exulans. J Mamm 54(1): 189-202.\nWodzicki K, and Taylor RH. 1984. Distribution and status of the Polynesian rat Rattus exulans. Acta Zool Fennica 172: 99-101."
+  },
+  {
+    "objectID": "output/rpt_401070-紅入侵火家蟻;入侵紅火蟻.html#reference-參考資料-references",
+    "href": "output/rpt_401070-紅入侵火家蟻;入侵紅火蟻.html#reference-參考資料-references",
+    "title": "8  401070 (紅入侵火家蟻;入侵紅火蟻)",
+    "section": "8.1 reference | 參考資料 | References",
+    "text": "8.1 reference | 參考資料 | References\n\n國家紅火蟻防治中心網頁 (https://fireant.baphiq.gov.tw/RedFireAnt/FrontEnd/Knowledge/Identification)\n吳孟玲。2005。入侵紅火蟻之鑑定。植物重要防疫檢疫害蟲診斷鑑定研習會。\n吳學平。2005。沙崙苗圃遭入侵紅火蟻為害之防治處理情形。台灣林業 131。\n呂斯文、黃德昌。2004。入侵紅火蟻防治之處理組合與量化推算。農業世界雜誌 256: 40-45。\n呂斯文、黃德昌。2005。美澳防治入侵紅火蟻與檢疫移動管制作法 農政與農情 151。\n李昆龍、顏辰鳳、鄒慧娟、郭克忠。2008。我國防治入侵紅火蟻之措施與成效。農政與農情 191。\n周泳成、蕭依玄、鄒慧娟、張弘毅。2004。認識入侵紅火蟻及其防治。農政與農情 144。\n\n8.林宗岐。2004。從國外來的壞螞蟻-火蟻。宜蘭大學農業推廣季刊 29。\n\n林宗歧。國立彰化師範大學。04-7232105#3417。cclin@cc.ncue.edu.tw。\n林宗岐、蕭旭峰、吳文哲。入侵紅火蟻於台灣危害的現況與衝擊。國立台灣大學昆蟲學系。Report no.\n林宗歧、蕭旭峰、吳文哲。2004。認識入侵紅火蟻及其防治: 行政院農業委員會動植物防疫檢疫局.\n邱一中。2004。認識入侵紅火以及其防範措施。農試所技術服務 59: 21-25。\n邱一中、王清玲。2009。利用硼砂餌劑防治入侵紅火蟻之效果評估。台灣農業研究 58: 84-92。\n邱一中、徐孟愉、王清玲。2005。殺蟲劑對入侵紅火蟻 (Solenopsis invicta) 和熱帶火蟻 (S. geminate)之毒效。植物保護學會會刊 47: 371-378。\n張弘毅、周馥瑩。2005。令人聞之色變的生態殺手。科學發展 389。\n陳昇寬、宋一鑫、林明瑩。2005。雲嘉南地區入侵紅火蟻之分佈監測及評估可能擴散之方向。台南區農業改良場研究彙報 46。\n陳淑佩、王清玲、翁振宇。2004。防治入侵紅火蟻簡易餌劑之開發。農試所技術服務 60: 23-25。\n黃基森。2005。入侵紅火蟻防治政策在環境保護上之意義研究。環境教育學刊 4: 79-108。\n黃莉欣。2008。GIS與GPS於嘉義地區入侵紅火蟻監測調查上的應用。地理資訊在植物防疫之應用特刊: 103-120。\n潘建安、張弘毅、吳文哲。2004。認識紅火蟻及其防範。台北: 行政院農業委員會動植物防疫檢疫局。\nHolway DA, Lach L, Suarez AV, Tsutsui ND, and Case TJ. 2002. The Causes and Consequences of Ant Invasions, Annu Rev Ecol Syst 33: 181-233.\nMcGlynn TP. 1999. The Worldwide Transfer of Ants: Geographical Distribution and Ecological Invasions, J Biogeog 26(3): 535-548.\nMorrison LW, Porter SD, Daniels E, and Korzukhin MD. 2004. Potential Global Range Expansion of the Invasive Fire Ant, Solenopsis invicta), Biological Invasions 6: 183–191."
+  },
+  {
+    "objectID": "output/rpt_422619-多線真稜蜥;多線南蜥;多紋南蜥.html#reference-參考資料-references",
+    "href": "output/rpt_422619-多線真稜蜥;多線南蜥;多紋南蜥.html#reference-參考資料-references",
+    "title": "9  422619 (多線真稜蜥;多線南蜥;多紋南蜥)",
+    "section": "9.1 reference | 參考資料 | References",
+    "text": "9.1 reference | 參考資料 | References\n\n朱賢斌。2000。入侵南台灣的異族-多線南蜥。自然保育季刊 29: 50-53。\n林德恩。2008。外來入侵種多線南蜥簡介及其防治建議。自然保育季刊 61: 30-36。\n林德恩。特生中心。049-2761331#136。nlin@tesri.gov.tw。\n林德恩、杜銘章、趙仁方。2010。綠島地區多線真稜蜥移除現況。2010 外來入侵種監控與管理國際研討會。\n曾惠芸、林德恩。2008。外來入侵種多線南蜥分布北界的調查紀錄。自然保育季刊 61: 37-42。\nJi X, Qiu QB, and Diong CH. 2002. Sexual Dimorphism and Female Reproductive Characteristics in the Oriental Garden Lizard, Calotes versicolor, from Hainan, Southern China. J Herpetol 36(1): 1-8.\nTaiBNET. 2012. Calotes versicolor. http://taibnet.sinica.edu.tw/chi/taibnet_species_detail.php?name_code=422619 ()"
+  },
+  {
+    "objectID": "output/rpt_Kew-259467-布袋蓮;浮水蓮花;鳳眼蓮.html#life_cycle-生活史-life-cycle",
+    "href": "output/rpt_Kew-259467-布袋蓮;浮水蓮花;鳳眼蓮.html#life_cycle-生活史-life-cycle",
+    "title": "10  Kew-259467 (布袋蓮;浮水蓮花;鳳眼蓮)",
+    "section": "10.1 life_cycle | 生活史 | Life cycle",
+    "text": "10.1 life_cycle | 生活史 | Life cycle\n布袋蓮為多年生植物。種子沉于水底後休眠期長達15 年。種子發芽後，初期之幼苗藉根固著在泥土中，且葉子為線形，隨後新長出的葉片會慢慢變大，約第八枚葉子時開始有漂浮體出現，此時，老的根部腐爛，使莖和根部分離而漂浮出水面。走莖從莖頂末稍部位長出來，並逐漸形成一棵新植株，透過這種方式可迅速繁殖大量的個體 [2, 6]。\n在台灣花期為全年。但主要集中在九月。開花的過程可分為兩個階段，第一階段是開花，第二階段為花序軸下彎，整個程序約兩天。在台灣，通常在某天下午五時布袋蓮先抽出花苞，晚上11時花序逐漸從花苞中伸出來。第二天早上七時左右，花序全部伸展，花朵則在八時左右同時綻開。到下午五時左右進入開花的第二個階段，花被片開始閉合，花軸從苞片下方逐漸彎曲，第三天早晨七時左右，花軸整個彎曲。每一朵花的壽命均只有一天，花朵綻開的時間因氣溫不同而有稍早或稍晚的變化，花朵閉合和花軸下彎也可能提早或延至深夜或隔日[2, 6]。\n花期始於10月初並持續到夏季月份。每株花朵從開始到枯萎的時間為1～2天。當單顆植株上所有花苞都枯萎，莖會逐漸彎曲入水，整個過程約18天。接著種子會從每朵枯掉花的基部種子莢被釋放。在溫暖氣候夏，營養繁殖會很快速並且可以在很短時間型成大面積的布袋蓮圃 [23]。 ## note | 備註 | Note 布袋蓮在原產地每年都有定期的乾旱及海水侵入，使植物體死亡，第二年再以種子萌發生長，因此族群能在自然的條件下維持穩定。而在其它入侵地區則無此條件，因此造成繁殖及蔓延速度失控，侵占整個水域 [2]。\n當布袋蓮生長的水域中具有鎘金屬的污染時，會誘導生成植物螯合素，將水域中的鎘金屬吸收至根部，並往上送至其他組織，如莖部及葉部。因此在重金屬汙染之水域，布袋蓮可作為生物復育方法的選擇物種之一 [8, 13, 14]。"
+  },
+  {
+    "objectID": "output/rpt_Kew-259467-布袋蓮;浮水蓮花;鳳眼蓮.html#reference-參考資料-references",
+    "href": "output/rpt_Kew-259467-布袋蓮;浮水蓮花;鳳眼蓮.html#reference-參考資料-references",
+    "title": "10  Kew-259467 (布袋蓮;浮水蓮花;鳳眼蓮)",
+    "section": "10.2 reference | 參考資料 | References",
+    "text": "10.2 reference | 參考資料 | References\n\n李松柏。2001。布袋蓮的有性繁殖。台灣濕地90年7月26期。http://www.wetland.org.tw/about/hope/hope26/26-12.htm\n蔣永正、蔣慕琰。2005。臺灣布袋蓮(Eichhornia crassipes)之生育特性及生長季節性變化。植物保護學會會刊47: 337-346。\n劉和義、楊遠波、林讚標。2001。台灣維管束植物簡誌第五卷。中華民國行政院農業委員會。頁47。\n\nhttp://subject.forest.gov.tw/species/vascular/5/index-1.htm\n\n陳德順、胡大維。1976。台灣外來觀賞植物名錄。川流出版社。台灣。618 頁。\n張文亮、徐玉標。1979。布袋蓮之生態、防除與利用。農業工程學報 25：102-113。\n蔡亞佑。2000。壓力流況下橋梁前後布袋蓮之堆積型態與水流特性。國立成功大學水利及海洋工程研究所碩士論文。 http://ndltd.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi?o=dnclcdr&s=id=%22088NCKU0083015%22.&searchmode=basic\n何子潔。2002。重金屬鎘在布袋蓮中的隔離與輸送之研究。國立台灣大學農業化學研究所碩士論文。\n\nhttp://ndltd.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi?o=dnclcdr&s=id=%22090NTU00406062%22.&searchmode=basic\n\n蔡逸文。2009。布袋蓮象鼻蟲之族群密度、空間分佈及對布袋蓮防治效果評估。國立中興大學昆蟲學研究所碩士論文。http://nchuir.lib.nchu.edu.tw/handle/309270000/104069\nCilliers, J. C. 1991. Biological control of water hyacinth, Eichhornia crassipes (Pontederiaceae), in South Africa. Agriculture, Ecosystems, Environment, 37, 207-217.\nCoetzee, J. A., M. J. Byrne, and M. P. Hill. 2007. Impact of nutrients and herbivory by Eccritotarsus catarinensis on the biological control of water hyacinth, Eichhornia crassipes. Aquatic Botany, 86, 179-186.\nGopalakrishnan, A., M. Rajkumar, J. Sun, A. Parida, and B. Venmathi-Maran. 2011. Integrated biological control of water hyacinths, Eichhornia crassipes by a novel combination of grass carp Ctenopharyngodon idella( Valenciennes, 1844), and the weevil, Neochetina spp. Chinese Journal of Oceanology and Limnology, 29(1): 162-166.\n\nhttp://link.springer.com/article/10.1007%2Fs00343-011-0101-z\n\nGrill, E., E. L. Winnacker, and M. H. Zenk. 1985. Phytochelatins: the principal heavy-metal complexing peptides of higher plants. Science 230: 674-676\nKay, S. H., W. T. Haller, and L. A. Garrard. 1984. Effects of heavy metals on water hyacinths (Eichhornia crassipes (Mart.) Solms). Aquatic Toxicology 5: 117-128.\nTropicos.org. Missouri Botanical Garden. 2011. Website: http://www.tropicos.org/Name/26100027\nGlobal Ivasive Speices Database (GISD). Website: http://www.issg.org/database/species/ecology.asp?si=70&fr=1&sts=sss&lang=EN\n蔡逸文，陳吉同。2002。布袋蓮生物防治。苗栗區農業專訊第十九期。http://mdares.coa.gov.tw/view.php?catid=1487\nRuiz Téllez, T.; Rodrigo López, E. M. de; Lorenzo Granado, G.; Albano Pérez, E.; Morán López, R.; Sánchez Guzmán, J. M. 2008., The water hyacinth, E. Crassipes: an invasive plant in Guadiana River Basin (Spain). Aquatic Invasions Vol. 3 No. 1 pp. 42-53\n臺灣植物誌第二版。Flora of Taiwan, 2nd edition, Vol. 5\n\nhttp://tai2.ntu.edu.tw/ebook/ebookpage.php?volume=5&book=Fl. Taiwan 2nd edit.&page=133\n\nEichhornia crassipes, 2008, EPPO Bulletin,38: 441–449 http://onlinelibrary.wiley.com/doi/10.1111/j.1365-2338.2008.01261.x/full. 20. Eichhornia crassipes. Smithsonian Marine Station at Fort Pierce. http://www.sms.si.edu/irlspec/Eichhornia_crassipes.htm\nFujita M.,1985, The Presence of Two Cd-Binding Components in the Roots of Water Hyacinth Cultivated in a Cd2+-Containing Medium., Plant Cell Physiol 26 (2): 295-300. http://pcp.oxfordjournals.org/content/26/2/295.short\nLand Protection (Invasive Plants and Animals), 2007, Fact sheet- Water hyacinth (Eichhornia crassipes)., Queensland Government, Department of Primary Industries and Fisheries."
+  }
+]
